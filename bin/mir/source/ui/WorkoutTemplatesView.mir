@@ -1,0 +1,110 @@
+[ @file = "C:\DEV\GymTracker\source\ui\WorkoutTemplatesView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+import Toybox.Graphics;
+[ @file = "C:\DEV\GymTracker\source\ui\WorkoutTemplatesView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\DEV\GymTracker\source\ui\WorkoutTemplatesView.mc"; @line = 3; @symbol_importdef<0> = [Rez,3,7,10]; ]
+import Rez;
+[ @file = "C:\DEV\GymTracker\source\ui\WorkoutTemplatesView.mc"; @line = 5; @symbol_classdef = [WorkoutTemplatesView,5,6,26]; @symbol_extends<0> = [WatchUi,5,35,42]; @symbol_extends<1> = [View,5,43,47]; ]
+class WorkoutTemplatesView extends WatchUi.View {
+    [ @file = "C:\DEV\GymTracker\source\ui\WorkoutTemplatesView.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\DEV\GymTracker\source\ui\WorkoutTemplatesView.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\DEV\GymTracker\source\ui\WorkoutTemplatesView.mc"; @line = 6; @position = 16; @symbol_vardef = [_delegate,6,16,25]; @symbol_type<0> = [WorkoutTemplatesViewDelegate,6,29,57]; ]
+    private
+    var _delegate as WorkoutTemplatesViewDelegate;
+    [ @file = "C:\DEV\GymTracker\source\ui\WorkoutTemplatesView.mc"; @line = 8; @symbol_functiondef = [initialize,8,13,23]; @symbol_param<0> = [delegate,8,24,32]; @symbol_param<0>_type<0> = [WorkoutTemplatesViewDelegate,8,36,64]; ]
+    function initialize(delegate as WorkoutTemplatesViewDelegate) as Void {
+C__DEV_GymTracker_source_ui_WorkoutTemplatesView_mc_8_66_11_4_start:
+[ "C:\DEV\GymTracker\source\ui\WorkoutTemplatesView.mc" 9 8 ]
+        symbol [ View %tmp.2 9 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ initialize %tmp.3 9 13 23 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\DEV\GymTracker\source\ui\WorkoutTemplatesView.mc" 10 8 ]
+        %tmp.4 = lgetv %delegate;
+        symbol [ delegate %tmp.4 10 20 28 ];
+        symbol [ _delegate ? 10 8 17 ];
+        putv self :_delegate %tmp.4;
+C__DEV_GymTracker_source_ui_WorkoutTemplatesView_mc_8_66_11_4_stop:
+    }
+    [ @file = "C:\DEV\GymTracker\source\ui\WorkoutTemplatesView.mc"; @line = 13; @symbol_functiondef = [onLayout,13,13,21]; @symbol_param<0> = [dc,13,22,24]; @symbol_param<0>_type<0> = [Dc,13,28,30]; ]
+    function onLayout(dc as Dc) as Void {
+C__DEV_GymTracker_source_ui_WorkoutTemplatesView_mc_13_40_15_4_start:
+[ "C:\DEV\GymTracker\source\ui\WorkoutTemplatesView.mc" 14 8 ]
+        %tmp.1 = self;
+        symbol [ setLayout %tmp.2 14 8 17 ];
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        symbol [ Rez %tmp.3 14 18 21 ];
+        %tmp.3 = getm $.Rez;
+        symbol [ Layouts %tmp.4 14 22 29 ];
+        %tmp.4 = getv %tmp.3 :Layouts;
+        symbol [ WorkoutTemplatesLayout %tmp.5 14 30 52 ];
+        %tmp.5 = getv function %tmp.4 :WorkoutTemplatesLayout;
+        %tmp.6 = lgetv %dc;
+        symbol [ dc %tmp.6 14 53 55 ];
+        %tmp.7 = invoke %tmp.4 %tmp.5(%tmp.6);
+        invoke %tmp.1 %tmp.2(%tmp.7);
+C__DEV_GymTracker_source_ui_WorkoutTemplatesView_mc_13_40_15_4_stop:
+    }
+    [ @file = "C:\DEV\GymTracker\source\ui\WorkoutTemplatesView.mc"; @line = 17; @symbol_functiondef = [onShow,17,13,19]; ]
+    function onShow() as Void {
+    }
+    [ @file = "C:\DEV\GymTracker\source\ui\WorkoutTemplatesView.mc"; @line = 20; @symbol_functiondef = [onUpdate,20,13,21]; @symbol_param<0> = [dc,20,22,24]; @symbol_param<0>_type<0> = [Dc,20,28,30]; ]
+    function onUpdate(dc as Dc) as Void {
+C__DEV_GymTracker_source_ui_WorkoutTemplatesView_mc_20_40_25_4_start:
+[ "C:\DEV\GymTracker\source\ui\WorkoutTemplatesView.mc" 21 8 ]
+        symbol [ View %tmp.2 21 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ onUpdate %tmp.3 21 13 21 ];
+        %tmp.3 = getv function %tmp.2 :onUpdate;
+        %tmp.4 = lgetv %dc;
+        symbol [ dc %tmp.4 21 22 24 ];
+        invoke %tmp.2 %tmp.3(%tmp.4);
+[ "C:\DEV\GymTracker\source\ui\WorkoutTemplatesView.mc" 22 8 ]
+        [ "C__DEV_GymTracker_source_ui_WorkoutTemplatesView_mc_20_40_25_4_start" "C__DEV_GymTracker_source_ui_WorkoutTemplatesView_mc_20_40_25_4_stop" ]
+        %title.1 = local;
+        symbol [ title %title.1 22 12 17 ];
+        symbol [ _delegate %tmp.6 22 20 29 ];
+        %tmp.6 = getv ? :_delegate;
+        symbol [ getTitle %tmp.7 22 30 38 ];
+        %tmp.7 = getv function %tmp.6 :getTitle;
+        %tmp.8 = invoke %tmp.6 %tmp.7();
+        lputv %title.1 %tmp.8;
+        symbol [ title %title.1 22 12 17 ];
+[ "C:\DEV\GymTracker\source\ui\WorkoutTemplatesView.mc" 23 8 ]
+        [ "C__DEV_GymTracker_source_ui_WorkoutTemplatesView_mc_20_40_25_4_start" "C__DEV_GymTracker_source_ui_WorkoutTemplatesView_mc_20_40_25_4_stop" ]
+        %titleLabel.2 = local;
+        symbol [ titleLabel %titleLabel.2 23 12 22 ];
+        symbol [ View %tmp.10 23 25 29 ];
+        %tmp.10 = getv ? :View;
+        symbol [ findDrawableById %tmp.11 23 30 46 ];
+        %tmp.11 = getv function %tmp.10 :findDrawableById;
+        %tmp.12 = "title";
+        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
+        %tmp.14 = as %tmp.13 WatchUi.Text;
+        symbol [ WatchUi %tmp.14 23 59 66 ];
+        symbol [ Text %tmp.14 23 67 71 ];
+        lputv %titleLabel.2 %tmp.14;
+        symbol [ titleLabel %titleLabel.2 23 12 22 ];
+[ "C:\DEV\GymTracker\source\ui\WorkoutTemplatesView.mc" 24 8 ]
+        %tmp.15 = lgetv %titleLabel.2;
+        symbol [ titleLabel %tmp.15 24 8 18 ];
+        symbol [ setText %tmp.16 24 19 26 ];
+        %tmp.16 = getv function %tmp.15 :setText;
+        %tmp.17 = lgetv %title.1;
+        symbol [ title %tmp.17 24 27 32 ];
+        invoke %tmp.15 %tmp.16(%tmp.17);
+C__DEV_GymTracker_source_ui_WorkoutTemplatesView_mc_20_40_25_4_stop:
+    }
+    [ @file = "C:\DEV\GymTracker\source\ui\WorkoutTemplatesView.mc"; @line = 27; @symbol_functiondef = [onHide,27,13,19]; ]
+    function onHide() as Void {
+    }
+}
+[ @file = "C:\DEV\GymTracker\source\ui\WorkoutTemplatesView.mc"; @line = 1; ]
+<init> {
+}

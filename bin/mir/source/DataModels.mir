@@ -1,0 +1,298 @@
+[ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 3; @symbol_moduledef = [DataModels,3,7,17]; ]
+module DataModels {
+    [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 5; @symbol_classdef = [Exercise,5,10,18]; ]
+    class Exercise {
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 5; ]
+        <init> {
+        }
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 5; ]
+        static
+        <init> {
+        }
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 6; @position = 12; @symbol_vardef = [name,6,12,16]; @symbol_type<0> = [Lang,6,20,24]; @symbol_type<1> = [String,6,25,31]; ]
+        var name as Lang.String;
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 7; @position = 12; @symbol_vardef = [muscleGroups,7,12,24]; @symbol_type<0> = [Lang,7,28,32]; @symbol_type<1> = [Array,7,33,38]; @symbol_type<2> = [Lang,7,39,43]; @symbol_type<3> = [String,7,44,50]; ]
+        var muscleGroups as Lang.Array<Lang.String>;
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 8; @position = 12; @symbol_vardef = [equipment,8,12,21]; @symbol_type<0> = [Lang,8,25,29]; @symbol_type<1> = [String,8,30,36]; ]
+        var equipment as Lang.String;
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 9; @position = 12; @symbol_vardef = [customTags,9,12,22]; @symbol_type<0> = [Lang,9,26,30]; @symbol_type<1> = [Array,9,31,36]; @symbol_type<2> = [Lang,9,37,41]; @symbol_type<3> = [String,9,42,48]; ]
+        var customTags as Lang.Array<Lang.String>;
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 10; @position = 12; @symbol_vardef = [formCuesRef,10,12,23]; @symbol_type<0> = [Lang,10,27,31]; @symbol_type<1> = [String,10,32,38]; ]
+        var formCuesRef as Lang.String;
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 11; @position = 12; @symbol_vardef = [targetReps,11,12,22]; @symbol_type<0> = [Lang,11,26,30]; @symbol_type<1> = [Number,11,31,37]; ]
+        var targetReps as Lang.Number or Null;
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 12; @position = 12; @symbol_vardef = [targetWeight,12,12,24]; @symbol_type<0> = [Lang,12,28,32]; @symbol_type<1> = [Number,12,33,39]; ]
+        var targetWeight as Lang.Number or Null;
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 14; @symbol_functiondef = [initialize,14,17,27]; @symbol_param<0> = [name,14,28,32]; @symbol_param<1> = [muscleGroups,14,34,46]; @symbol_param<2> = [equipment,14,48,57]; @symbol_param<3> = [customTags,14,59,69]; @symbol_param<4> = [formCuesRef,14,71,82]; ]
+        function initialize(name, muscleGroups, equipment, customTags, formCuesRef) as Void {
+C__DEV_GymTracker_source_DataModels_mc_14_84_22_8_start:
+[ "C:\DEV\GymTracker\source\DataModels.mc" 15 12 ]
+            symbol [ self %self 15 12 16 ];
+            %tmp.1 = lgetv %name;
+            symbol [ name %tmp.1 15 24 28 ];
+            symbol [ name ? 15 17 21 ];
+            putv self :name %tmp.1;
+[ "C:\DEV\GymTracker\source\DataModels.mc" 16 12 ]
+            symbol [ self %self 16 12 16 ];
+            %tmp.2 = lgetv %muscleGroups;
+            symbol [ muscleGroups %tmp.2 16 32 44 ];
+            symbol [ muscleGroups ? 16 17 29 ];
+            putv self :muscleGroups %tmp.2;
+[ "C:\DEV\GymTracker\source\DataModels.mc" 17 12 ]
+            symbol [ self %self 17 12 16 ];
+            %tmp.3 = lgetv %equipment;
+            symbol [ equipment %tmp.3 17 29 38 ];
+            symbol [ equipment ? 17 17 26 ];
+            putv self :equipment %tmp.3;
+[ "C:\DEV\GymTracker\source\DataModels.mc" 18 12 ]
+            symbol [ self %self 18 12 16 ];
+            %tmp.4 = lgetv %customTags;
+            symbol [ customTags %tmp.4 18 30 40 ];
+            symbol [ customTags ? 18 17 27 ];
+            putv self :customTags %tmp.4;
+[ "C:\DEV\GymTracker\source\DataModels.mc" 19 12 ]
+            symbol [ self %self 19 12 16 ];
+            %tmp.5 = lgetv %formCuesRef;
+            symbol [ formCuesRef %tmp.5 19 31 42 ];
+            symbol [ formCuesRef ? 19 17 28 ];
+            putv self :formCuesRef %tmp.5;
+[ "C:\DEV\GymTracker\source\DataModels.mc" 20 12 ]
+            symbol [ self %self 20 12 16 ];
+            %tmp.6 = null;
+            symbol [ targetReps ? 20 17 27 ];
+            putv self :targetReps %tmp.6;
+[ "C:\DEV\GymTracker\source\DataModels.mc" 21 12 ]
+            symbol [ self %self 21 12 16 ];
+            %tmp.7 = null;
+            symbol [ targetWeight ? 21 17 29 ];
+            putv self :targetWeight %tmp.7;
+C__DEV_GymTracker_source_DataModels_mc_14_84_22_8_stop:
+        }
+    }
+    [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 25; @symbol_classdef = [WorkoutTemplate,25,10,25]; ]
+    class WorkoutTemplate {
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 25; ]
+        <init> {
+        }
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 25; ]
+        static
+        <init> {
+        }
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 26; @position = 12; @symbol_vardef = [name,26,12,16]; @symbol_type<0> = [Lang,26,20,24]; @symbol_type<1> = [String,26,25,31]; ]
+        var name as Lang.String;
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 27; @position = 12; @symbol_vardef = [exercises,27,12,21]; @symbol_type<0> = [Lang,27,25,29]; @symbol_type<1> = [Array,27,30,35]; @symbol_type<2> = [ExerciseLog,27,36,47]; ]
+        var exercises as Lang.Array<ExerciseLog>;
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 28; @position = 12; @symbol_vardef = [programType,28,12,23]; @symbol_type<0> = [Lang,28,27,31]; @symbol_type<1> = [String,28,32,38]; ]
+        var programType as Lang.String;
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 30; @symbol_functiondef = [initialize,30,17,27]; @symbol_param<0> = [name,30,28,32]; @symbol_param<1> = [exercises,30,34,43]; @symbol_param<2> = [programType,30,45,56]; ]
+        function initialize(name, exercises, programType) as Void {
+C__DEV_GymTracker_source_DataModels_mc_30_58_34_8_start:
+[ "C:\DEV\GymTracker\source\DataModels.mc" 31 12 ]
+            symbol [ self %self 31 12 16 ];
+            %tmp.1 = lgetv %name;
+            symbol [ name %tmp.1 31 24 28 ];
+            symbol [ name ? 31 17 21 ];
+            putv self :name %tmp.1;
+[ "C:\DEV\GymTracker\source\DataModels.mc" 32 12 ]
+            symbol [ self %self 32 12 16 ];
+            %tmp.2 = lgetv %exercises;
+            symbol [ exercises %tmp.2 32 29 38 ];
+            symbol [ exercises ? 32 17 26 ];
+            putv self :exercises %tmp.2;
+[ "C:\DEV\GymTracker\source\DataModels.mc" 33 12 ]
+            symbol [ self %self 33 12 16 ];
+            %tmp.3 = lgetv %programType;
+            symbol [ programType %tmp.3 33 31 42 ];
+            symbol [ programType ? 33 17 28 ];
+            putv self :programType %tmp.3;
+C__DEV_GymTracker_source_DataModels_mc_30_58_34_8_stop:
+        }
+    }
+    [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 37; @symbol_classdef = [WorkoutLog,37,10,20]; ]
+    class WorkoutLog {
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 37; ]
+        <init> {
+        }
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 37; ]
+        static
+        <init> {
+        }
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 38; @position = 12; @symbol_vardef = [timestamp,38,12,21]; @symbol_type<0> = [Lang,38,25,29]; @symbol_type<1> = [Number,38,30,36]; ]
+        var timestamp as Lang.Number;
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 39; @position = 12; @symbol_vardef = [templateUsed,39,12,24]; @symbol_type<0> = [WorkoutTemplate,39,28,43]; ]
+        var templateUsed as WorkoutTemplate;
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 40; @position = 12; @symbol_vardef = [exerciseDetails,40,12,27]; @symbol_type<0> = [Lang,40,31,35]; @symbol_type<1> = [Array,40,36,41]; @symbol_type<2> = [ExerciseLog,40,42,53]; ]
+        var exerciseDetails as Lang.Array<ExerciseLog>;
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 41; @position = 12; @symbol_vardef = [setsData,41,12,20]; @symbol_type<0> = [Lang,41,24,28]; @symbol_type<1> = [Array,41,29,34]; @symbol_type<2> = [SetLog,41,35,41]; ]
+        var setsData as Lang.Array<SetLog>;
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 43; @symbol_functiondef = [initialize,43,17,27]; @symbol_param<0> = [timestamp,43,28,37]; @symbol_param<1> = [templateUsed,43,39,51]; @symbol_param<2> = [exerciseDetails,43,53,68]; @symbol_param<3> = [setsData,43,70,78]; ]
+        function initialize(timestamp, templateUsed, exerciseDetails, setsData) as Void {
+C__DEV_GymTracker_source_DataModels_mc_43_80_48_8_start:
+[ "C:\DEV\GymTracker\source\DataModels.mc" 44 12 ]
+            symbol [ self %self 44 12 16 ];
+            %tmp.1 = lgetv %timestamp;
+            symbol [ timestamp %tmp.1 44 29 38 ];
+            symbol [ timestamp ? 44 17 26 ];
+            putv self :timestamp %tmp.1;
+[ "C:\DEV\GymTracker\source\DataModels.mc" 45 12 ]
+            symbol [ self %self 45 12 16 ];
+            %tmp.2 = lgetv %templateUsed;
+            symbol [ templateUsed %tmp.2 45 32 44 ];
+            symbol [ templateUsed ? 45 17 29 ];
+            putv self :templateUsed %tmp.2;
+[ "C:\DEV\GymTracker\source\DataModels.mc" 46 12 ]
+            symbol [ self %self 46 12 16 ];
+            %tmp.3 = lgetv %exerciseDetails;
+            symbol [ exerciseDetails %tmp.3 46 35 50 ];
+            symbol [ exerciseDetails ? 46 17 32 ];
+            putv self :exerciseDetails %tmp.3;
+[ "C:\DEV\GymTracker\source\DataModels.mc" 47 12 ]
+            symbol [ self %self 47 12 16 ];
+            %tmp.4 = lgetv %setsData;
+            symbol [ setsData %tmp.4 47 28 36 ];
+            symbol [ setsData ? 47 17 25 ];
+            putv self :setsData %tmp.4;
+C__DEV_GymTracker_source_DataModels_mc_43_80_48_8_stop:
+        }
+    }
+    [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 51; @symbol_classdef = [ExerciseLog,51,10,21]; ]
+    class ExerciseLog {
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 51; ]
+        <init> {
+        }
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 51; ]
+        static
+        <init> {
+        }
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 52; @position = 12; @symbol_vardef = [exercise,52,12,20]; @symbol_type<0> = [Exercise,52,24,32]; ]
+        var exercise as Exercise;
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 53; @position = 12; @symbol_vardef = [sets,53,12,16]; @symbol_type<0> = [Lang,53,20,24]; @symbol_type<1> = [Array,53,25,30]; @symbol_type<2> = [SetLog,53,31,37]; ]
+        var sets as Lang.Array<SetLog>;
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 55; @symbol_functiondef = [initialize,55,17,27]; @symbol_param<0> = [exercise,55,28,36]; @symbol_param<1> = [sets,55,38,42]; ]
+        function initialize(exercise, sets) as Void {
+C__DEV_GymTracker_source_DataModels_mc_55_44_58_8_start:
+[ "C:\DEV\GymTracker\source\DataModels.mc" 56 12 ]
+            symbol [ self %self 56 12 16 ];
+            %tmp.1 = lgetv %exercise;
+            symbol [ exercise %tmp.1 56 28 36 ];
+            symbol [ exercise ? 56 17 25 ];
+            putv self :exercise %tmp.1;
+[ "C:\DEV\GymTracker\source\DataModels.mc" 57 12 ]
+            symbol [ self %self 57 12 16 ];
+            %tmp.2 = lgetv %sets;
+            symbol [ sets %tmp.2 57 24 28 ];
+            symbol [ sets ? 57 17 21 ];
+            putv self :sets %tmp.2;
+C__DEV_GymTracker_source_DataModels_mc_55_44_58_8_stop:
+        }
+    }
+    [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 61; @symbol_classdef = [SetLog,61,10,16]; ]
+    class SetLog {
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 61; ]
+        <init> {
+        }
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 61; ]
+        static
+        <init> {
+        }
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 62; @position = 12; @symbol_vardef = [reps,62,12,16]; @symbol_type<0> = [Lang,62,20,24]; @symbol_type<1> = [Number,62,25,31]; ]
+        var reps as Lang.Number;
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 63; @position = 12; @symbol_vardef = [weight,63,12,18]; @symbol_type<0> = [Lang,63,22,26]; @symbol_type<1> = [Number,63,27,33]; ]
+        var weight as Lang.Number;
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 64; @position = 12; @symbol_vardef = [rpe,64,12,15]; @symbol_type<0> = [Lang,64,19,23]; @symbol_type<1> = [Number,64,24,30]; ]
+        var rpe as Lang.Number;
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 66; @symbol_functiondef = [initialize,66,17,27]; @symbol_param<0> = [reps,66,28,32]; @symbol_param<1> = [weight,66,34,40]; @symbol_param<2> = [rpe,66,42,45]; ]
+        function initialize(reps, weight, rpe) as Void {
+C__DEV_GymTracker_source_DataModels_mc_66_47_70_8_start:
+[ "C:\DEV\GymTracker\source\DataModels.mc" 67 12 ]
+            symbol [ self %self 67 12 16 ];
+            %tmp.1 = lgetv %reps;
+            symbol [ reps %tmp.1 67 24 28 ];
+            symbol [ reps ? 67 17 21 ];
+            putv self :reps %tmp.1;
+[ "C:\DEV\GymTracker\source\DataModels.mc" 68 12 ]
+            symbol [ self %self 68 12 16 ];
+            %tmp.2 = lgetv %weight;
+            symbol [ weight %tmp.2 68 26 32 ];
+            symbol [ weight ? 68 17 23 ];
+            putv self :weight %tmp.2;
+[ "C:\DEV\GymTracker\source\DataModels.mc" 69 12 ]
+            symbol [ self %self 69 12 16 ];
+            %tmp.3 = lgetv %rpe;
+            symbol [ rpe %tmp.3 69 23 26 ];
+            symbol [ rpe ? 69 17 20 ];
+            putv self :rpe %tmp.3;
+C__DEV_GymTracker_source_DataModels_mc_66_47_70_8_stop:
+        }
+    }
+    [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 73; @symbol_classdef = [UserSettings,73,10,22]; ]
+    class UserSettings {
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 73; ]
+        <init> {
+        }
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 73; ]
+        static
+        <init> {
+        }
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 74; @position = 12; @symbol_vardef = [preferences,74,12,23]; @symbol_type<0> = [Lang,74,27,31]; @symbol_type<1> = [Dictionary,74,32,42]; ]
+        var preferences as Lang.Dictionary;
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 75; @position = 12; @symbol_vardef = [deviceConfig,75,12,24]; @symbol_type<0> = [Lang,75,28,32]; @symbol_type<1> = [Dictionary,75,33,43]; ]
+        var deviceConfig as Lang.Dictionary;
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 77; @symbol_functiondef = [initialize,77,17,27]; @symbol_param<0> = [preferences,77,28,39]; @symbol_param<1> = [deviceConfig,77,41,53]; ]
+        function initialize(preferences, deviceConfig) as Void {
+C__DEV_GymTracker_source_DataModels_mc_77_55_80_8_start:
+[ "C:\DEV\GymTracker\source\DataModels.mc" 78 12 ]
+            symbol [ self %self 78 12 16 ];
+            %tmp.1 = lgetv %preferences;
+            symbol [ preferences %tmp.1 78 31 42 ];
+            symbol [ preferences ? 78 17 28 ];
+            putv self :preferences %tmp.1;
+[ "C:\DEV\GymTracker\source\DataModels.mc" 79 12 ]
+            symbol [ self %self 79 12 16 ];
+            %tmp.2 = lgetv %deviceConfig;
+            symbol [ deviceConfig %tmp.2 79 32 44 ];
+            symbol [ deviceConfig ? 79 17 29 ];
+            putv self :deviceConfig %tmp.2;
+C__DEV_GymTracker_source_DataModels_mc_77_55_80_8_stop:
+        }
+    }
+    [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 83; @symbol_classdef = [BiometricCache,83,10,24]; ]
+    class BiometricCache {
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 83; ]
+        <init> {
+        }
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 83; ]
+        static
+        <init> {
+        }
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 84; @position = 12; @symbol_vardef = [hrv,84,12,15]; @symbol_type<0> = [Lang,84,19,23]; @symbol_type<1> = [Number,84,24,30]; ]
+        var hrv as Lang.Number;
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 85; @position = 12; @symbol_vardef = [bodyBattery,85,12,23]; @symbol_type<0> = [Lang,85,27,31]; @symbol_type<1> = [Number,85,32,38]; ]
+        var bodyBattery as Lang.Number;
+        [ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 87; @symbol_functiondef = [initialize,87,17,27]; @symbol_param<0> = [hrv,87,28,31]; @symbol_param<1> = [bodyBattery,87,33,44]; ]
+        function initialize(hrv, bodyBattery) as Void {
+C__DEV_GymTracker_source_DataModels_mc_87_46_90_8_start:
+[ "C:\DEV\GymTracker\source\DataModels.mc" 88 12 ]
+            symbol [ self %self 88 12 16 ];
+            %tmp.1 = lgetv %hrv;
+            symbol [ hrv %tmp.1 88 23 26 ];
+            symbol [ hrv ? 88 17 20 ];
+            putv self :hrv %tmp.1;
+[ "C:\DEV\GymTracker\source\DataModels.mc" 89 12 ]
+            symbol [ self %self 89 12 16 ];
+            %tmp.2 = lgetv %bodyBattery;
+            symbol [ bodyBattery %tmp.2 89 31 42 ];
+            symbol [ bodyBattery ? 89 17 28 ];
+            putv self :bodyBattery %tmp.2;
+C__DEV_GymTracker_source_DataModels_mc_87_46_90_8_stop:
+        }
+    }
+}
+[ @file = "C:\DEV\GymTracker\source\DataModels.mc"; @line = 1; ]
+<init> {
+}

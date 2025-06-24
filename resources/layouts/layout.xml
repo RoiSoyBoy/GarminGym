@@ -1,0 +1,9 @@
+<layout id="MainLayout">
+    <drawable id="button" class="Button">
+        <param name="label">@Strings.start_workout</param>
+        <param name="width">100</param>
+        <param name="height">50</param>
+        <param name="backgroundColor">Graphics.COLOR_BLUE</param>
+        <param name="foregroundColor">Graphics.COLOR_WHITE</param>
+    </drawable>
+</layout>

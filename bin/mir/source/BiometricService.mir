@@ -1,0 +1,82 @@
+[ @file = "C:\DEV\GymTracker\source\BiometricService.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\DEV\GymTracker\source\BiometricService.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [ActivityMonitor,2,14,29]; ]
+import Toybox.ActivityMonitor;
+[ @file = "C:\DEV\GymTracker\source\BiometricService.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [System,3,14,20]; ]
+import Toybox.System;
+[ @file = "C:\DEV\GymTracker\source\BiometricService.mc"; @line = 5; @symbol_moduledef = [BiometricService,5,7,23]; ]
+module BiometricService {
+    [ @file = "C:\DEV\GymTracker\source\BiometricService.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\DEV\GymTracker\source\BiometricService.mc"; @line = 7; @symbol_functiondef = [getBiometricData,7,13,29]; @symbol_return<0> = [DataModels,7,35,45]; @symbol_return<1> = [BiometricCache,7,46,60]; ]
+    function getBiometricData() as DataModels.BiometricCache {
+C__DEV_GymTracker_source_BiometricService_mc_7_61_16_4_start:
+[ "C:\DEV\GymTracker\source\BiometricService.mc" 8 8 ]
+        [ "C__DEV_GymTracker_source_BiometricService_mc_7_61_16_4_start" "C__DEV_GymTracker_source_BiometricService_mc_7_61_16_4_stop" ]
+        %info.1 = local;
+        symbol [ info %info.1 8 12 16 ];
+        symbol [ ActivityMonitor %tmp.1 8 19 34 ];
+        %tmp.1 = getm $.Toybox.ActivityMonitor;
+        symbol [ getInfo %tmp.2 8 35 42 ];
+        %tmp.2 = getv function %tmp.1 :getInfo;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %info.1 %tmp.3;
+        symbol [ info %info.1 8 12 16 ];
+[ "C:\DEV\GymTracker\source\BiometricService.mc" 9 8 ]
+        [ "C__DEV_GymTracker_source_BiometricService_mc_7_61_16_4_start" "C__DEV_GymTracker_source_BiometricService_mc_7_61_16_4_stop" ]
+        %bodyBattery.2 = local;
+        symbol [ bodyBattery %bodyBattery.2 9 12 23 ];
+        %tmp.4 = 0;
+        lputv %bodyBattery.2 %tmp.4;
+        symbol [ bodyBattery %bodyBattery.2 9 12 23 ];
+[ "C:\DEV\GymTracker\source\BiometricService.mc" 11 8 ]
+C__DEV_GymTracker_source_BiometricService_mc_11_8_13_8_if_stmt:
+C__DEV_GymTracker_source_BiometricService_mc_11_12_11_57_begin:
+        %tmp.5 = lgetv %info.1;
+        symbol [ info %tmp.5 11 12 16 ];
+        %tmp.7 = const :bodyBattery;
+        symbol [ bodyBattery %tmp.7 11 22 33 const ];
+        %tmp.8 = canhazplz %tmp.5 %tmp.7;
+        bf %tmp.8 @C__DEV_GymTracker_source_BiometricService_mc_11_8_13_8_if_end;
+C__DEV_GymTracker_source_BiometricService_mc_11_37_11_57_true:
+        %tmp.9 = lgetv %info.1;
+        symbol [ info %tmp.9 11 37 41 ];
+        %tmp.10 = as %tmp.9 { (interface { var bodyBattery; }) };
+        symbol [ bodyBattery %tmp.11 11 42 53 ];
+        %tmp.11 = getv %tmp.10 :bodyBattery;
+        %tmp.12 = null;
+        %tmp.13 = ne %tmp.11 %tmp.12;
+        push %tmp.13;
+C__DEV_GymTracker_source_BiometricService_mc_11_37_11_57_end:
+        %tmp.14 = phi [%tmp.8 @C__DEV_GymTracker_source_BiometricService_mc_11_12_11_57_begin] [%tmp.13 @C__DEV_GymTracker_source_BiometricService_mc_11_37_11_57_true] [%tmp.14 @C__DEV_GymTracker_source_BiometricService_mc_11_37_11_57_end];
+        bf %tmp.14 @C__DEV_GymTracker_source_BiometricService_mc_11_8_13_8_if_end;
+C__DEV_GymTracker_source_BiometricService_mc_11_8_13_8_if_true:
+C__DEV_GymTracker_source_BiometricService_mc_11_63_13_8_start:
+[ "C:\DEV\GymTracker\source\BiometricService.mc" 12 12 ]
+        %tmp.15 = lgetv %info.1;
+        symbol [ info %tmp.15 12 26 30 ];
+        %tmp.16 = as %tmp.15 { (interface { var bodyBattery; }) };
+        symbol [ bodyBattery %tmp.17 12 31 42 ];
+        %tmp.17 = getv %tmp.16 :bodyBattery;
+        lputv %bodyBattery.2 %tmp.17;
+        symbol [ bodyBattery %bodyBattery.2 12 12 23 ];
+C__DEV_GymTracker_source_BiometricService_mc_11_63_13_8_stop:
+        goto @C__DEV_GymTracker_source_BiometricService_mc_11_8_13_8_if_end;
+C__DEV_GymTracker_source_BiometricService_mc_11_8_13_8_if_end:
+[ "C:\DEV\GymTracker\source\BiometricService.mc" 15 8 ]
+        symbol [ DataModels %tmp.21 15 19 29 ];
+        %tmp.21 = getv ? :DataModels;
+        symbol [ BiometricCache %tmp.22 15 30 44 ];
+        %tmp.22 = getv function ? %tmp.21 :BiometricCache;
+        %tmp.23 = 0;
+        %tmp.24 = lgetv %bodyBattery.2;
+        symbol [ bodyBattery %tmp.24 15 48 59 ];
+        %tmp.18 = newc %tmp.22 (%tmp.23, %tmp.24);
+        ret %tmp.18;
+C__DEV_GymTracker_source_BiometricService_mc_7_61_16_4_stop:
+    }
+}
+[ @file = "C:\DEV\GymTracker\source\BiometricService.mc"; @line = 1; ]
+<init> {
+}

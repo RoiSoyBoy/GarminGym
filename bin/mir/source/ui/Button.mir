@@ -1,0 +1,195 @@
+[ @file = "C:\DEV\GymTracker\source\ui\Button.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+import Toybox.Graphics;
+[ @file = "C:\DEV\GymTracker\source\ui\Button.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\DEV\GymTracker\source\ui\Button.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\DEV\GymTracker\source\ui\Button.mc"; @line = 5; @symbol_classdef = [Button,5,6,12]; @symbol_extends<0> = [WatchUi,5,21,28]; @symbol_extends<1> = [Drawable,5,29,37]; ]
+class Button extends WatchUi.Drawable {
+    [ @file = "C:\DEV\GymTracker\source\ui\Button.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\DEV\GymTracker\source\ui\Button.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\DEV\GymTracker\source\ui\Button.mc"; @line = 7; @position = 16; @symbol_vardef = [_label,7,16,22]; @symbol_type<0> = [Lang,7,26,30]; @symbol_type<1> = [String,7,31,37]; ]
+    private
+    var _label as Lang.String;
+    [ @file = "C:\DEV\GymTracker\source\ui\Button.mc"; @line = 8; @position = 16; @symbol_vardef = [_width,8,16,22]; @symbol_type<0> = [Lang,8,26,30]; @symbol_type<1> = [Number,8,31,37]; ]
+    private
+    var _width as Lang.Number;
+    [ @file = "C:\DEV\GymTracker\source\ui\Button.mc"; @line = 9; @position = 16; @symbol_vardef = [_height,9,16,23]; @symbol_type<0> = [Lang,9,27,31]; @symbol_type<1> = [Number,9,32,38]; ]
+    private
+    var _height as Lang.Number;
+    [ @file = "C:\DEV\GymTracker\source\ui\Button.mc"; @line = 10; @position = 16; @symbol_vardef = [_backgroundColor,10,16,32]; @symbol_type<0> = [Lang,10,36,40]; @symbol_type<1> = [Number,10,41,47]; ]
+    private
+    var _backgroundColor as Lang.Number;
+    [ @file = "C:\DEV\GymTracker\source\ui\Button.mc"; @line = 11; @position = 16; @symbol_vardef = [_foregroundColor,11,16,32]; @symbol_type<0> = [Lang,11,36,40]; @symbol_type<1> = [Number,11,41,47]; ]
+    private
+    var _foregroundColor as Lang.Number;
+    [ @file = "C:\DEV\GymTracker\source\ui\Button.mc"; @line = 13; @symbol_functiondef = [initialize,13,13,23]; @symbol_param<0> = [options,13,24,31]; @symbol_param<0>_type<0> = [Lang,14,18,22]; @symbol_param<0>_type<1> = [String,14,23,29]; @symbol_param<0>_type<2> = [Lang,15,18,22]; @symbol_param<0>_type<3> = [Number,15,23,29]; @symbol_param<0>_type<4> = [Lang,16,19,23]; @symbol_param<0>_type<5> = [Number,16,24,30]; @symbol_param<0>_type<6> = [Lang,17,28,32]; @symbol_param<0>_type<7> = [Number,17,33,39]; @symbol_param<0>_type<8> = [Lang,18,28,32]; @symbol_param<0>_type<9> = [Number,18,33,39]; @symbol_param<0>_type_const<0> = [label,14,9,14]; @symbol_param<0>_type_const<1> = [width,15,9,14]; @symbol_param<0>_type_const<2> = [height,16,9,15]; @symbol_param<0>_type_const<3> = [backgroundColor,17,9,24]; @symbol_param<0>_type_const<4> = [foregroundColor,18,9,24]; ]
+    function initialize(options as {:label as Lang.String, :width as Lang.Number, :height as Lang.Number, :backgroundColor as Lang.Number, :foregroundColor as Lang.Number}) as Void {
+C__DEV_GymTracker_source_ui_Button_mc_19_7_27_4_start:
+[ "C:\DEV\GymTracker\source\ui\Button.mc" 20 8 ]
+    symbol [ Drawable %tmp.2 20 8 16 ];
+    %tmp.2 = getv ? :Drawable;
+    symbol [ initialize %tmp.3 20 17 27 ];
+    %tmp.3 = getv function %tmp.2 :initialize;
+    %tmp.4 = lgetv %options;
+    symbol [ options %tmp.4 20 28 35 ];
+    invoke %tmp.2 %tmp.3(%tmp.4);
+[ "C:\DEV\GymTracker\source\ui\Button.mc" 22 8 ]
+    %tmp.5 = lgetv %options;
+    symbol [ options %tmp.5 22 17 24 ];
+    %tmp.7 = const :label;
+    symbol [ label %tmp.7 22 26 31 const ];
+    %tmp.8 = agetv %tmp.5 %tmp.7;
+    symbol [ _label ? 22 8 14 ];
+    putv self :_label %tmp.8;
+[ "C:\DEV\GymTracker\source\ui\Button.mc" 23 8 ]
+    %tmp.9 = lgetv %options;
+    symbol [ options %tmp.9 23 17 24 ];
+    %tmp.11 = const :width;
+    symbol [ width %tmp.11 23 26 31 const ];
+    %tmp.12 = agetv %tmp.9 %tmp.11;
+    symbol [ _width ? 23 8 14 ];
+    putv self :_width %tmp.12;
+[ "C:\DEV\GymTracker\source\ui\Button.mc" 24 8 ]
+    %tmp.13 = lgetv %options;
+    symbol [ options %tmp.13 24 18 25 ];
+    %tmp.15 = const :height;
+    symbol [ height %tmp.15 24 27 33 const ];
+    %tmp.16 = agetv %tmp.13 %tmp.15;
+    symbol [ _height ? 24 8 15 ];
+    putv self :_height %tmp.16;
+[ "C:\DEV\GymTracker\source\ui\Button.mc" 25 8 ]
+    %tmp.17 = lgetv %options;
+    symbol [ options %tmp.17 25 27 34 ];
+    %tmp.19 = const :backgroundColor;
+    symbol [ backgroundColor %tmp.19 25 36 51 const ];
+    %tmp.20 = agetv %tmp.17 %tmp.19;
+    symbol [ _backgroundColor ? 25 8 24 ];
+    putv self :_backgroundColor %tmp.20;
+[ "C:\DEV\GymTracker\source\ui\Button.mc" 26 8 ]
+    %tmp.21 = lgetv %options;
+    symbol [ options %tmp.21 26 27 34 ];
+    %tmp.23 = const :foregroundColor;
+    symbol [ foregroundColor %tmp.23 26 36 51 const ];
+    %tmp.24 = agetv %tmp.21 %tmp.23;
+    symbol [ _foregroundColor ? 26 8 24 ];
+    putv self :_foregroundColor %tmp.24;
+C__DEV_GymTracker_source_ui_Button_mc_19_7_27_4_stop:
+}
+[ @file = "C:\DEV\GymTracker\source\ui\Button.mc"; @line = 29; @symbol_functiondef = [draw,29,13,17]; @symbol_param<0> = [dc,29,18,20]; @symbol_param<0>_type<0> = [Dc,29,24,26]; ]
+function draw(dc as Dc) as Void {
+C__DEV_GymTracker_source_ui_Button_mc_29_36_38_4_start:
+[ "C:\DEV\GymTracker\source\ui\Button.mc" 30 8 ]
+    [ "C__DEV_GymTracker_source_ui_Button_mc_29_36_38_4_start" "C__DEV_GymTracker_source_ui_Button_mc_29_36_38_4_stop" ]
+    %x.1 = local;
+    symbol [ x %x.1 30 12 13 ];
+    %tmp.1 = lgetv %dc;
+    symbol [ dc %tmp.1 30 17 19 ];
+    symbol [ getWidth %tmp.2 30 20 28 ];
+    %tmp.2 = getv function %tmp.1 :getWidth;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    symbol [ _width %tmp.5 30 33 39 ];
+    %tmp.5 = getv ? :_width;
+    %tmp.6 = sub %tmp.3 %tmp.5;
+    %tmp.7 = 2;
+    %tmp.8 = div %tmp.6 %tmp.7;
+    lputv %x.1 %tmp.8;
+    symbol [ x %x.1 30 12 13 ];
+[ "C:\DEV\GymTracker\source\ui\Button.mc" 31 8 ]
+    [ "C__DEV_GymTracker_source_ui_Button_mc_29_36_38_4_start" "C__DEV_GymTracker_source_ui_Button_mc_29_36_38_4_stop" ]
+    %y.2 = local;
+    symbol [ y %y.2 31 12 13 ];
+    %tmp.9 = lgetv %dc;
+    symbol [ dc %tmp.9 31 17 19 ];
+    symbol [ getHeight %tmp.10 31 20 29 ];
+    %tmp.10 = getv function %tmp.9 :getHeight;
+    %tmp.11 = invoke %tmp.9 %tmp.10();
+    symbol [ _height %tmp.13 31 34 41 ];
+    %tmp.13 = getv ? :_height;
+    %tmp.14 = sub %tmp.11 %tmp.13;
+    %tmp.15 = 2;
+    %tmp.16 = div %tmp.14 %tmp.15;
+    lputv %y.2 %tmp.16;
+    symbol [ y %y.2 31 12 13 ];
+[ "C:\DEV\GymTracker\source\ui\Button.mc" 33 8 ]
+    %tmp.17 = lgetv %dc;
+    symbol [ dc %tmp.17 33 8 10 ];
+    symbol [ setColor %tmp.18 33 11 19 ];
+    %tmp.18 = getv function %tmp.17 :setColor;
+    symbol [ _backgroundColor %tmp.20 33 20 36 ];
+    %tmp.20 = getv ? :_backgroundColor;
+    symbol [ _backgroundColor %tmp.22 33 38 54 ];
+    %tmp.22 = getv ? :_backgroundColor;
+    invoke %tmp.17 %tmp.18(%tmp.20, %tmp.22);
+[ "C:\DEV\GymTracker\source\ui\Button.mc" 34 8 ]
+    %tmp.23 = lgetv %dc;
+    symbol [ dc %tmp.23 34 8 10 ];
+    symbol [ fillRectangle %tmp.24 34 11 24 ];
+    %tmp.24 = getv function %tmp.23 :fillRectangle;
+    %tmp.25 = lgetv %x.1;
+    symbol [ x %tmp.25 34 25 26 ];
+    %tmp.26 = lgetv %y.2;
+    symbol [ y %tmp.26 34 28 29 ];
+    symbol [ _width %tmp.28 34 31 37 ];
+    %tmp.28 = getv ? :_width;
+    symbol [ _height %tmp.30 34 39 46 ];
+    %tmp.30 = getv ? :_height;
+    invoke %tmp.23 %tmp.24(%tmp.25, %tmp.26, %tmp.28, %tmp.30);
+[ "C:\DEV\GymTracker\source\ui\Button.mc" 36 8 ]
+    %tmp.31 = lgetv %dc;
+    symbol [ dc %tmp.31 36 8 10 ];
+    symbol [ setColor %tmp.32 36 11 19 ];
+    %tmp.32 = getv function %tmp.31 :setColor;
+    symbol [ _foregroundColor %tmp.34 36 20 36 ];
+    %tmp.34 = getv ? :_foregroundColor;
+    symbol [ Graphics %tmp.35 36 38 46 ];
+    %tmp.35 = getm $.Toybox.Graphics;
+    symbol [ COLOR_TRANSPARENT %tmp.36 36 47 64 ];
+    %tmp.36 = getv %tmp.35 :COLOR_TRANSPARENT;
+    invoke %tmp.31 %tmp.32(%tmp.34, %tmp.36);
+[ "C:\DEV\GymTracker\source\ui\Button.mc" 37 8 ]
+    %tmp.37 = lgetv %dc;
+    symbol [ dc %tmp.37 37 8 10 ];
+    symbol [ drawText %tmp.38 37 11 19 ];
+    %tmp.38 = getv function %tmp.37 :drawText;
+    %tmp.39 = lgetv %x.1;
+    symbol [ x %tmp.39 37 20 21 ];
+    symbol [ _width %tmp.41 37 25 31 ];
+    %tmp.41 = getv ? :_width;
+    %tmp.42 = 2;
+    %tmp.43 = div %tmp.41 %tmp.42;
+    %tmp.44 = add %tmp.39 %tmp.43;
+    %tmp.45 = lgetv %y.2;
+    symbol [ y %tmp.45 37 38 39 ];
+    symbol [ _height %tmp.47 37 43 50 ];
+    %tmp.47 = getv ? :_height;
+    %tmp.48 = 2;
+    %tmp.49 = div %tmp.47 %tmp.48;
+    %tmp.50 = add %tmp.45 %tmp.49;
+    symbol [ Graphics %tmp.51 37 57 65 ];
+    %tmp.51 = getm $.Toybox.Graphics;
+    symbol [ FONT_MEDIUM %tmp.52 37 66 77 ];
+    %tmp.52 = getv %tmp.51 :FONT_MEDIUM;
+    symbol [ _label %tmp.54 37 79 85 ];
+    %tmp.54 = getv ? :_label;
+    symbol [ Graphics %tmp.55 37 87 95 ];
+    %tmp.55 = getm $.Toybox.Graphics;
+    symbol [ TEXT_JUSTIFY_CENTER %tmp.56 37 96 115 ];
+    %tmp.56 = getv %tmp.55 :TEXT_JUSTIFY_CENTER;
+    symbol [ Graphics %tmp.57 37 118 126 ];
+    %tmp.57 = getm $.Toybox.Graphics;
+    symbol [ TEXT_JUSTIFY_VCENTER %tmp.58 37 127 147 ];
+    %tmp.58 = getv %tmp.57 :TEXT_JUSTIFY_VCENTER;
+    %tmp.59 = bitor %tmp.56 %tmp.58;
+    invoke %tmp.37 %tmp.38(%tmp.44, %tmp.50, %tmp.52, %tmp.54, %tmp.59);
+C__DEV_GymTracker_source_ui_Button_mc_29_36_38_4_stop:
+}
+}
+[ @file = "C:\DEV\GymTracker\source\ui\Button.mc"; @line = 1; ]
+<init> {
+}

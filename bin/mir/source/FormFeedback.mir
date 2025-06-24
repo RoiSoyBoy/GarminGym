@@ -1,0 +1,88 @@
+[ @file = "C:\DEV\GymTracker\source\FormFeedback.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\DEV\GymTracker\source\FormFeedback.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Attention,2,14,23]; ]
+import Toybox.Attention;
+[ @file = "C:\DEV\GymTracker\source\FormFeedback.mc"; @line = 4; @symbol_moduledef = [FormFeedback,4,7,19]; ]
+module FormFeedback {
+    [ @file = "C:\DEV\GymTracker\source\FormFeedback.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\DEV\GymTracker\source\FormFeedback.mc"; @line = 6; @symbol_classdef = [FormFeedbackManager,6,10,29]; ]
+    class FormFeedbackManager {
+        [ @file = "C:\DEV\GymTracker\source\FormFeedback.mc"; @line = 6; ]
+        <init> {
+        }
+        [ @file = "C:\DEV\GymTracker\source\FormFeedback.mc"; @line = 6; ]
+        static
+        <init> {
+        }
+        [ @file = "C:\DEV\GymTracker\source\FormFeedback.mc"; @line = 7; @position = 20; @symbol_vardef = [_targetTempo,7,20,32]; @symbol_type<0> = [Lang,7,36,40]; @symbol_type<1> = [Number,7,41,47]; ]
+        private
+        var _targetTempo as Lang.Number;
+        [ @file = "C:\DEV\GymTracker\source\FormFeedback.mc"; @line = 9; @symbol_functiondef = [initialize,9,17,27]; @symbol_param<0> = [options,9,28,35]; @symbol_param<0>_type<0> = [Lang,10,28,32]; @symbol_param<0>_type<1> = [Number,10,33,39]; @symbol_param<0>_type_const<0> = [targetTempo,10,13,24]; ]
+        function initialize(options as {:targetTempo as Lang.Number}) as Void {
+C__DEV_GymTracker_source_FormFeedback_mc_11_11_13_8_start:
+[ "C:\DEV\GymTracker\source\FormFeedback.mc" 12 12 ]
+        %tmp.1 = lgetv %options;
+        symbol [ options %tmp.1 12 27 34 ];
+        %tmp.3 = const :targetTempo;
+        symbol [ targetTempo %tmp.3 12 36 47 const ];
+        %tmp.4 = agetv %tmp.1 %tmp.3;
+        symbol [ _targetTempo ? 12 12 24 ];
+        putv self :_targetTempo %tmp.4;
+C__DEV_GymTracker_source_FormFeedback_mc_11_11_13_8_stop:
+    }
+    [ @file = "C:\DEV\GymTracker\source\FormFeedback.mc"; @line = 15; @symbol_functiondef = [checkForm,15,17,26]; @symbol_param<0> = [currentRepDuration,15,27,45]; @symbol_param<0>_type<0> = [Lang,15,49,53]; @symbol_param<0>_type<1> = [Number,15,54,60]; ]
+    function checkForm(currentRepDuration as Lang.Number) as Void {
+C__DEV_GymTracker_source_FormFeedback_mc_15_70_21_8_start:
+[ "C:\DEV\GymTracker\source\FormFeedback.mc" 16 12 ]
+C__DEV_GymTracker_source_FormFeedback_mc_16_12_20_12_if_stmt:
+        %tmp.1 = lgetv %currentRepDuration;
+        symbol [ currentRepDuration %tmp.1 16 16 34 ];
+        symbol [ _targetTempo %tmp.3 16 37 49 ];
+        %tmp.3 = getv ? :_targetTempo;
+        %tmp.4 = 0.8;
+        %tmp.5 = mul %tmp.3 %tmp.4;
+        %tmp.6 = lt %tmp.1 %tmp.5;
+        bf %tmp.6 @C__DEV_GymTracker_source_FormFeedback_mc_16_12_20_12_if_end;
+C__DEV_GymTracker_source_FormFeedback_mc_16_12_20_12_if_true:
+C__DEV_GymTracker_source_FormFeedback_mc_16_57_20_12_start:
+[ "C:\DEV\GymTracker\source\FormFeedback.mc" 17 16 ]
+C__DEV_GymTracker_source_FormFeedback_mc_17_16_19_16_if_stmt:
+        symbol [ Attention %tmp.7 17 20 29 ];
+        %tmp.7 = getm $.Toybox.Attention;
+        %tmp.9 = const :vibrate;
+        symbol [ vibrate %tmp.9 17 35 42 const ];
+        %tmp.10 = canhazplz %tmp.7 %tmp.9;
+        bf %tmp.10 @C__DEV_GymTracker_source_FormFeedback_mc_17_16_19_16_if_end;
+C__DEV_GymTracker_source_FormFeedback_mc_17_16_19_16_if_true:
+C__DEV_GymTracker_source_FormFeedback_mc_17_44_19_16_start:
+[ "C:\DEV\GymTracker\source\FormFeedback.mc" 18 20 ]
+        symbol [ Attention %tmp.11 18 20 29 ];
+        %tmp.11 = getm $.Toybox.Attention;
+        symbol [ vibrate %tmp.12 18 30 37 ];
+        %tmp.12 = getv function %tmp.11 :vibrate;
+        %tmp.13 = newa 1;
+        symbol [ Attention %tmp.16 18 43 52 ];
+        %tmp.16 = getm $.Toybox.Attention;
+        symbol [ VibeProfile %tmp.17 18 53 64 ];
+        %tmp.17 = getv function ? %tmp.16 :VibeProfile;
+        %tmp.18 = 50;
+        %tmp.19 = 100;
+        %tmp.14 = newc %tmp.17 (%tmp.18, %tmp.19);
+        %tmp.20 = dup %tmp.13;
+        %tmp.21 = aputv %tmp.20 0 %tmp.14;
+        invoke %tmp.11 %tmp.12(%tmp.21);
+C__DEV_GymTracker_source_FormFeedback_mc_17_44_19_16_stop:
+        goto @C__DEV_GymTracker_source_FormFeedback_mc_17_16_19_16_if_end;
+C__DEV_GymTracker_source_FormFeedback_mc_17_16_19_16_if_end:
+C__DEV_GymTracker_source_FormFeedback_mc_16_57_20_12_stop:
+        goto @C__DEV_GymTracker_source_FormFeedback_mc_16_12_20_12_if_end;
+C__DEV_GymTracker_source_FormFeedback_mc_16_12_20_12_if_end:
+C__DEV_GymTracker_source_FormFeedback_mc_15_70_21_8_stop:
+    }
+}
+}
+[ @file = "C:\DEV\GymTracker\source\FormFeedback.mc"; @line = 1; ]
+<init> {
+}

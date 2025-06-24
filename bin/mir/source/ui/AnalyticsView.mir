@@ -1,0 +1,187 @@
+[ @file = "C:\DEV\GymTracker\source\ui\AnalyticsView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+import Toybox.Graphics;
+[ @file = "C:\DEV\GymTracker\source\ui\AnalyticsView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\DEV\GymTracker\source\ui\AnalyticsView.mc"; @line = 3; @symbol_importdef<0> = [Rez,3,7,10]; ]
+import Rez;
+[ @file = "C:\DEV\GymTracker\source\ui\AnalyticsView.mc"; @line = 5; @symbol_classdef = [AnalyticsView,5,6,19]; @symbol_extends<0> = [WatchUi,5,28,35]; @symbol_extends<1> = [View,5,36,40]; ]
+class AnalyticsView extends WatchUi.View {
+    [ @file = "C:\DEV\GymTracker\source\ui\AnalyticsView.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\DEV\GymTracker\source\ui\AnalyticsView.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\DEV\GymTracker\source\ui\AnalyticsView.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
+    function initialize() as Void {
+C__DEV_GymTracker_source_ui_AnalyticsView_mc_7_26_9_4_start:
+[ "C:\DEV\GymTracker\source\ui\AnalyticsView.mc" 8 8 ]
+        symbol [ View %tmp.2 8 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ initialize %tmp.3 8 13 23 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__DEV_GymTracker_source_ui_AnalyticsView_mc_7_26_9_4_stop:
+    }
+    [ @file = "C:\DEV\GymTracker\source\ui\AnalyticsView.mc"; @line = 11; @symbol_functiondef = [onLayout,11,13,21]; @symbol_param<0> = [dc,11,22,24]; @symbol_param<0>_type<0> = [Dc,11,28,30]; ]
+    function onLayout(dc as Dc) as Void {
+C__DEV_GymTracker_source_ui_AnalyticsView_mc_11_40_13_4_start:
+[ "C:\DEV\GymTracker\source\ui\AnalyticsView.mc" 12 8 ]
+        %tmp.1 = self;
+        symbol [ setLayout %tmp.2 12 8 17 ];
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        symbol [ Rez %tmp.3 12 18 21 ];
+        %tmp.3 = getm $.Rez;
+        symbol [ Layouts %tmp.4 12 22 29 ];
+        %tmp.4 = getv %tmp.3 :Layouts;
+        symbol [ AnalyticsLayout %tmp.5 12 30 45 ];
+        %tmp.5 = getv function %tmp.4 :AnalyticsLayout;
+        %tmp.6 = lgetv %dc;
+        symbol [ dc %tmp.6 12 46 48 ];
+        %tmp.7 = invoke %tmp.4 %tmp.5(%tmp.6);
+        invoke %tmp.1 %tmp.2(%tmp.7);
+C__DEV_GymTracker_source_ui_AnalyticsView_mc_11_40_13_4_stop:
+    }
+    [ @file = "C:\DEV\GymTracker\source\ui\AnalyticsView.mc"; @line = 15; @symbol_functiondef = [onShow,15,13,19]; ]
+    function onShow() as Void {
+    }
+    [ @file = "C:\DEV\GymTracker\source\ui\AnalyticsView.mc"; @line = 18; @symbol_functiondef = [onUpdate,18,13,21]; @symbol_param<0> = [dc,18,22,24]; @symbol_param<0>_type<0> = [Dc,18,28,30]; ]
+    function onUpdate(dc as Dc) as Void {
+C__DEV_GymTracker_source_ui_AnalyticsView_mc_18_40_34_4_start:
+[ "C:\DEV\GymTracker\source\ui\AnalyticsView.mc" 19 8 ]
+        symbol [ View %tmp.2 19 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ onUpdate %tmp.3 19 13 21 ];
+        %tmp.3 = getv function %tmp.2 :onUpdate;
+        %tmp.4 = lgetv %dc;
+        symbol [ dc %tmp.4 19 22 24 ];
+        invoke %tmp.2 %tmp.3(%tmp.4);
+[ "C:\DEV\GymTracker\source\ui\AnalyticsView.mc" 21 8 ]
+        [ "C__DEV_GymTracker_source_ui_AnalyticsView_mc_18_40_34_4_start" "C__DEV_GymTracker_source_ui_AnalyticsView_mc_18_40_34_4_stop" ]
+        %analytics.1 = local;
+        symbol [ analytics %analytics.1 21 12 21 ];
+        symbol [ DataManager %tmp.6 21 24 35 ];
+        %tmp.6 = getv ? :DataManager;
+        symbol [ getAnalytics %tmp.7 21 36 48 ];
+        %tmp.7 = getv function %tmp.6 :getAnalytics;
+        %tmp.8 = invoke %tmp.6 %tmp.7();
+        lputv %analytics.1 %tmp.8;
+        symbol [ analytics %analytics.1 21 12 21 ];
+[ "C:\DEV\GymTracker\source\ui\AnalyticsView.mc" 23 8 ]
+        [ "C__DEV_GymTracker_source_ui_AnalyticsView_mc_18_40_34_4_start" "C__DEV_GymTracker_source_ui_AnalyticsView_mc_18_40_34_4_stop" ]
+        %weeklyVolumeLabel.2 = local;
+        symbol [ weeklyVolumeLabel %weeklyVolumeLabel.2 23 12 29 ];
+        symbol [ View %tmp.10 23 32 36 ];
+        %tmp.10 = getv ? :View;
+        symbol [ findDrawableById %tmp.11 23 37 53 ];
+        %tmp.11 = getv function %tmp.10 :findDrawableById;
+        %tmp.12 = "weeklyVolume";
+        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
+        %tmp.14 = as %tmp.13 WatchUi.Text;
+        symbol [ WatchUi %tmp.14 23 73 80 ];
+        symbol [ Text %tmp.14 23 81 85 ];
+        lputv %weeklyVolumeLabel.2 %tmp.14;
+        symbol [ weeklyVolumeLabel %weeklyVolumeLabel.2 23 12 29 ];
+[ "C:\DEV\GymTracker\source\ui\AnalyticsView.mc" 24 8 ]
+        %tmp.15 = lgetv %weeklyVolumeLabel.2;
+        symbol [ weeklyVolumeLabel %tmp.15 24 8 25 ];
+        symbol [ setText %tmp.16 24 26 33 ];
+        %tmp.16 = getv function %tmp.15 :setText;
+        %tmp.17 = "Weekly Volume: ";
+        %tmp.18 = lgetv %analytics.1;
+        symbol [ analytics %tmp.18 24 54 63 ];
+        %tmp.19 = "weeklyVolume";
+        %tmp.20 = agetv %tmp.18 %tmp.19;
+        %tmp.21 = add %tmp.17 %tmp.20;
+        invoke %tmp.15 %tmp.16(%tmp.21);
+[ "C:\DEV\GymTracker\source\ui\AnalyticsView.mc" 26 8 ]
+        [ "C__DEV_GymTracker_source_ui_AnalyticsView_mc_18_40_34_4_start" "C__DEV_GymTracker_source_ui_AnalyticsView_mc_18_40_34_4_stop" ]
+        %squatPrLabel.3 = local;
+        symbol [ squatPrLabel %squatPrLabel.3 26 12 24 ];
+        symbol [ View %tmp.23 26 27 31 ];
+        %tmp.23 = getv ? :View;
+        symbol [ findDrawableById %tmp.24 26 32 48 ];
+        %tmp.24 = getv function %tmp.23 :findDrawableById;
+        %tmp.25 = "squatPr";
+        %tmp.26 = invoke %tmp.23 %tmp.24(%tmp.25);
+        %tmp.27 = as %tmp.26 WatchUi.Text;
+        symbol [ WatchUi %tmp.27 26 63 70 ];
+        symbol [ Text %tmp.27 26 71 75 ];
+        lputv %squatPrLabel.3 %tmp.27;
+        symbol [ squatPrLabel %squatPrLabel.3 26 12 24 ];
+[ "C:\DEV\GymTracker\source\ui\AnalyticsView.mc" 27 8 ]
+        %tmp.28 = lgetv %squatPrLabel.3;
+        symbol [ squatPrLabel %tmp.28 27 8 20 ];
+        symbol [ setText %tmp.29 27 21 28 ];
+        %tmp.29 = getv function %tmp.28 :setText;
+        %tmp.30 = "Squat PR: ";
+        %tmp.31 = lgetv %analytics.1;
+        symbol [ analytics %tmp.31 27 44 53 ];
+        %tmp.32 = "squatPr";
+        %tmp.33 = agetv %tmp.31 %tmp.32;
+        %tmp.34 = add %tmp.30 %tmp.33;
+        invoke %tmp.28 %tmp.29(%tmp.34);
+[ "C:\DEV\GymTracker\source\ui\AnalyticsView.mc" 29 8 ]
+        [ "C__DEV_GymTracker_source_ui_AnalyticsView_mc_18_40_34_4_start" "C__DEV_GymTracker_source_ui_AnalyticsView_mc_18_40_34_4_stop" ]
+        %benchPrLabel.4 = local;
+        symbol [ benchPrLabel %benchPrLabel.4 29 12 24 ];
+        symbol [ View %tmp.36 29 27 31 ];
+        %tmp.36 = getv ? :View;
+        symbol [ findDrawableById %tmp.37 29 32 48 ];
+        %tmp.37 = getv function %tmp.36 :findDrawableById;
+        %tmp.38 = "benchPr";
+        %tmp.39 = invoke %tmp.36 %tmp.37(%tmp.38);
+        %tmp.40 = as %tmp.39 WatchUi.Text;
+        symbol [ WatchUi %tmp.40 29 63 70 ];
+        symbol [ Text %tmp.40 29 71 75 ];
+        lputv %benchPrLabel.4 %tmp.40;
+        symbol [ benchPrLabel %benchPrLabel.4 29 12 24 ];
+[ "C:\DEV\GymTracker\source\ui\AnalyticsView.mc" 30 8 ]
+        %tmp.41 = lgetv %benchPrLabel.4;
+        symbol [ benchPrLabel %tmp.41 30 8 20 ];
+        symbol [ setText %tmp.42 30 21 28 ];
+        %tmp.42 = getv function %tmp.41 :setText;
+        %tmp.43 = "Bench PR: ";
+        %tmp.44 = lgetv %analytics.1;
+        symbol [ analytics %tmp.44 30 44 53 ];
+        %tmp.45 = "benchPr";
+        %tmp.46 = agetv %tmp.44 %tmp.45;
+        %tmp.47 = add %tmp.43 %tmp.46;
+        invoke %tmp.41 %tmp.42(%tmp.47);
+[ "C:\DEV\GymTracker\source\ui\AnalyticsView.mc" 32 8 ]
+        [ "C__DEV_GymTracker_source_ui_AnalyticsView_mc_18_40_34_4_start" "C__DEV_GymTracker_source_ui_AnalyticsView_mc_18_40_34_4_stop" ]
+        %deadliftPrLabel.5 = local;
+        symbol [ deadliftPrLabel %deadliftPrLabel.5 32 12 27 ];
+        symbol [ View %tmp.49 32 30 34 ];
+        %tmp.49 = getv ? :View;
+        symbol [ findDrawableById %tmp.50 32 35 51 ];
+        %tmp.50 = getv function %tmp.49 :findDrawableById;
+        %tmp.51 = "deadliftPr";
+        %tmp.52 = invoke %tmp.49 %tmp.50(%tmp.51);
+        %tmp.53 = as %tmp.52 WatchUi.Text;
+        symbol [ WatchUi %tmp.53 32 69 76 ];
+        symbol [ Text %tmp.53 32 77 81 ];
+        lputv %deadliftPrLabel.5 %tmp.53;
+        symbol [ deadliftPrLabel %deadliftPrLabel.5 32 12 27 ];
+[ "C:\DEV\GymTracker\source\ui\AnalyticsView.mc" 33 8 ]
+        %tmp.54 = lgetv %deadliftPrLabel.5;
+        symbol [ deadliftPrLabel %tmp.54 33 8 23 ];
+        symbol [ setText %tmp.55 33 24 31 ];
+        %tmp.55 = getv function %tmp.54 :setText;
+        %tmp.56 = "Deadlift PR: ";
+        %tmp.57 = lgetv %analytics.1;
+        symbol [ analytics %tmp.57 33 50 59 ];
+        %tmp.58 = "deadliftPr";
+        %tmp.59 = agetv %tmp.57 %tmp.58;
+        %tmp.60 = add %tmp.56 %tmp.59;
+        invoke %tmp.54 %tmp.55(%tmp.60);
+C__DEV_GymTracker_source_ui_AnalyticsView_mc_18_40_34_4_stop:
+    }
+    [ @file = "C:\DEV\GymTracker\source\ui\AnalyticsView.mc"; @line = 36; @symbol_functiondef = [onHide,36,13,19]; ]
+    function onHide() as Void {
+    }
+}
+[ @file = "C:\DEV\GymTracker\source\ui\AnalyticsView.mc"; @line = 1; ]
+<init> {
+}

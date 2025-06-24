@@ -1,0 +1,18 @@
+[ @file = "C:\DEV\GymTracker\source\UIManager.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\DEV\GymTracker\source\UIManager.mc"; @line = 3; @symbol_classdef = [UIManager,3,6,15]; ]
+class UIManager {
+    [ @file = "C:\DEV\GymTracker\source\UIManager.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "C:\DEV\GymTracker\source\UIManager.mc"; @line = 3; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\DEV\GymTracker\source\UIManager.mc"; @line = 4; @symbol_functiondef = [initialize,4,13,23]; ]
+    function initialize() as Void {
+    }
+}
+[ @file = "C:\DEV\GymTracker\source\UIManager.mc"; @line = 1; ]
+<init> {
+}

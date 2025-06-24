@@ -1,0 +1,132 @@
+[ @file = "C:\DEV\GymTracker\source\ui\HomeViewDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Application,1,14,25]; ]
+import Toybox.Application;
+[ @file = "C:\DEV\GymTracker\source\ui\HomeViewDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\DEV\GymTracker\source\ui\HomeViewDelegate.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\DEV\GymTracker\source\ui\HomeViewDelegate.mc"; @line = 5; @symbol_classdef = [HomeViewDelegate,5,6,22]; @symbol_extends<0> = [WatchUi,5,31,38]; @symbol_extends<1> = [BehaviorDelegate,5,39,55]; ]
+class HomeViewDelegate extends WatchUi.BehaviorDelegate {
+    [ @file = "C:\DEV\GymTracker\source\ui\HomeViewDelegate.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\DEV\GymTracker\source\ui\HomeViewDelegate.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\DEV\GymTracker\source\ui\HomeViewDelegate.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
+    function initialize() as Void {
+C__DEV_GymTracker_source_ui_HomeViewDelegate_mc_7_26_9_4_start:
+[ "C:\DEV\GymTracker\source\ui\HomeViewDelegate.mc" 8 8 ]
+        symbol [ BehaviorDelegate %tmp.2 8 8 24 ];
+        %tmp.2 = getv ? :BehaviorDelegate;
+        symbol [ initialize %tmp.3 8 25 35 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__DEV_GymTracker_source_ui_HomeViewDelegate_mc_7_26_9_4_stop:
+    }
+    [ @file = "C:\DEV\GymTracker\source\ui\HomeViewDelegate.mc"; @line = 11; @symbol_functiondef = [onMenu,11,13,19]; @symbol_return<0> = [Lang,11,25,29]; @symbol_return<1> = [Boolean,11,30,37]; ]
+    function onMenu() as Lang.Boolean {
+C__DEV_GymTracker_source_ui_HomeViewDelegate_mc_11_38_14_4_start:
+[ "C:\DEV\GymTracker\source\ui\HomeViewDelegate.mc" 12 8 ]
+        symbol [ WatchUi %tmp.1 12 8 15 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.2 12 16 24 ];
+        %tmp.2 = getv function %tmp.1 :pushView;
+        symbol [ Rez %tmp.6 12 29 32 ];
+        %tmp.6 = getv ? :Rez;
+        symbol [ Menus %tmp.7 12 33 38 ];
+        %tmp.7 = getv %tmp.6 :Menus;
+        symbol [ MainMenu %tmp.8 12 39 47 ];
+        %tmp.8 = getv function ? %tmp.7 :MainMenu;
+        %tmp.3 = newc %tmp.8 ();
+        symbol [ GymTrackerMenuDelegate %tmp.12 12 55 77 ];
+        %tmp.12 = getv ? :GymTrackerMenuDelegate;
+        %tmp.9 = newc %tmp.12 ();
+        symbol [ WatchUi %tmp.13 12 81 88 ];
+        %tmp.13 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_UP %tmp.14 12 89 97 ];
+        %tmp.14 = getv %tmp.13 :SLIDE_UP;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.9, %tmp.14);
+[ "C:\DEV\GymTracker\source\ui\HomeViewDelegate.mc" 13 8 ]
+        %tmp.15 = true;
+        ret %tmp.15;
+C__DEV_GymTracker_source_ui_HomeViewDelegate_mc_11_38_14_4_stop:
+    }
+    [ @file = "C:\DEV\GymTracker\source\ui\HomeViewDelegate.mc"; @line = 16; @symbol_functiondef = [onSelect,16,13,21]; @symbol_return<0> = [Lang,16,27,31]; @symbol_return<1> = [Boolean,16,32,39]; ]
+    function onSelect() as Lang.Boolean {
+C__DEV_GymTracker_source_ui_HomeViewDelegate_mc_16_40_21_4_start:
+[ "C:\DEV\GymTracker\source\ui\HomeViewDelegate.mc" 17 8 ]
+        [ "C__DEV_GymTracker_source_ui_HomeViewDelegate_mc_16_40_21_4_start" "C__DEV_GymTracker_source_ui_HomeViewDelegate_mc_16_40_21_4_stop" ]
+        %delegate.1 = local;
+        symbol [ delegate %delegate.1 17 12 20 ];
+        symbol [ WorkoutTemplatesViewDelegate %tmp.4 17 27 55 ];
+        %tmp.4 = getv ? :WorkoutTemplatesViewDelegate;
+        %tmp.1 = newc %tmp.4 ();
+        lputv %delegate.1 %tmp.1;
+        symbol [ delegate %delegate.1 17 12 20 ];
+[ "C:\DEV\GymTracker\source\ui\HomeViewDelegate.mc" 18 8 ]
+        [ "C__DEV_GymTracker_source_ui_HomeViewDelegate_mc_16_40_21_4_start" "C__DEV_GymTracker_source_ui_HomeViewDelegate_mc_16_40_21_4_stop" ]
+        %view.2 = local;
+        symbol [ view %view.2 18 12 16 ];
+        symbol [ WorkoutTemplatesView %tmp.8 18 23 43 ];
+        %tmp.8 = getv ? :WorkoutTemplatesView;
+        %tmp.9 = lgetv %delegate.1;
+        symbol [ delegate %tmp.9 18 44 52 ];
+        %tmp.5 = newc %tmp.8 (%tmp.9);
+        lputv %view.2 %tmp.5;
+        symbol [ view %view.2 18 12 16 ];
+[ "C:\DEV\GymTracker\source\ui\HomeViewDelegate.mc" 19 8 ]
+        symbol [ WatchUi %tmp.10 19 8 15 ];
+        %tmp.10 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.11 19 16 24 ];
+        %tmp.11 = getv function %tmp.10 :pushView;
+        %tmp.12 = lgetv %view.2;
+        symbol [ view %tmp.12 19 25 29 ];
+        %tmp.13 = lgetv %delegate.1;
+        symbol [ delegate %tmp.13 19 31 39 ];
+        symbol [ WatchUi %tmp.14 19 41 48 ];
+        %tmp.14 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_UP %tmp.15 19 49 57 ];
+        %tmp.15 = getv %tmp.14 :SLIDE_UP;
+        invoke %tmp.10 %tmp.11(%tmp.12, %tmp.13, %tmp.15);
+[ "C:\DEV\GymTracker\source\ui\HomeViewDelegate.mc" 20 8 ]
+        %tmp.16 = true;
+        ret %tmp.16;
+C__DEV_GymTracker_source_ui_HomeViewDelegate_mc_16_40_21_4_stop:
+    }
+    [ @file = "C:\DEV\GymTracker\source\ui\HomeViewDelegate.mc"; @line = 23; @symbol_functiondef = [onKey,23,13,18]; @symbol_param<0> = [keyEvent,23,19,27]; @symbol_param<0>_type<0> = [KeyEvent,23,31,39]; @symbol_return<0> = [Lang,23,44,48]; @symbol_return<1> = [Boolean,23,49,56]; ]
+    function onKey(keyEvent as KeyEvent) as Lang.Boolean {
+C__DEV_GymTracker_source_ui_HomeViewDelegate_mc_23_57_28_4_start:
+[ "C:\DEV\GymTracker\source\ui\HomeViewDelegate.mc" 24 8 ]
+C__DEV_GymTracker_source_ui_HomeViewDelegate_mc_24_8_26_8_if_stmt:
+        %tmp.1 = lgetv %keyEvent;
+        symbol [ keyEvent %tmp.1 24 12 20 ];
+        symbol [ getKey %tmp.2 24 21 27 ];
+        %tmp.2 = getv function %tmp.1 :getKey;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ WatchUi %tmp.4 24 33 40 ];
+        %tmp.4 = getm $.Toybox.WatchUi;
+        symbol [ KEY_UP %tmp.5 24 41 47 ];
+        %tmp.5 = getv %tmp.4 :KEY_UP;
+        %tmp.6 = eq %tmp.3 %tmp.5;
+        bf %tmp.6 @C__DEV_GymTracker_source_ui_HomeViewDelegate_mc_24_8_26_8_if_end;
+C__DEV_GymTracker_source_ui_HomeViewDelegate_mc_24_8_26_8_if_true:
+C__DEV_GymTracker_source_ui_HomeViewDelegate_mc_24_49_26_8_start:
+[ "C:\DEV\GymTracker\source\ui\HomeViewDelegate.mc" 25 12 ]
+        %tmp.7 = self;
+        symbol [ onSelect %tmp.8 25 19 27 ];
+        %tmp.8 = getv function %tmp.7 :onSelect;
+        %tmp.9 = invoke %tmp.7 %tmp.8();
+        ret %tmp.9;
+C__DEV_GymTracker_source_ui_HomeViewDelegate_mc_24_49_26_8_stop:
+        goto @C__DEV_GymTracker_source_ui_HomeViewDelegate_mc_24_8_26_8_if_end;
+C__DEV_GymTracker_source_ui_HomeViewDelegate_mc_24_8_26_8_if_end:
+[ "C:\DEV\GymTracker\source\ui\HomeViewDelegate.mc" 27 8 ]
+        %tmp.10 = false;
+        ret %tmp.10;
+C__DEV_GymTracker_source_ui_HomeViewDelegate_mc_23_57_28_4_stop:
+    }
+}
+[ @file = "C:\DEV\GymTracker\source\ui\HomeViewDelegate.mc"; @line = 1; ]
+<init> {
+}

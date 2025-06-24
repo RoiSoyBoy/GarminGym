@@ -1,0 +1,4 @@
+<resources>
+    <jsonData id="templates" filename="data/templates.json" />
+    <jsonData id="exercises" filename="data/exercises.json" />
+</resources>

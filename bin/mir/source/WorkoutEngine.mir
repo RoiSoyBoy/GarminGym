@@ -1,0 +1,185 @@
+[ @file = "C:\DEV\GymTracker\source\WorkoutEngine.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\DEV\GymTracker\source\WorkoutEngine.mc"; @line = 3; @symbol_classdef = [WorkoutEngine,3,6,19]; ]
+class WorkoutEngine {
+    [ @file = "C:\DEV\GymTracker\source\WorkoutEngine.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "C:\DEV\GymTracker\source\WorkoutEngine.mc"; @line = 3; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\DEV\GymTracker\source\WorkoutEngine.mc"; @line = 4; @position = 16; @symbol_vardef = [_template,4,16,25]; @symbol_type<0> = [DataModels,4,29,39]; @symbol_type<1> = [WorkoutTemplate,4,40,55]; ]
+    private
+    var _template as DataModels.WorkoutTemplate;
+    [ @file = "C:\DEV\GymTracker\source\WorkoutEngine.mc"; @line = 5; @position = 16; @symbol_vardef = [_exerciseIndex,5,16,30]; @symbol_type<0> = [Lang,5,34,38]; @symbol_type<1> = [Number,5,39,45]; ]
+    private
+    var _exerciseIndex as Lang.Number;
+    [ @file = "C:\DEV\GymTracker\source\WorkoutEngine.mc"; @line = 6; @position = 16; @symbol_vardef = [_setIndex,6,16,25]; @symbol_type<0> = [Lang,6,29,33]; @symbol_type<1> = [Number,6,34,40]; ]
+    private
+    var _setIndex as Lang.Number;
+    [ @file = "C:\DEV\GymTracker\source\WorkoutEngine.mc"; @line = 8; @symbol_functiondef = [initialize,8,20,30]; @symbol_param<0> = [template,8,31,39]; @symbol_param<0>_type<0> = [DataModels,8,43,53]; @symbol_param<0>_type<1> = [WorkoutTemplate,8,54,69]; ]
+    public
+    function initialize(template as DataModels.WorkoutTemplate) as Void {
+C__DEV_GymTracker_source_WorkoutEngine_mc_8_71_12_4_start:
+[ "C:\DEV\GymTracker\source\WorkoutEngine.mc" 9 8 ]
+        %tmp.1 = lgetv %template;
+        symbol [ template %tmp.1 9 20 28 ];
+        symbol [ _template ? 9 8 17 ];
+        putv self :_template %tmp.1;
+[ "C:\DEV\GymTracker\source\WorkoutEngine.mc" 10 8 ]
+        %tmp.2 = 0;
+        symbol [ _exerciseIndex ? 10 8 22 ];
+        putv self :_exerciseIndex %tmp.2;
+[ "C:\DEV\GymTracker\source\WorkoutEngine.mc" 11 8 ]
+        %tmp.3 = 0;
+        symbol [ _setIndex ? 11 8 17 ];
+        putv self :_setIndex %tmp.3;
+C__DEV_GymTracker_source_WorkoutEngine_mc_8_71_12_4_stop:
+    }
+    [ @file = "C:\DEV\GymTracker\source\WorkoutEngine.mc"; @line = 14; @symbol_functiondef = [getCurrentExercise,14,20,38]; @symbol_return<0> = [DataModels,14,44,54]; @symbol_return<1> = [ExerciseLog,14,55,66]; ]
+    public
+    function getCurrentExercise() as DataModels.ExerciseLog {
+C__DEV_GymTracker_source_WorkoutEngine_mc_14_67_16_4_start:
+[ "C:\DEV\GymTracker\source\WorkoutEngine.mc" 15 8 ]
+        symbol [ _template %tmp.2 15 15 24 ];
+        %tmp.2 = getv ? :_template;
+        symbol [ exercises %tmp.3 15 25 34 ];
+        %tmp.3 = getv %tmp.2 :exercises;
+        symbol [ _exerciseIndex %tmp.5 15 35 49 ];
+        %tmp.5 = getv ? :_exerciseIndex;
+        %tmp.6 = agetv %tmp.3 %tmp.5;
+        ret %tmp.6;
+C__DEV_GymTracker_source_WorkoutEngine_mc_14_67_16_4_stop:
+    }
+    [ @file = "C:\DEV\GymTracker\source\WorkoutEngine.mc"; @line = 18; @symbol_functiondef = [getCurrentSet,18,20,33]; @symbol_return<0> = [DataModels,18,39,49]; @symbol_return<1> = [SetLog,18,50,56]; ]
+    public
+    function getCurrentSet() as DataModels.SetLog {
+C__DEV_GymTracker_source_WorkoutEngine_mc_18_57_20_4_start:
+[ "C:\DEV\GymTracker\source\WorkoutEngine.mc" 19 8 ]
+        symbol [ _template %tmp.2 19 15 24 ];
+        %tmp.2 = getv ? :_template;
+        symbol [ exercises %tmp.3 19 25 34 ];
+        %tmp.3 = getv %tmp.2 :exercises;
+        symbol [ _exerciseIndex %tmp.5 19 35 49 ];
+        %tmp.5 = getv ? :_exerciseIndex;
+        %tmp.6 = agetv %tmp.3 %tmp.5;
+        symbol [ sets %tmp.7 19 51 55 ];
+        %tmp.7 = getv %tmp.6 :sets;
+        symbol [ _setIndex %tmp.9 19 56 65 ];
+        %tmp.9 = getv ? :_setIndex;
+        %tmp.10 = agetv %tmp.7 %tmp.9;
+        ret %tmp.10;
+C__DEV_GymTracker_source_WorkoutEngine_mc_18_57_20_4_stop:
+    }
+    [ @file = "C:\DEV\GymTracker\source\WorkoutEngine.mc"; @line = 22; @symbol_functiondef = [nextExercise,22,20,32]; ]
+    public
+    function nextExercise() as Void {
+C__DEV_GymTracker_source_WorkoutEngine_mc_22_43_27_4_start:
+[ "C:\DEV\GymTracker\source\WorkoutEngine.mc" 23 8 ]
+C__DEV_GymTracker_source_WorkoutEngine_mc_23_8_26_8_if_stmt:
+        symbol [ _exerciseIndex %tmp.2 23 12 26 ];
+        %tmp.2 = getv ? :_exerciseIndex;
+        symbol [ _template %tmp.4 23 29 38 ];
+        %tmp.4 = getv ? :_template;
+        symbol [ exercises %tmp.5 23 39 48 ];
+        %tmp.5 = getv %tmp.4 :exercises;
+        symbol [ size %tmp.6 23 49 53 ];
+        %tmp.6 = getv function %tmp.5 :size;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        %tmp.8 = 1;
+        %tmp.9 = sub %tmp.7 %tmp.8;
+        %tmp.10 = lt %tmp.2 %tmp.9;
+        bf %tmp.10 @C__DEV_GymTracker_source_WorkoutEngine_mc_23_8_26_8_if_end;
+C__DEV_GymTracker_source_WorkoutEngine_mc_23_8_26_8_if_true:
+C__DEV_GymTracker_source_WorkoutEngine_mc_23_61_26_8_start:
+[ "C:\DEV\GymTracker\source\WorkoutEngine.mc" 24 12 ]
+        symbol [ _exerciseIndex %tmp.13 24 12 26 ];
+        %tmp.13 = getv ? :_exerciseIndex;
+        %tmp.14 = add %tmp.13 1;
+        symbol [ _exerciseIndex ? 24 12 26 ];
+        putv self :_exerciseIndex dup %tmp.14;
+[ "C:\DEV\GymTracker\source\WorkoutEngine.mc" 25 12 ]
+        %tmp.15 = 0;
+        symbol [ _setIndex ? 25 12 21 ];
+        putv self :_setIndex %tmp.15;
+C__DEV_GymTracker_source_WorkoutEngine_mc_23_61_26_8_stop:
+        goto @C__DEV_GymTracker_source_WorkoutEngine_mc_23_8_26_8_if_end;
+C__DEV_GymTracker_source_WorkoutEngine_mc_23_8_26_8_if_end:
+C__DEV_GymTracker_source_WorkoutEngine_mc_22_43_27_4_stop:
+    }
+    [ @file = "C:\DEV\GymTracker\source\WorkoutEngine.mc"; @line = 29; @symbol_functiondef = [nextSet,29,20,27]; ]
+    public
+    function nextSet() as Void {
+C__DEV_GymTracker_source_WorkoutEngine_mc_29_38_33_4_start:
+[ "C:\DEV\GymTracker\source\WorkoutEngine.mc" 30 8 ]
+C__DEV_GymTracker_source_WorkoutEngine_mc_30_8_32_8_if_stmt:
+        symbol [ _setIndex %tmp.2 30 12 21 ];
+        %tmp.2 = getv ? :_setIndex;
+        symbol [ _template %tmp.4 30 24 33 ];
+        %tmp.4 = getv ? :_template;
+        symbol [ exercises %tmp.5 30 34 43 ];
+        %tmp.5 = getv %tmp.4 :exercises;
+        symbol [ _exerciseIndex %tmp.7 30 44 58 ];
+        %tmp.7 = getv ? :_exerciseIndex;
+        %tmp.8 = agetv %tmp.5 %tmp.7;
+        symbol [ sets %tmp.9 30 60 64 ];
+        %tmp.9 = getv %tmp.8 :sets;
+        symbol [ size %tmp.10 30 65 69 ];
+        %tmp.10 = getv function %tmp.9 :size;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        %tmp.12 = 1;
+        %tmp.13 = sub %tmp.11 %tmp.12;
+        %tmp.14 = lt %tmp.2 %tmp.13;
+        bf %tmp.14 @C__DEV_GymTracker_source_WorkoutEngine_mc_30_8_32_8_if_end;
+C__DEV_GymTracker_source_WorkoutEngine_mc_30_8_32_8_if_true:
+C__DEV_GymTracker_source_WorkoutEngine_mc_30_77_32_8_start:
+[ "C:\DEV\GymTracker\source\WorkoutEngine.mc" 31 12 ]
+        symbol [ _setIndex %tmp.17 31 12 21 ];
+        %tmp.17 = getv ? :_setIndex;
+        %tmp.18 = add %tmp.17 1;
+        symbol [ _setIndex ? 31 12 21 ];
+        putv self :_setIndex dup %tmp.18;
+C__DEV_GymTracker_source_WorkoutEngine_mc_30_77_32_8_stop:
+        goto @C__DEV_GymTracker_source_WorkoutEngine_mc_30_8_32_8_if_end;
+C__DEV_GymTracker_source_WorkoutEngine_mc_30_8_32_8_if_end:
+C__DEV_GymTracker_source_WorkoutEngine_mc_29_38_33_4_stop:
+    }
+    [ @file = "C:\DEV\GymTracker\source\WorkoutEngine.mc"; @line = 35; @symbol_functiondef = [previousSet,35,20,31]; ]
+    public
+    function previousSet() as Void {
+C__DEV_GymTracker_source_WorkoutEngine_mc_35_42_39_4_start:
+[ "C:\DEV\GymTracker\source\WorkoutEngine.mc" 36 8 ]
+C__DEV_GymTracker_source_WorkoutEngine_mc_36_8_38_8_if_stmt:
+        symbol [ _setIndex %tmp.2 36 12 21 ];
+        %tmp.2 = getv ? :_setIndex;
+        %tmp.3 = 0;
+        %tmp.4 = gt %tmp.2 %tmp.3;
+        bf %tmp.4 @C__DEV_GymTracker_source_WorkoutEngine_mc_36_8_38_8_if_end;
+C__DEV_GymTracker_source_WorkoutEngine_mc_36_8_38_8_if_true:
+C__DEV_GymTracker_source_WorkoutEngine_mc_36_27_38_8_start:
+[ "C:\DEV\GymTracker\source\WorkoutEngine.mc" 37 12 ]
+        symbol [ _setIndex %tmp.7 37 12 21 ];
+        %tmp.7 = getv ? :_setIndex;
+        %tmp.8 = sub %tmp.7 1;
+        symbol [ _setIndex ? 37 12 21 ];
+        putv self :_setIndex dup %tmp.8;
+C__DEV_GymTracker_source_WorkoutEngine_mc_36_27_38_8_stop:
+        goto @C__DEV_GymTracker_source_WorkoutEngine_mc_36_8_38_8_if_end;
+C__DEV_GymTracker_source_WorkoutEngine_mc_36_8_38_8_if_end:
+C__DEV_GymTracker_source_WorkoutEngine_mc_35_42_39_4_stop:
+    }
+    [ @file = "C:\DEV\GymTracker\source\WorkoutEngine.mc"; @line = 41; @symbol_functiondef = [getCurrentSetIndex,41,20,38]; @symbol_return<0> = [Lang,41,44,48]; @symbol_return<1> = [Number,41,49,55]; ]
+    public
+    function getCurrentSetIndex() as Lang.Number {
+C__DEV_GymTracker_source_WorkoutEngine_mc_41_56_43_4_start:
+[ "C:\DEV\GymTracker\source\WorkoutEngine.mc" 42 8 ]
+        symbol [ _setIndex %tmp.2 42 15 24 ];
+        %tmp.2 = getv ? :_setIndex;
+        ret %tmp.2;
+C__DEV_GymTracker_source_WorkoutEngine_mc_41_56_43_4_stop:
+    }
+}
+[ @file = "C:\DEV\GymTracker\source\WorkoutEngine.mc"; @line = 1; ]
+<init> {
+}

@@ -1,0 +1,1566 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="C:\DEV\GymTracker\manifest.xml"/>
+<pcToLineNum>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="1" lineNum="7" parent="globals/Rez" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="2" lineNum="5" parent="globals/ActiveWorkoutView" pc="268435480" symbol="&lt;init&gt;"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesView.mc" id="3" lineNum="5" parent="globals/WorkoutTemplatesView" pc="268435492" symbol="&lt;init&gt;"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesViewDelegate.mc" id="4" lineNum="5" parent="globals/WorkoutTemplatesViewDelegate" pc="268435504" symbol="&lt;init&gt;"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\AnalyticsView.mc" id="5" lineNum="5" parent="globals/AnalyticsView" pc="268435516" symbol="&lt;init&gt;"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\Button.mc" id="6" lineNum="5" parent="globals/Button" pc="268435528" symbol="&lt;init&gt;"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\HomeViewDelegate.mc" id="7" lineNum="5" parent="globals/HomeViewDelegate" pc="268435540" symbol="&lt;init&gt;"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutViewDelegate.mc" id="8" lineNum="4" parent="globals/ActiveWorkoutViewDelegate" pc="268435552" symbol="&lt;init&gt;"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerApp.mc" id="9" lineNum="28" parent="globals" pc="268435564" symbol="getApp"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerApp.mc" id="9" lineNum="29" parent="globals" pc="268435574" symbol="getApp"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\HomeView.mc" id="10" lineNum="4" parent="globals/HomeView" pc="268435585" symbol="&lt;init&gt;"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerMenuDelegate.mc" id="11" lineNum="5" parent="globals/GymTrackerMenuDelegate" pc="268435597" symbol="&lt;init&gt;"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerApp.mc" id="12" lineNum="5" parent="globals/GymTrackerApp" pc="268435609" symbol="&lt;init&gt;"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerDelegate.mc" id="13" lineNum="4" parent="globals/GymTrackerDelegate" pc="268435621" symbol="&lt;init&gt;"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\AppDelegate.mc" id="14" lineNum="5" parent="globals/AppDelegate" pc="268435633" symbol="&lt;init&gt;"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ExerciseLibraryView.mc" id="15" lineNum="5" parent="globals/ExerciseLibraryView" pc="268435645" symbol="&lt;init&gt;"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="16" lineNum="9" parent="globals/SensorService" pc="268435657" symbol="&lt;init&gt;"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerView.mc" id="17" lineNum="4" parent="globals/GymTrackerView" pc="268435667" symbol="&lt;init&gt;"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="18" lineNum="14" parent="globals/Progression/LinearProgression" pc="268435679" symbol="&lt;init&gt;"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="19" lineNum="51" parent="globals/Progression/DoubleProgression" pc="268435691" symbol="&lt;init&gt;"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\NavigationController.mc" id="20" lineNum="11" parent="globals/NavigationController" pc="268435703" symbol="popView"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\NavigationController.mc" id="20" lineNum="12" parent="globals/NavigationController" pc="268435705" symbol="popView"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\NavigationController.mc" id="21" lineNum="7" parent="globals/NavigationController" pc="268435721" symbol="pushView"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\NavigationController.mc" id="21" lineNum="8" parent="globals/NavigationController" pc="268435723" symbol="pushView"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="24" lineNum="54" parent="globals/ActiveWorkoutView" pc="268435743" symbol="previousSet"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="24" lineNum="55" parent="globals/ActiveWorkoutView" pc="268435745" symbol="previousSet"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="24" lineNum="56" parent="globals/ActiveWorkoutView" pc="268435757" symbol="previousSet"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="24" lineNum="57" parent="globals/ActiveWorkoutView" pc="268435775" symbol="previousSet"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="25" lineNum="42" parent="globals/ActiveWorkoutView" pc="268435787" symbol="nextExercise"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="25" lineNum="43" parent="globals/ActiveWorkoutView" pc="268435789" symbol="nextExercise"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="25" lineNum="44" parent="globals/ActiveWorkoutView" pc="268435801" symbol="nextExercise"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="25" lineNum="45" parent="globals/ActiveWorkoutView" pc="268435819" symbol="nextExercise"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="27" lineNum="15" parent="globals/ActiveWorkoutView" pc="268435831" symbol="onLayout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="27" lineNum="16" parent="globals/ActiveWorkoutView" pc="268435833" symbol="onLayout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="28" lineNum="48" parent="globals/ActiveWorkoutView" pc="268435867" symbol="nextSet"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="28" lineNum="49" parent="globals/ActiveWorkoutView" pc="268435869" symbol="nextSet"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="28" lineNum="50" parent="globals/ActiveWorkoutView" pc="268435881" symbol="nextSet"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="28" lineNum="51" parent="globals/ActiveWorkoutView" pc="268435899" symbol="nextSet"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="29" lineNum="9" parent="globals/ActiveWorkoutView" pc="268435911" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="29" lineNum="10" parent="globals/ActiveWorkoutView" pc="268435913" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="29" lineNum="11" parent="globals/ActiveWorkoutView" pc="268435925" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="29" lineNum="12" parent="globals/ActiveWorkoutView" pc="268435952" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="31" lineNum="22" parent="globals/ActiveWorkoutView" pc="268435971" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="31" lineNum="23" parent="globals/ActiveWorkoutView" pc="268435974" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="31" lineNum="25" parent="globals/ActiveWorkoutView" pc="268435990" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="31" lineNum="26" parent="globals/ActiveWorkoutView" pc="268436013" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="31" lineNum="27" parent="globals/ActiveWorkoutView" pc="268436029" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="31" lineNum="28" parent="globals/ActiveWorkoutView" pc="268436035" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="31" lineNum="29" parent="globals/ActiveWorkoutView" pc="268436055" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="31" lineNum="30" parent="globals/ActiveWorkoutView" pc="268436081" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="31" lineNum="33" parent="globals/ActiveWorkoutView" pc="268436145" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="31" lineNum="34" parent="globals/ActiveWorkoutView" pc="268436174" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="31" lineNum="35" parent="globals/ActiveWorkoutView" pc="268436221" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutView.mc" id="31" lineNum="36" parent="globals/ActiveWorkoutView" pc="268436264" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesView.mc" id="33" lineNum="13" parent="globals/WorkoutTemplatesView" pc="268436314" symbol="onLayout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesView.mc" id="33" lineNum="14" parent="globals/WorkoutTemplatesView" pc="268436316" symbol="onLayout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesView.mc" id="34" lineNum="8" parent="globals/WorkoutTemplatesView" pc="268436350" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesView.mc" id="34" lineNum="9" parent="globals/WorkoutTemplatesView" pc="268436352" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesView.mc" id="34" lineNum="10" parent="globals/WorkoutTemplatesView" pc="268436364" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesView.mc" id="36" lineNum="20" parent="globals/WorkoutTemplatesView" pc="268436374" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesView.mc" id="36" lineNum="21" parent="globals/WorkoutTemplatesView" pc="268436377" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesView.mc" id="36" lineNum="22" parent="globals/WorkoutTemplatesView" pc="268436393" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesView.mc" id="36" lineNum="23" parent="globals/WorkoutTemplatesView" pc="268436406" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesView.mc" id="36" lineNum="24" parent="globals/WorkoutTemplatesView" pc="268436426" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesViewDelegate.mc" id="37" lineNum="28" parent="globals/WorkoutTemplatesViewDelegate" pc="268436439" symbol="onPreviousPage"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesViewDelegate.mc" id="37" lineNum="29" parent="globals/WorkoutTemplatesViewDelegate" pc="268436441" symbol="onPreviousPage"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesViewDelegate.mc" id="37" lineNum="30" parent="globals/WorkoutTemplatesViewDelegate" pc="268436480" symbol="onPreviousPage"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesViewDelegate.mc" id="37" lineNum="31" parent="globals/WorkoutTemplatesViewDelegate" pc="268436491" symbol="onPreviousPage"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesViewDelegate.mc" id="38" lineNum="34" parent="globals/WorkoutTemplatesViewDelegate" pc="268436493" symbol="getTitle"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesViewDelegate.mc" id="38" lineNum="35" parent="globals/WorkoutTemplatesViewDelegate" pc="268436495" symbol="getTitle"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesViewDelegate.mc" id="39" lineNum="9" parent="globals/WorkoutTemplatesViewDelegate" pc="268436512" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesViewDelegate.mc" id="39" lineNum="10" parent="globals/WorkoutTemplatesViewDelegate" pc="268436514" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesViewDelegate.mc" id="39" lineNum="11" parent="globals/WorkoutTemplatesViewDelegate" pc="268436526" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesViewDelegate.mc" id="39" lineNum="12" parent="globals/WorkoutTemplatesViewDelegate" pc="268436543" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesViewDelegate.mc" id="40" lineNum="15" parent="globals/WorkoutTemplatesViewDelegate" pc="268436552" symbol="onSelect"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesViewDelegate.mc" id="40" lineNum="16" parent="globals/WorkoutTemplatesViewDelegate" pc="268436555" symbol="onSelect"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesViewDelegate.mc" id="40" lineNum="17" parent="globals/WorkoutTemplatesViewDelegate" pc="268436568" symbol="onSelect"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesViewDelegate.mc" id="40" lineNum="18" parent="globals/WorkoutTemplatesViewDelegate" pc="268436590" symbol="onSelect"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesViewDelegate.mc" id="40" lineNum="19" parent="globals/WorkoutTemplatesViewDelegate" pc="268436627" symbol="onSelect"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesViewDelegate.mc" id="41" lineNum="22" parent="globals/WorkoutTemplatesViewDelegate" pc="268436629" symbol="onNextPage"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesViewDelegate.mc" id="41" lineNum="23" parent="globals/WorkoutTemplatesViewDelegate" pc="268436631" symbol="onNextPage"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesViewDelegate.mc" id="41" lineNum="24" parent="globals/WorkoutTemplatesViewDelegate" pc="268436658" symbol="onNextPage"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\WorkoutTemplatesViewDelegate.mc" id="41" lineNum="25" parent="globals/WorkoutTemplatesViewDelegate" pc="268436669" symbol="onNextPage"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\AnalyticsView.mc" id="43" lineNum="11" parent="globals/AnalyticsView" pc="268436671" symbol="onLayout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\AnalyticsView.mc" id="43" lineNum="12" parent="globals/AnalyticsView" pc="268436673" symbol="onLayout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\AnalyticsView.mc" id="44" lineNum="7" parent="globals/AnalyticsView" pc="268436707" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\AnalyticsView.mc" id="44" lineNum="8" parent="globals/AnalyticsView" pc="268436709" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\AnalyticsView.mc" id="46" lineNum="18" parent="globals/AnalyticsView" pc="268436722" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\AnalyticsView.mc" id="46" lineNum="19" parent="globals/AnalyticsView" pc="268436725" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\AnalyticsView.mc" id="46" lineNum="21" parent="globals/AnalyticsView" pc="268436741" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\AnalyticsView.mc" id="46" lineNum="23" parent="globals/AnalyticsView" pc="268436753" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\AnalyticsView.mc" id="46" lineNum="24" parent="globals/AnalyticsView" pc="268436773" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\AnalyticsView.mc" id="46" lineNum="26" parent="globals/AnalyticsView" pc="268436797" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\AnalyticsView.mc" id="46" lineNum="27" parent="globals/AnalyticsView" pc="268436817" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\AnalyticsView.mc" id="46" lineNum="29" parent="globals/AnalyticsView" pc="268436841" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\AnalyticsView.mc" id="46" lineNum="30" parent="globals/AnalyticsView" pc="268436861" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\AnalyticsView.mc" id="46" lineNum="32" parent="globals/AnalyticsView" pc="268436885" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\AnalyticsView.mc" id="46" lineNum="33" parent="globals/AnalyticsView" pc="268436905" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\Button.mc" id="47" lineNum="13" parent="globals/Button" pc="268436930" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\Button.mc" id="47" lineNum="20" parent="globals/Button" pc="268436932" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\Button.mc" id="47" lineNum="22" parent="globals/Button" pc="268436948" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\Button.mc" id="47" lineNum="23" parent="globals/Button" pc="268436963" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\Button.mc" id="47" lineNum="24" parent="globals/Button" pc="268436978" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\Button.mc" id="47" lineNum="25" parent="globals/Button" pc="268436993" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\Button.mc" id="47" lineNum="26" parent="globals/Button" pc="268437008" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\Button.mc" id="48" lineNum="29" parent="globals/Button" pc="268437024" symbol="draw"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\Button.mc" id="48" lineNum="30" parent="globals/Button" pc="268437027" symbol="draw"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\Button.mc" id="48" lineNum="31" parent="globals/Button" pc="268437045" symbol="draw"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\Button.mc" id="48" lineNum="33" parent="globals/Button" pc="268437063" symbol="draw"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\Button.mc" id="48" lineNum="34" parent="globals/Button" pc="268437083" symbol="draw"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\Button.mc" id="48" lineNum="36" parent="globals/Button" pc="268437107" symbol="draw"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\Button.mc" id="48" lineNum="37" parent="globals/Button" pc="268437124" symbol="draw"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\HomeViewDelegate.mc" id="49" lineNum="11" parent="globals/HomeViewDelegate" pc="268437166" symbol="onMenu"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\HomeViewDelegate.mc" id="49" lineNum="12" parent="globals/HomeViewDelegate" pc="268437168" symbol="onMenu"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\HomeViewDelegate.mc" id="49" lineNum="13" parent="globals/HomeViewDelegate" pc="268437233" symbol="onMenu"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\HomeViewDelegate.mc" id="50" lineNum="7" parent="globals/HomeViewDelegate" pc="268437235" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\HomeViewDelegate.mc" id="50" lineNum="8" parent="globals/HomeViewDelegate" pc="268437237" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\HomeViewDelegate.mc" id="51" lineNum="16" parent="globals/HomeViewDelegate" pc="268437250" symbol="onSelect"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\HomeViewDelegate.mc" id="51" lineNum="17" parent="globals/HomeViewDelegate" pc="268437253" symbol="onSelect"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\HomeViewDelegate.mc" id="51" lineNum="18" parent="globals/HomeViewDelegate" pc="268437273" symbol="onSelect"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\HomeViewDelegate.mc" id="51" lineNum="19" parent="globals/HomeViewDelegate" pc="268437295" symbol="onSelect"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\HomeViewDelegate.mc" id="51" lineNum="20" parent="globals/HomeViewDelegate" pc="268437314" symbol="onSelect"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\HomeViewDelegate.mc" id="52" lineNum="23" parent="globals/HomeViewDelegate" pc="268437316" symbol="onKey"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\HomeViewDelegate.mc" id="52" lineNum="24" parent="globals/HomeViewDelegate" pc="268437318" symbol="onKey"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\HomeViewDelegate.mc" id="52" lineNum="25" parent="globals/HomeViewDelegate" pc="268437331" symbol="onKey"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\HomeViewDelegate.mc" id="52" lineNum="27" parent="globals/HomeViewDelegate" pc="268437341" symbol="onKey"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\WorkoutEngine.mc" id="53" lineNum="35" parent="globals/WorkoutEngine" pc="268437343" symbol="previousSet"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\WorkoutEngine.mc" id="53" lineNum="36" parent="globals/WorkoutEngine" pc="268437345" symbol="previousSet"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\WorkoutEngine.mc" id="53" lineNum="37" parent="globals/WorkoutEngine" pc="268437355" symbol="previousSet"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\WorkoutEngine.mc" id="54" lineNum="22" parent="globals/WorkoutEngine" pc="268437374" symbol="nextExercise"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\WorkoutEngine.mc" id="54" lineNum="23" parent="globals/WorkoutEngine" pc="268437376" symbol="nextExercise"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\WorkoutEngine.mc" id="54" lineNum="24" parent="globals/WorkoutEngine" pc="268437404" symbol="nextExercise"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\WorkoutEngine.mc" id="54" lineNum="25" parent="globals/WorkoutEngine" pc="268437419" symbol="nextExercise"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\WorkoutEngine.mc" id="55" lineNum="18" parent="globals/WorkoutEngine" pc="268437431" symbol="getCurrentSet"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\WorkoutEngine.mc" id="55" lineNum="19" parent="globals/WorkoutEngine" pc="268437433" symbol="getCurrentSet"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\WorkoutEngine.mc" id="56" lineNum="29" parent="globals/WorkoutEngine" pc="268437461" symbol="nextSet"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\WorkoutEngine.mc" id="56" lineNum="30" parent="globals/WorkoutEngine" pc="268437463" symbol="nextSet"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\WorkoutEngine.mc" id="56" lineNum="31" parent="globals/WorkoutEngine" pc="268437502" symbol="nextSet"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\WorkoutEngine.mc" id="57" lineNum="41" parent="globals/WorkoutEngine" pc="268437521" symbol="getCurrentSetIndex"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\WorkoutEngine.mc" id="57" lineNum="42" parent="globals/WorkoutEngine" pc="268437523" symbol="getCurrentSetIndex"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\WorkoutEngine.mc" id="58" lineNum="8" parent="globals/WorkoutEngine" pc="268437529" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\WorkoutEngine.mc" id="58" lineNum="9" parent="globals/WorkoutEngine" pc="268437531" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\WorkoutEngine.mc" id="58" lineNum="10" parent="globals/WorkoutEngine" pc="268437540" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\WorkoutEngine.mc" id="58" lineNum="11" parent="globals/WorkoutEngine" pc="268437548" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\WorkoutEngine.mc" id="59" lineNum="14" parent="globals/WorkoutEngine" pc="268437557" symbol="getCurrentExercise"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\WorkoutEngine.mc" id="59" lineNum="15" parent="globals/WorkoutEngine" pc="268437559" symbol="getCurrentExercise"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutViewDelegate.mc" id="60" lineNum="23" parent="globals/ActiveWorkoutViewDelegate" pc="268437576" symbol="onPreviousPage"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutViewDelegate.mc" id="60" lineNum="24" parent="globals/ActiveWorkoutViewDelegate" pc="268437578" symbol="onPreviousPage"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutViewDelegate.mc" id="60" lineNum="25" parent="globals/ActiveWorkoutViewDelegate" pc="268437590" symbol="onPreviousPage"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutViewDelegate.mc" id="61" lineNum="8" parent="globals/ActiveWorkoutViewDelegate" pc="268437592" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutViewDelegate.mc" id="61" lineNum="9" parent="globals/ActiveWorkoutViewDelegate" pc="268437594" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutViewDelegate.mc" id="61" lineNum="10" parent="globals/ActiveWorkoutViewDelegate" pc="268437606" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutViewDelegate.mc" id="62" lineNum="13" parent="globals/ActiveWorkoutViewDelegate" pc="268437616" symbol="onSelect"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutViewDelegate.mc" id="62" lineNum="14" parent="globals/ActiveWorkoutViewDelegate" pc="268437618" symbol="onSelect"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutViewDelegate.mc" id="62" lineNum="15" parent="globals/ActiveWorkoutViewDelegate" pc="268437630" symbol="onSelect"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutViewDelegate.mc" id="63" lineNum="18" parent="globals/ActiveWorkoutViewDelegate" pc="268437632" symbol="onNextPage"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutViewDelegate.mc" id="63" lineNum="19" parent="globals/ActiveWorkoutViewDelegate" pc="268437634" symbol="onNextPage"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ActiveWorkoutViewDelegate.mc" id="63" lineNum="20" parent="globals/ActiveWorkoutViewDelegate" pc="268437646" symbol="onNextPage"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\HomeView.mc" id="65" lineNum="10" parent="globals/HomeView" pc="268437648" symbol="onLayout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\HomeView.mc" id="65" lineNum="11" parent="globals/HomeView" pc="268437650" symbol="onLayout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\HomeView.mc" id="66" lineNum="6" parent="globals/HomeView" pc="268437684" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\HomeView.mc" id="66" lineNum="7" parent="globals/HomeView" pc="268437686" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\HomeView.mc" id="68" lineNum="17" parent="globals/HomeView" pc="268437699" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\HomeView.mc" id="68" lineNum="18" parent="globals/HomeView" pc="268437701" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\BiometricService.mc" id="70" lineNum="7" parent="globals/BiometricService" pc="268437718" symbol="getBiometricData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\BiometricService.mc" id="70" lineNum="8" parent="globals/BiometricService" pc="268437729" symbol="getBiometricData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\BiometricService.mc" id="70" lineNum="9" parent="globals/BiometricService" pc="268437741" symbol="getBiometricData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\BiometricService.mc" id="70" lineNum="11" parent="globals/BiometricService" pc="268437744" symbol="getBiometricData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\BiometricService.mc" id="70" lineNum="12" parent="globals/BiometricService" pc="268437766" symbol="getBiometricData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\BiometricService.mc" id="70" lineNum="15" parent="globals/BiometricService" pc="268437778" symbol="getBiometricData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="71" lineNum="59" parent="globals/DataManager" pc="268437804" symbol="saveWorkoutLog"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="71" lineNum="60" parent="globals/DataManager" pc="268437815" symbol="saveWorkoutLog"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="71" lineNum="61" parent="globals/DataManager" pc="268437830" symbol="saveWorkoutLog"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="71" lineNum="62" parent="globals/DataManager" pc="268437836" symbol="saveWorkoutLog"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="71" lineNum="64" parent="globals/DataManager" pc="268437843" symbol="saveWorkoutLog"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="71" lineNum="65" parent="globals/DataManager" pc="268437855" symbol="saveWorkoutLog"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="89" parent="globals/DataManager" pc="268437872" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="90" parent="globals/DataManager" pc="268437883" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="91" parent="globals/DataManager" pc="268437898" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="92" parent="globals/DataManager" pc="268437901" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="93" parent="globals/DataManager" pc="268437904" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="94" parent="globals/DataManager" pc="268437907" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="96" parent="globals/DataManager" pc="268437910" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="97" parent="globals/DataManager" pc="268437916" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="105" parent="globals/DataManager" pc="268437957" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="106" parent="globals/DataManager" pc="268437973" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="107" parent="globals/DataManager" pc="268437980" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="108" parent="globals/DataManager" pc="268438008" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="111" parent="globals/DataManager" pc="268438014" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="112" parent="globals/DataManager" pc="268438035" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="113" parent="globals/DataManager" pc="268438046" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="114" parent="globals/DataManager" pc="268438079" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="117" parent="globals/DataManager" pc="268438085" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="119" parent="globals/DataManager" pc="268438098" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="120" parent="globals/DataManager" pc="268438119" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="121" parent="globals/DataManager" pc="268438130" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="122" parent="globals/DataManager" pc="268438158" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="124" parent="globals/DataManager" pc="268438178" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="125" parent="globals/DataManager" pc="268438195" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="126" parent="globals/DataManager" pc="268438208" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="128" parent="globals/DataManager" pc="268438223" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="129" parent="globals/DataManager" pc="268438240" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="130" parent="globals/DataManager" pc="268438253" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="132" parent="globals/DataManager" pc="268438268" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="133" parent="globals/DataManager" pc="268438285" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="134" parent="globals/DataManager" pc="268438298" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="72" lineNum="142" parent="globals/DataManager" pc="268438346" symbol="getAnalytics"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="73" lineNum="13" parent="globals/DataManager" pc="268438384" symbol="saveData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="73" lineNum="14" parent="globals/DataManager" pc="268438394" symbol="saveData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="74" lineNum="17" parent="globals/DataManager" pc="268438412" symbol="loadData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="74" lineNum="18" parent="globals/DataManager" pc="268438422" symbol="loadData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="75" lineNum="21" parent="globals/DataManager" pc="268438437" symbol="loadPrebuiltTemplates"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="75" lineNum="22" parent="globals/DataManager" pc="268438448" symbol="loadPrebuiltTemplates"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="75" lineNum="23" parent="globals/DataManager" pc="268438481" symbol="loadPrebuiltTemplates"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="75" lineNum="26" parent="globals/DataManager" pc="268438485" symbol="loadPrebuiltTemplates"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="75" lineNum="27" parent="globals/DataManager" pc="268438501" symbol="loadPrebuiltTemplates"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="75" lineNum="28" parent="globals/DataManager" pc="268438508" symbol="loadPrebuiltTemplates"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="75" lineNum="29" parent="globals/DataManager" pc="268438518" symbol="loadPrebuiltTemplates"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="75" lineNum="32" parent="globals/DataManager" pc="268438522" symbol="loadPrebuiltTemplates"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="75" lineNum="33" parent="globals/DataManager" pc="268438538" symbol="loadPrebuiltTemplates"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="75" lineNum="34" parent="globals/DataManager" pc="268438545" symbol="loadPrebuiltTemplates"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="75" lineNum="35" parent="globals/DataManager" pc="268438555" symbol="loadPrebuiltTemplates"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="75" lineNum="37" parent="globals/DataManager" pc="268438559" symbol="loadPrebuiltTemplates"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="75" lineNum="38" parent="globals/DataManager" pc="268438565" symbol="loadPrebuiltTemplates"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="75" lineNum="39" parent="globals/DataManager" pc="268438582" symbol="loadPrebuiltTemplates"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="75" lineNum="40" parent="globals/DataManager" pc="268438589" symbol="loadPrebuiltTemplates"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="75" lineNum="41" parent="globals/DataManager" pc="268438599" symbol="loadPrebuiltTemplates"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="75" lineNum="42" parent="globals/DataManager" pc="268438609" symbol="loadPrebuiltTemplates"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="75" lineNum="43" parent="globals/DataManager" pc="268438619" symbol="loadPrebuiltTemplates"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="75" lineNum="47" parent="globals/DataManager" pc="268438670" symbol="loadPrebuiltTemplates"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="75" lineNum="48" parent="globals/DataManager" pc="268438680" symbol="loadPrebuiltTemplates"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="75" lineNum="49" parent="globals/DataManager" pc="268438710" symbol="loadPrebuiltTemplates"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="75" lineNum="52" parent="globals/DataManager" pc="268438756" symbol="loadPrebuiltTemplates"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="75" lineNum="53" parent="globals/DataManager" pc="268438766" symbol="loadPrebuiltTemplates"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="75" lineNum="54" parent="globals/DataManager" pc="268438776" symbol="loadPrebuiltTemplates"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="75" lineNum="56" parent="globals/DataManager" pc="268438824" symbol="loadPrebuiltTemplates"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="76" lineNum="68" parent="globals/DataManager" pc="268438827" symbol="getLastWorkoutForExercise"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="76" lineNum="69" parent="globals/DataManager" pc="268438838" symbol="getLastWorkoutForExercise"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="76" lineNum="70" parent="globals/DataManager" pc="268438853" symbol="getLastWorkoutForExercise"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="76" lineNum="71" parent="globals/DataManager" pc="268438859" symbol="getLastWorkoutForExercise"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="76" lineNum="74" parent="globals/DataManager" pc="268438864" symbol="getLastWorkoutForExercise"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="76" lineNum="75" parent="globals/DataManager" pc="268438883" symbol="getLastWorkoutForExercise"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="76" lineNum="76" parent="globals/DataManager" pc="268438890" symbol="getLastWorkoutForExercise"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="76" lineNum="77" parent="globals/DataManager" pc="268438907" symbol="getLastWorkoutForExercise"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="76" lineNum="78" parent="globals/DataManager" pc="268438929" symbol="getLastWorkoutForExercise"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="76" lineNum="79" parent="globals/DataManager" pc="268438941" symbol="getLastWorkoutForExercise"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="76" lineNum="80" parent="globals/DataManager" pc="268438983" symbol="getLastWorkoutForExercise"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataManager.mc" id="76" lineNum="86" parent="globals/DataManager" pc="268439012" symbol="getLastWorkoutForExercise"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerMenuDelegate.mc" id="77" lineNum="11" parent="globals/GymTrackerMenuDelegate" pc="268439014" symbol="onMenuItem"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerMenuDelegate.mc" id="77" lineNum="12" parent="globals/GymTrackerMenuDelegate" pc="268439016" symbol="onMenuItem"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerMenuDelegate.mc" id="77" lineNum="13" parent="globals/GymTrackerMenuDelegate" pc="268439027" symbol="onMenuItem"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerMenuDelegate.mc" id="77" lineNum="14" parent="globals/GymTrackerMenuDelegate" pc="268439048" symbol="onMenuItem"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerMenuDelegate.mc" id="77" lineNum="15" parent="globals/GymTrackerMenuDelegate" pc="268439059" symbol="onMenuItem"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerMenuDelegate.mc" id="78" lineNum="7" parent="globals/GymTrackerMenuDelegate" pc="268439081" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerMenuDelegate.mc" id="78" lineNum="8" parent="globals/GymTrackerMenuDelegate" pc="268439083" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SyncService.mc" id="79" lineNum="7" parent="globals/SyncService" pc="268439096" symbol="syncWorkoutLog"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SyncService.mc" id="79" lineNum="8" parent="globals/SyncService" pc="268439107" symbol="syncWorkoutLog"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SyncService.mc" id="79" lineNum="9" parent="globals/SyncService" pc="268439114" symbol="syncWorkoutLog"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SyncService.mc" id="79" lineNum="15" parent="globals/SyncService" pc="268439158" symbol="syncWorkoutLog"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SyncService.mc" id="79" lineNum="16" parent="globals/SyncService" pc="268439179" symbol="syncWorkoutLog"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SyncService.mc" id="79" lineNum="17" parent="globals/SyncService" pc="268439190" symbol="syncWorkoutLog"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SyncService.mc" id="79" lineNum="21" parent="globals/SyncService" pc="268439222" symbol="syncWorkoutLog"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SyncService.mc" id="79" lineNum="22" parent="globals/SyncService" pc="268439243" symbol="syncWorkoutLog"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SyncService.mc" id="79" lineNum="23" parent="globals/SyncService" pc="268439254" symbol="syncWorkoutLog"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SyncService.mc" id="79" lineNum="29" parent="globals/SyncService" pc="268439322" symbol="syncWorkoutLog"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SyncService.mc" id="79" lineNum="32" parent="globals/SyncService" pc="268439351" symbol="syncWorkoutLog"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SyncService.mc" id="79" lineNum="40" parent="globals/SyncService" pc="268439384" symbol="syncWorkoutLog"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SyncService.mc" id="80" lineNum="43" parent="globals/SyncService" pc="268439432" symbol="onSyncComplete"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SyncService.mc" id="80" lineNum="44" parent="globals/SyncService" pc="268439442" symbol="onSyncComplete"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SyncService.mc" id="80" lineNum="45" parent="globals/SyncService" pc="268439451" symbol="onSyncComplete"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SyncService.mc" id="80" lineNum="47" parent="globals/SyncService" pc="268439472" symbol="onSyncComplete"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerApp.mc" id="81" lineNum="12" parent="globals/GymTrackerApp" pc="268439494" symbol="onStart"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerApp.mc" id="82" lineNum="20" parent="globals/GymTrackerApp" pc="268439497" symbol="getInitialView"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerApp.mc" id="82" lineNum="21" parent="globals/GymTrackerApp" pc="268439500" symbol="getInitialView"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerApp.mc" id="82" lineNum="22" parent="globals/GymTrackerApp" pc="268439520" symbol="getInitialView"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerApp.mc" id="82" lineNum="23" parent="globals/GymTrackerApp" pc="268439540" symbol="getInitialView"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerApp.mc" id="83" lineNum="7" parent="globals/GymTrackerApp" pc="268439555" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerApp.mc" id="83" lineNum="8" parent="globals/GymTrackerApp" pc="268439557" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerApp.mc" id="84" lineNum="16" parent="globals/GymTrackerApp" pc="268439570" symbol="onStop"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerDelegate.mc" id="85" lineNum="10" parent="globals/GymTrackerDelegate" pc="268439573" symbol="onMenu"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerDelegate.mc" id="85" lineNum="11" parent="globals/GymTrackerDelegate" pc="268439575" symbol="onMenu"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerDelegate.mc" id="85" lineNum="12" parent="globals/GymTrackerDelegate" pc="268439640" symbol="onMenu"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerDelegate.mc" id="86" lineNum="6" parent="globals/GymTrackerDelegate" pc="268439642" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerDelegate.mc" id="86" lineNum="7" parent="globals/GymTrackerDelegate" pc="268439644" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\AppDelegate.mc" id="87" lineNum="12" parent="globals/AppDelegate" pc="268439657" symbol="onStart"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\AppDelegate.mc" id="88" lineNum="20" parent="globals/AppDelegate" pc="268439660" symbol="getInitialView"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\AppDelegate.mc" id="88" lineNum="21" parent="globals/AppDelegate" pc="268439662" symbol="getInitialView"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\AppDelegate.mc" id="89" lineNum="7" parent="globals/AppDelegate" pc="268439709" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\AppDelegate.mc" id="89" lineNum="8" parent="globals/AppDelegate" pc="268439711" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\AppDelegate.mc" id="90" lineNum="16" parent="globals/AppDelegate" pc="268439724" symbol="onStop"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ExerciseLibraryView.mc" id="92" lineNum="11" parent="globals/ExerciseLibraryView" pc="268439727" symbol="onLayout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ExerciseLibraryView.mc" id="92" lineNum="12" parent="globals/ExerciseLibraryView" pc="268439729" symbol="onLayout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ExerciseLibraryView.mc" id="93" lineNum="7" parent="globals/ExerciseLibraryView" pc="268439763" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ExerciseLibraryView.mc" id="93" lineNum="8" parent="globals/ExerciseLibraryView" pc="268439765" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ExerciseLibraryView.mc" id="95" lineNum="18" parent="globals/ExerciseLibraryView" pc="268439778" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\ui\\ExerciseLibraryView.mc" id="95" lineNum="19" parent="globals/ExerciseLibraryView" pc="268439780" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="96" lineNum="151" parent="globals/SensorService" pc="268439797" symbol="hasPulseOx"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="96" lineNum="152" parent="globals/SensorService" pc="268439807" symbol="hasPulseOx"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="97" lineNum="143" parent="globals/SensorService" pc="268439824" symbol="hasGyroscope"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="97" lineNum="144" parent="globals/SensorService" pc="268439834" symbol="hasGyroscope"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="98" lineNum="134" parent="globals/SensorService" pc="268439851" symbol="findSensorIndex"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="98" lineNum="135" parent="globals/SensorService" pc="268439861" symbol="findSensorIndex"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="99" lineNum="61" parent="globals/SensorService" pc="268439877" symbol="enableAvailableSensors"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="99" lineNum="62" parent="globals/SensorService" pc="268439888" symbol="enableAvailableSensors"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="99" lineNum="63" parent="globals/SensorService" pc="268439904" symbol="enableAvailableSensors"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="99" lineNum="64" parent="globals/SensorService" pc="268439922" symbol="enableAvailableSensors"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="99" lineNum="70" parent="globals/SensorService" pc="268439926" symbol="enableAvailableSensors"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="99" lineNum="72" parent="globals/SensorService" pc="268439950" symbol="enableAvailableSensors"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="99" lineNum="73" parent="globals/SensorService" pc="268439954" symbol="enableAvailableSensors"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="100" lineNum="20" parent="globals/SensorService" pc="268439993" symbol="checkDeviceCapabilities"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="100" lineNum="21" parent="globals/SensorService" pc="268440004" symbol="checkDeviceCapabilities"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="100" lineNum="24" parent="globals/SensorService" pc="268440013" symbol="checkDeviceCapabilities"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="100" lineNum="27" parent="globals/SensorService" pc="268440025" symbol="checkDeviceCapabilities"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="100" lineNum="28" parent="globals/SensorService" pc="268440036" symbol="checkDeviceCapabilities"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="100" lineNum="29" parent="globals/SensorService" pc="268440055" symbol="checkDeviceCapabilities"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="100" lineNum="33" parent="globals/SensorService" pc="268440076" symbol="checkDeviceCapabilities"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="100" lineNum="34" parent="globals/SensorService" pc="268440087" symbol="checkDeviceCapabilities"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="100" lineNum="35" parent="globals/SensorService" pc="268440106" symbol="checkDeviceCapabilities"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="100" lineNum="39" parent="globals/SensorService" pc="268440127" symbol="checkDeviceCapabilities"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="100" lineNum="40" parent="globals/SensorService" pc="268440138" symbol="checkDeviceCapabilities"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="100" lineNum="41" parent="globals/SensorService" pc="268440157" symbol="checkDeviceCapabilities"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="100" lineNum="45" parent="globals/SensorService" pc="268440178" symbol="checkDeviceCapabilities"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="100" lineNum="46" parent="globals/SensorService" pc="268440189" symbol="checkDeviceCapabilities"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="100" lineNum="47" parent="globals/SensorService" pc="268440208" symbol="checkDeviceCapabilities"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="100" lineNum="51" parent="globals/SensorService" pc="268440229" symbol="checkDeviceCapabilities"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="100" lineNum="52" parent="globals/SensorService" pc="268440240" symbol="checkDeviceCapabilities"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="100" lineNum="53" parent="globals/SensorService" pc="268440259" symbol="checkDeviceCapabilities"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="100" lineNum="56" parent="globals/SensorService" pc="268440286" symbol="checkDeviceCapabilities"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="100" lineNum="57" parent="globals/SensorService" pc="268440290" symbol="checkDeviceCapabilities"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="101" lineNum="90" parent="globals/SensorService" pc="268440329" symbol="unregisterDataListener"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="101" lineNum="92" parent="globals/SensorService" pc="268440340" symbol="unregisterDataListener"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="101" lineNum="93" parent="globals/SensorService" pc="268440348" symbol="unregisterDataListener"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="101" lineNum="94" parent="globals/SensorService" pc="268440372" symbol="unregisterDataListener"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="101" lineNum="95" parent="globals/SensorService" pc="268440376" symbol="unregisterDataListener"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="102" lineNum="139" parent="globals/SensorService" pc="268440415" symbol="hasAccelerometer"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="102" lineNum="140" parent="globals/SensorService" pc="268440425" symbol="hasAccelerometer"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="103" lineNum="100" parent="globals/SensorService" pc="268440442" symbol="pollSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="103" lineNum="101" parent="globals/SensorService" pc="268440453" symbol="pollSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="103" lineNum="104" parent="globals/SensorService" pc="268440457" symbol="pollSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="103" lineNum="106" parent="globals/SensorService" pc="268440469" symbol="pollSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="103" lineNum="107" parent="globals/SensorService" pc="268440500" symbol="pollSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="103" lineNum="110" parent="globals/SensorService" pc="268440518" symbol="pollSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="103" lineNum="111" parent="globals/SensorService" pc="268440549" symbol="pollSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="103" lineNum="114" parent="globals/SensorService" pc="268440567" symbol="pollSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="103" lineNum="115" parent="globals/SensorService" pc="268440598" symbol="pollSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="103" lineNum="118" parent="globals/SensorService" pc="268440616" symbol="pollSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="103" lineNum="119" parent="globals/SensorService" pc="268440647" symbol="pollSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="103" lineNum="122" parent="globals/SensorService" pc="268440665" symbol="pollSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="103" lineNum="123" parent="globals/SensorService" pc="268440696" symbol="pollSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="103" lineNum="126" parent="globals/SensorService" pc="268440720" symbol="pollSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="103" lineNum="127" parent="globals/SensorService" pc="268440724" symbol="pollSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="103" lineNum="130" parent="globals/SensorService" pc="268440762" symbol="pollSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="104" lineNum="159" parent="globals/SensorService" pc="268440765" symbol="getAvailableSensors"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="104" lineNum="160" parent="globals/SensorService" pc="268440775" symbol="getAvailableSensors"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="105" lineNum="164" parent="globals/SensorService" pc="268440781" symbol="handleSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="105" lineNum="165" parent="globals/SensorService" pc="268440792" symbol="handleSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="105" lineNum="166" parent="globals/SensorService" pc="268440821" symbol="handleSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="105" lineNum="167" parent="globals/SensorService" pc="268440831" symbol="handleSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="105" lineNum="168" parent="globals/SensorService" pc="268440860" symbol="handleSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="105" lineNum="172" parent="globals/SensorService" pc="268440913" symbol="handleSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="105" lineNum="173" parent="globals/SensorService" pc="268440942" symbol="handleSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="105" lineNum="174" parent="globals/SensorService" pc="268440952" symbol="handleSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="105" lineNum="175" parent="globals/SensorService" pc="268440981" symbol="handleSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="105" lineNum="179" parent="globals/SensorService" pc="268441034" symbol="handleSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="105" lineNum="180" parent="globals/SensorService" pc="268441063" symbol="handleSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="105" lineNum="183" parent="globals/SensorService" pc="268441099" symbol="handleSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="105" lineNum="184" parent="globals/SensorService" pc="268441128" symbol="handleSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="105" lineNum="187" parent="globals/SensorService" pc="268441164" symbol="handleSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="105" lineNum="188" parent="globals/SensorService" pc="268441193" symbol="handleSensorData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="106" lineNum="147" parent="globals/SensorService" pc="268441230" symbol="hasHeartRate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="106" lineNum="148" parent="globals/SensorService" pc="268441240" symbol="hasHeartRate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="107" lineNum="77" parent="globals/SensorService" pc="268441257" symbol="registerDataListener"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="107" lineNum="78" parent="globals/SensorService" pc="268441268" symbol="registerDataListener"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="107" lineNum="83" parent="globals/SensorService" pc="268441277" symbol="registerDataListener"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="107" lineNum="85" parent="globals/SensorService" pc="268441301" symbol="registerDataListener"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="107" lineNum="86" parent="globals/SensorService" pc="268441305" symbol="registerDataListener"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="108" lineNum="155" parent="globals/SensorService" pc="268441344" symbol="hasTemperature"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="108" lineNum="156" parent="globals/SensorService" pc="268441354" symbol="hasTemperature"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="109" lineNum="12" parent="globals/SensorService" pc="268441371" symbol="initializeSensors"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="109" lineNum="14" parent="globals/SensorService" pc="268441381" symbol="initializeSensors"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\SensorService.mc" id="109" lineNum="17" parent="globals/SensorService" pc="268441388" symbol="initializeSensors"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerView.mc" id="111" lineNum="11" parent="globals/GymTrackerView" pc="268441396" symbol="onLayout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerView.mc" id="111" lineNum="12" parent="globals/GymTrackerView" pc="268441398" symbol="onLayout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerView.mc" id="112" lineNum="6" parent="globals/GymTrackerView" pc="268441432" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerView.mc" id="112" lineNum="7" parent="globals/GymTrackerView" pc="268441434" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerView.mc" id="114" lineNum="22" parent="globals/GymTrackerView" pc="268441447" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\GymTrackerView.mc" id="114" lineNum="24" parent="globals/GymTrackerView" pc="268441449" symbol="onUpdate"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="115" lineNum="24" parent="globals/Progression/LinearProgression" pc="268441466" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="115" lineNum="25" parent="globals/Progression/LinearProgression" pc="268441469" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="115" lineNum="26" parent="globals/Progression/LinearProgression" pc="268441487" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="115" lineNum="27" parent="globals/Progression/LinearProgression" pc="268441495" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="115" lineNum="28" parent="globals/Progression/LinearProgression" pc="268441499" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="115" lineNum="29" parent="globals/Progression/LinearProgression" pc="268441520" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="115" lineNum="30" parent="globals/Progression/LinearProgression" pc="268441531" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="115" lineNum="31" parent="globals/Progression/LinearProgression" pc="268441555" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="115" lineNum="39" parent="globals/Progression/LinearProgression" pc="268441634" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="115" lineNum="40" parent="globals/Progression/LinearProgression" pc="268441638" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="115" lineNum="41" parent="globals/Progression/LinearProgression" pc="268441659" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="115" lineNum="44" parent="globals/Progression/LinearProgression" pc="268441720" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="115" lineNum="46" parent="globals/Progression/LinearProgression" pc="268441766" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="115" lineNum="47" parent="globals/Progression/LinearProgression" pc="268441776" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="116" lineNum="17" parent="globals/Progression/LinearProgression" pc="268441779" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="116" lineNum="20" parent="globals/Progression/LinearProgression" pc="268441781" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="116" lineNum="21" parent="globals/Progression/LinearProgression" pc="268441793" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="117" lineNum="7" parent="globals/Progression/ProgressionScheme" pc="268441809" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="117" lineNum="10" parent="globals/Progression/ProgressionScheme" pc="268441811" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="119" lineNum="67" parent="globals/Progression/DoubleProgression" pc="268441818" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="119" lineNum="68" parent="globals/Progression/DoubleProgression" pc="268441821" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="119" lineNum="69" parent="globals/Progression/DoubleProgression" pc="268441839" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="119" lineNum="70" parent="globals/Progression/DoubleProgression" pc="268441847" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="119" lineNum="71" parent="globals/Progression/DoubleProgression" pc="268441851" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="119" lineNum="72" parent="globals/Progression/DoubleProgression" pc="268441872" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="119" lineNum="73" parent="globals/Progression/DoubleProgression" pc="268441883" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="119" lineNum="74" parent="globals/Progression/DoubleProgression" pc="268441907" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="119" lineNum="85" parent="globals/Progression/DoubleProgression" pc="268441986" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="119" lineNum="87" parent="globals/Progression/DoubleProgression" pc="268442001" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="119" lineNum="88" parent="globals/Progression/DoubleProgression" pc="268442015" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="119" lineNum="91" parent="globals/Progression/DoubleProgression" pc="268442025" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="119" lineNum="92" parent="globals/Progression/DoubleProgression" pc="268442033" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="119" lineNum="95" parent="globals/Progression/DoubleProgression" pc="268442044" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="119" lineNum="96" parent="globals/Progression/DoubleProgression" pc="268442048" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="119" lineNum="97" parent="globals/Progression/DoubleProgression" pc="268442069" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="119" lineNum="100" parent="globals/Progression/DoubleProgression" pc="268442116" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="119" lineNum="102" parent="globals/Progression/DoubleProgression" pc="268442162" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="119" lineNum="103" parent="globals/Progression/DoubleProgression" pc="268442172" symbol="suggestNextWorkout"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="120" lineNum="56" parent="globals/Progression/DoubleProgression" pc="268442175" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="120" lineNum="61" parent="globals/Progression/DoubleProgression" pc="268442177" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="120" lineNum="62" parent="globals/Progression/DoubleProgression" pc="268442189" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="120" lineNum="63" parent="globals/Progression/DoubleProgression" pc="268442204" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\Progression.mc" id="120" lineNum="64" parent="globals/Progression/DoubleProgression" pc="268442219" symbol="initialize"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="121" lineNum="58" parent="globals/Rez/Layouts" pc="268442235" symbol="HomeLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="121" lineNum="59" parent="globals/Rez/Layouts" pc="268442246" symbol="HomeLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="121" lineNum="61" parent="globals/Rez/Layouts" pc="268442343" symbol="HomeLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="121" lineNum="63" parent="globals/Rez/Layouts" pc="268442466" symbol="HomeLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="122" lineNum="52" parent="globals/Rez/Layouts" pc="268442481" symbol="ExerciseLibraryLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="122" lineNum="53" parent="globals/Rez/Layouts" pc="268442492" symbol="ExerciseLibraryLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="122" lineNum="55" parent="globals/Rez/Layouts" pc="268442589" symbol="ExerciseLibraryLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="123" lineNum="72" parent="globals/Rez/Layouts" pc="268442599" symbol="WorkoutTemplatesLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="123" lineNum="73" parent="globals/Rez/Layouts" pc="268442610" symbol="WorkoutTemplatesLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="123" lineNum="75" parent="globals/Rez/Layouts" pc="268442707" symbol="WorkoutTemplatesLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="124" lineNum="38" parent="globals/Rez/Layouts" pc="268442717" symbol="AnalyticsLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="124" lineNum="39" parent="globals/Rez/Layouts" pc="268442728" symbol="AnalyticsLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="124" lineNum="41" parent="globals/Rez/Layouts" pc="268442825" symbol="AnalyticsLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="124" lineNum="43" parent="globals/Rez/Layouts" pc="268442922" symbol="AnalyticsLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="124" lineNum="45" parent="globals/Rez/Layouts" pc="268443019" symbol="AnalyticsLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="124" lineNum="47" parent="globals/Rez/Layouts" pc="268443116" symbol="AnalyticsLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="124" lineNum="49" parent="globals/Rez/Layouts" pc="268443214" symbol="AnalyticsLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="125" lineNum="18" parent="globals/Rez/Layouts" pc="268443244" symbol="ActiveWorkoutLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="125" lineNum="19" parent="globals/Rez/Layouts" pc="268443255" symbol="ActiveWorkoutLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="125" lineNum="21" parent="globals/Rez/Layouts" pc="268443352" symbol="ActiveWorkoutLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="125" lineNum="23" parent="globals/Rez/Layouts" pc="268443449" symbol="ActiveWorkoutLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="125" lineNum="25" parent="globals/Rez/Layouts" pc="268443546" symbol="ActiveWorkoutLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="125" lineNum="27" parent="globals/Rez/Layouts" pc="268443643" symbol="ActiveWorkoutLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="125" lineNum="29" parent="globals/Rez/Layouts" pc="268443741" symbol="ActiveWorkoutLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="125" lineNum="31" parent="globals/Rez/Layouts" pc="268443839" symbol="ActiveWorkoutLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="125" lineNum="33" parent="globals/Rez/Layouts" pc="268443970" symbol="ActiveWorkoutLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="125" lineNum="35" parent="globals/Rez/Layouts" pc="268444102" symbol="ActiveWorkoutLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="126" lineNum="66" parent="globals/Rez/Layouts" pc="268444147" symbol="MainLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="126" lineNum="67" parent="globals/Rez/Layouts" pc="268444158" symbol="MainLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="126" lineNum="69" parent="globals/Rez/Layouts" pc="268444272" symbol="MainLayout"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="127" lineNum="80" parent="globals/Rez/Menus/MainMenu" pc="268444282" symbol="&lt;init&gt;"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\FormFeedback.mc" id="128" lineNum="15" parent="globals/FormFeedback/FormFeedbackManager" pc="268444294" symbol="checkForm"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\FormFeedback.mc" id="128" lineNum="16" parent="globals/FormFeedback/FormFeedbackManager" pc="268444296" symbol="checkForm"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\FormFeedback.mc" id="128" lineNum="17" parent="globals/FormFeedback/FormFeedbackManager" pc="268444313" symbol="checkForm"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\FormFeedback.mc" id="128" lineNum="18" parent="globals/FormFeedback/FormFeedbackManager" pc="268444328" symbol="checkForm"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\FormFeedback.mc" id="129" lineNum="9" parent="globals/FormFeedback/FormFeedbackManager" pc="268444381" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\FormFeedback.mc" id="129" lineNum="12" parent="globals/FormFeedback/FormFeedbackManager" pc="268444383" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\RepCounter.mc" id="130" lineNum="23" parent="globals/RepCounter/RepCounterManager" pc="268444399" symbol="getRepCount"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\RepCounter.mc" id="130" lineNum="24" parent="globals/RepCounter/RepCounterManager" pc="268444401" symbol="getRepCount"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\RepCounter.mc" id="131" lineNum="19" parent="globals/RepCounter/RepCounterManager" pc="268444407" symbol="stop"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\RepCounter.mc" id="131" lineNum="20" parent="globals/RepCounter/RepCounterManager" pc="268444409" symbol="stop"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\RepCounter.mc" id="132" lineNum="27" parent="globals/RepCounter/RepCounterManager" pc="268444418" symbol="processMotionData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\RepCounter.mc" id="132" lineNum="28" parent="globals/RepCounter/RepCounterManager" pc="268444420" symbol="processMotionData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\RepCounter.mc" id="132" lineNum="29" parent="globals/RepCounter/RepCounterManager" pc="268444429" symbol="processMotionData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\RepCounter.mc" id="132" lineNum="35" parent="globals/RepCounter/RepCounterManager" pc="268444433" symbol="processMotionData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\RepCounter.mc" id="132" lineNum="36" parent="globals/RepCounter/RepCounterManager" pc="268444445" symbol="processMotionData"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\RepCounter.mc" id="133" lineNum="15" parent="globals/RepCounter/RepCounterManager" pc="268444464" symbol="start"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\RepCounter.mc" id="133" lineNum="16" parent="globals/RepCounter/RepCounterManager" pc="268444466" symbol="start"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\RepCounter.mc" id="134" lineNum="10" parent="globals/RepCounter/RepCounterManager" pc="268444475" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\RepCounter.mc" id="134" lineNum="11" parent="globals/RepCounter/RepCounterManager" pc="268444477" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\RepCounter.mc" id="134" lineNum="12" parent="globals/RepCounter/RepCounterManager" pc="268444485" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="135" lineNum="30" parent="globals/DataModels/WorkoutTemplate" pc="268444494" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="135" lineNum="31" parent="globals/DataModels/WorkoutTemplate" pc="268444496" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="135" lineNum="32" parent="globals/DataModels/WorkoutTemplate" pc="268444505" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="135" lineNum="33" parent="globals/DataModels/WorkoutTemplate" pc="268444514" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="136" lineNum="14" parent="globals/DataModels/Exercise" pc="268444524" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="136" lineNum="15" parent="globals/DataModels/Exercise" pc="268444526" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="136" lineNum="16" parent="globals/DataModels/Exercise" pc="268444535" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="136" lineNum="17" parent="globals/DataModels/Exercise" pc="268444544" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="136" lineNum="18" parent="globals/DataModels/Exercise" pc="268444553" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="136" lineNum="19" parent="globals/DataModels/Exercise" pc="268444562" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="136" lineNum="20" parent="globals/DataModels/Exercise" pc="268444571" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="136" lineNum="21" parent="globals/DataModels/Exercise" pc="268444579" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="137" lineNum="43" parent="globals/DataModels/WorkoutLog" pc="268444588" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="137" lineNum="44" parent="globals/DataModels/WorkoutLog" pc="268444590" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="137" lineNum="45" parent="globals/DataModels/WorkoutLog" pc="268444599" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="137" lineNum="46" parent="globals/DataModels/WorkoutLog" pc="268444608" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="137" lineNum="47" parent="globals/DataModels/WorkoutLog" pc="268444617" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="138" lineNum="66" parent="globals/DataModels/SetLog" pc="268444627" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="138" lineNum="67" parent="globals/DataModels/SetLog" pc="268444629" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="138" lineNum="68" parent="globals/DataModels/SetLog" pc="268444638" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="138" lineNum="69" parent="globals/DataModels/SetLog" pc="268444647" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="139" lineNum="77" parent="globals/DataModels/UserSettings" pc="268444657" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="139" lineNum="78" parent="globals/DataModels/UserSettings" pc="268444659" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="139" lineNum="79" parent="globals/DataModels/UserSettings" pc="268444668" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="140" lineNum="87" parent="globals/DataModels/BiometricCache" pc="268444678" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="140" lineNum="88" parent="globals/DataModels/BiometricCache" pc="268444680" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="140" lineNum="89" parent="globals/DataModels/BiometricCache" pc="268444689" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="141" lineNum="55" parent="globals/DataModels/ExerciseLog" pc="268444699" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="141" lineNum="56" parent="globals/DataModels/ExerciseLog" pc="268444701" symbol="initialize"/>
+<entry filename="C:\\DEV\\GymTracker\\source\\DataModels.mc" id="141" lineNum="57" parent="globals/DataModels/ExerciseLog" pc="268444710" symbol="initialize"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="142" lineNum="81" parent="globals/Rez/Menus/MainMenu" pc="268444720" symbol="initialize"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="142" lineNum="82" parent="globals/Rez/Menus/MainMenu" pc="268444722" symbol="initialize"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="142" lineNum="83" parent="globals/Rez/Menus/MainMenu" pc="268444734" symbol="initialize"/>
+<entry filename="c:\\DEV\\GymTracker\\bin\\gen\\006-B4258-00\\source\\Rez.mcgen" id="142" lineNum="84" parent="globals/Rez/Menus/MainMenu" pc="268444779" symbol="initialize"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="50" method="true" symbol="previousSet"/>
+<entry id="66" method="true" symbol="getCurrentSetIndex"/>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry field="true" id="117" symbol="skip"/>
+<entry id="71" method="true" symbol="getLastWorkoutForExercise"/>
+<entry field="true" id="132" symbol="muscleGroups"/>
+<entry id="8389346" symbol="text"/>
+<entry id="31" object="true" symbol="NavigationController"/>
+<entry id="96" method="true" symbol="pollSensorData"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="12" module="true" symbol="globals/Rez/Menus"/>
+<entry id="23" object="true" symbol="ExerciseLibraryView"/>
+<entry id="74" method="true" symbol="saveData"/>
+<entry id="95" method="true" symbol="initializeSensors"/>
+<entry field="true" id="133" symbol="targetReps"/>
+<entry id="37" object="true" symbol="UIManager"/>
+<entry field="true" id="56" symbol="&lt;globals/Button/&lt;&gt;_backgroundColor&gt;"/>
+<entry id="36" module="true" symbol="SyncService"/>
+<entry id="85" method="true" symbol="checkDeviceCapabilities"/>
+<entry id="110" method="true" symbol="MainLayout"/>
+<entry id="20" module="true" symbol="BiometricService"/>
+<entry field="true" id="67" symbol="&lt;globals/ActiveWorkoutViewDelegate/&lt;&gt;_view&gt;"/>
+<entry field="true" id="51" symbol="&lt;globals/WorkoutTemplatesView/&lt;&gt;_delegate&gt;"/>
+<entry id="16" object="true" symbol="ActiveWorkoutView"/>
+<entry field="true" id="143" symbol="hrv"/>
+<entry id="2" module="true" symbol="globals/BiometricService"/>
+<entry field="true" id="125" symbol="&lt;globals/RepCounter/RepCounterManager/&lt;&gt;_repCount&gt;"/>
+<entry id="7" module="true" symbol="globals/RepCounter"/>
+<entry field="true" id="8389250" symbol="timestamp"/>
+<entry field="true" id="8389605" symbol="accel"/>
+<entry id="150" symbol="maxReps"/>
+<entry id="27" object="true" symbol="GymTrackerMenuDelegate"/>
+<entry field="true" id="104" symbol="&lt;globals/Progression/DoubleProgression/&lt;&gt;_minReps&gt;"/>
+<entry field="true" id="124" symbol="&lt;globals/RepCounter/RepCounterManager/&lt;&gt;_isCounting&gt;"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="119" symbol="substitute"/>
+<entry id="109" method="true" symbol="HomeLayout"/>
+<entry id="78" object="true" symbol="BiometricCache"/>
+<entry id="79" object="true" symbol="Exercise"/>
+<entry id="94" method="true" symbol="hasTemperature"/>
+<entry field="true" id="142" symbol="bodyBattery"/>
+<entry id="48" method="true" symbol="nextExercise"/>
+<entry field="true" id="8388962" symbol="temperature"/>
+<entry field="true" id="130" symbol="equipment"/>
+<entry field="true" id="113" symbol="AppName"/>
+<entry id="8388633" module="true" symbol="ActivityMonitor"/>
+<entry id="91" method="true" symbol="hasGyroscope"/>
+<entry id="89" method="true" symbol="handleSensorData"/>
+<entry id="13" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8389594" symbol="headers"/>
+<entry id="8389080" method="true" symbol="onMenu"/>
+<entry id="111" method="true" symbol="WorkoutTemplatesLayout"/>
+<entry id="4" module="true" symbol="globals/DataModels"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="40" object="true" symbol="WorkoutTemplatesViewDelegate"/>
+<entry id="52" object="true" symbol="FormFeedbackManager"/>
+<entry field="true" id="8389138" symbol="label"/>
+<entry field="true" id="102" symbol="&lt;globals/Progression/DoubleProgression/&lt;&gt;_increment&gt;"/>
+<entry id="8" module="true" symbol="globals/Rez"/>
+<entry field="true" id="116" symbol="prompt"/>
+<entry field="true" id="63" symbol="&lt;globals/WorkoutEngine/&lt;&gt;_template&gt;"/>
+<entry field="true" id="120" symbol="exercises"/>
+<entry id="70" method="true" symbol="getAnalytics"/>
+<entry id="101" method="true" symbol="suggestNextWorkout"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="49" method="true" symbol="nextSet"/>
+<entry id="107" method="true" symbol="AnalyticsLayout"/>
+<entry id="106" method="true" symbol="ActiveWorkoutLayout"/>
+<entry id="42" object="true" symbol="LinearProgression"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="21" module="true" symbol="DataManager"/>
+<entry id="8389348" symbol="font"/>
+<entry field="true" id="8389067" symbol="height"/>
+<entry id="19" object="true" symbol="AppDelegate"/>
+<entry id="147" symbol="item_2"/>
+<entry id="146" symbol="item_1"/>
+<entry id="8389079" method="true" symbol="onPreviousPage"/>
+<entry id="45" module="true" symbol="Menus"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry id="11" module="true" symbol="globals/Rez/Layouts"/>
+<entry id="34" module="true" symbol="SensorService"/>
+<entry field="true" id="8389742" symbol="foregroundColor"/>
+<entry field="true" id="8389066" symbol="width"/>
+<entry id="8390248" object="true" symbol="UserSettings"/>
+<entry field="true" id="144" symbol="exercise"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="90" method="true" symbol="hasAccelerometer"/>
+<entry id="148" symbol="increment"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="8389349" symbol="justification"/>
+<entry id="8388987" method="true" symbol="vibrate"/>
+<entry id="38" object="true" symbol="WorkoutEngine"/>
+<entry id="6" module="true" symbol="globals/Progression"/>
+<entry id="8391852" symbol="gyroscope"/>
+<entry id="39" object="true" symbol="WorkoutTemplatesView"/>
+<entry id="76" method="true" symbol="onSyncComplete"/>
+<entry id="8389885" object="true" symbol="Button"/>
+<entry field="true" id="61" symbol="&lt;globals/WorkoutEngine/&lt;&gt;_exerciseIndex&gt;"/>
+<entry id="10" module="true" symbol="globals/Rez/JsonData"/>
+<entry id="97" method="true" symbol="registerDataListener"/>
+<entry field="true" id="58" symbol="&lt;globals/Button/&lt;&gt;_height&gt;"/>
+<entry field="true" id="118" symbol="start_workout"/>
+<entry id="30" object="true" symbol="HomeViewDelegate"/>
+<entry id="8388637" module="true" symbol="Communications"/>
+<entry id="82" object="true" symbol="WorkoutLog"/>
+<entry id="92" method="true" symbol="hasHeartRate"/>
+<entry id="17" object="true" symbol="ActiveWorkoutViewDelegate"/>
+<entry id="9" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="26" object="true" symbol="GymTrackerDelegate"/>
+<entry field="true" id="136" symbol="setsData"/>
+<entry field="true" id="128" symbol="programType"/>
+<entry id="112" object="true" symbol="MainMenu"/>
+<entry id="8389844" symbol="responseType"/>
+<entry id="8388699" method="true" symbol="stop"/>
+<entry id="8389049" method="true" symbol="pushView"/>
+<entry field="true" id="139" symbol="rpe"/>
+<entry id="29" object="true" symbol="HomeView"/>
+<entry id="18" object="true" symbol="AnalyticsView"/>
+<entry id="99" method="true" symbol="unregisterDataListener"/>
+<entry id="14" module="true" symbol="globals/SensorService"/>
+<entry id="35" object="true" symbol="SettingsManager"/>
+<entry id="8388786" method="true" symbol="method"/>
+<entry id="43" object="true" symbol="ProgressionScheme"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry field="true" id="84" symbol="availableSensors"/>
+<entry id="15" module="true" symbol="globals/SyncService"/>
+<entry id="8389619" method="true" symbol="onSelect"/>
+<entry field="true" id="8389143" symbol="weight"/>
+<entry field="true" id="59" symbol="&lt;globals/Button/&lt;&gt;_label&gt;"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry field="true" id="57" symbol="&lt;globals/Button/&lt;&gt;_foregroundColor&gt;"/>
+<entry id="75" method="true" symbol="saveWorkoutLog"/>
+<entry id="73" method="true" symbol="loadPrebuiltTemplates"/>
+<entry field="true" id="137" symbol="templateUsed"/>
+<entry field="true" id="141" symbol="preferences"/>
+<entry id="33" module="true" symbol="RepCounter"/>
+<entry id="126" method="true" symbol="getRepCount"/>
+<entry id="108" method="true" symbol="ExerciseLibraryLayout"/>
+<entry field="true" id="47" symbol="&lt;globals/ActiveWorkoutView/&lt;&gt;_workoutEngine&gt;"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry field="true" id="121" symbol="templates"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry id="123" method="true" symbol="checkForm"/>
+<entry field="true" id="105" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="87" method="true" symbol="findSensorIndex"/>
+<entry id="8388643" module="true" symbol="Sensor"/>
+<entry id="81" object="true" symbol="SetLog"/>
+<entry field="true" id="140" symbol="deviceConfig"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="77" method="true" symbol="syncWorkoutLog"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry field="true" id="8388960" symbol="heartRate"/>
+<entry field="true" id="138" symbol="reps"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="28" object="true" symbol="GymTrackerView"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="98" symbol="sensorDelegate"/>
+<entry field="true" id="134" symbol="targetWeight"/>
+<entry id="25" object="true" symbol="GymTrackerApp"/>
+<entry id="24" module="true" symbol="FormFeedback"/>
+<entry field="true" id="8388892" symbol="name"/>
+<entry id="64" method="true" symbol="getCurrentExercise"/>
+<entry id="22" module="true" symbol="DataModels"/>
+<entry id="93" method="true" symbol="hasPulseOx"/>
+<entry id="88" method="true" symbol="getAvailableSensors"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="65" method="true" symbol="getCurrentSet"/>
+<entry id="5" module="true" symbol="globals/FormFeedback"/>
+<entry field="true" id="62" symbol="&lt;globals/WorkoutEngine/&lt;&gt;_setIndex&gt;"/>
+<entry field="true" id="131" symbol="formCuesRef"/>
+<entry id="8389109" method="true" symbol="onMenuItem"/>
+<entry field="true" id="8389347" symbol="color"/>
+<entry field="true" id="103" symbol="&lt;globals/Progression/DoubleProgression/&lt;&gt;_maxReps&gt;"/>
+<entry id="8389781" module="true" symbol="SensorHistory"/>
+<entry field="true" id="122" symbol="&lt;globals/FormFeedback/FormFeedbackManager/&lt;&gt;_targetTempo&gt;"/>
+<entry id="8389097" method="true" symbol="onKey"/>
+<entry id="86" method="true" symbol="enableAvailableSensors"/>
+<entry field="true" id="46" symbol="&lt;globals/ActiveWorkoutView/&lt;&gt;_currentSet&gt;"/>
+<entry id="8389050" method="true" symbol="popView"/>
+<entry id="72" method="true" symbol="loadData"/>
+<entry field="true" id="129" symbol="customTags"/>
+<entry id="55" method="true" symbol="getTitle"/>
+<entry id="83" object="true" symbol="WorkoutTemplate"/>
+<entry field="true" id="145" symbol="sets"/>
+<entry field="true" id="8391694" symbol="oxygenSaturation"/>
+<entry id="44" module="true" symbol="Layouts"/>
+<entry id="41" object="true" symbol="DoubleProgression"/>
+<entry id="68" method="true" symbol="getBiometricData"/>
+<entry id="8388636" module="true" symbol="Attention"/>
+<entry id="69" object="true" symbol="RepCounterManager"/>
+<entry id="8388698" method="true" symbol="start"/>
+<entry id="127" method="true" symbol="processMotionData"/>
+<entry id="3" module="true" symbol="globals/DataManager"/>
+<entry id="149" symbol="minReps"/>
+<entry id="151" symbol="targetTempo"/>
+<entry field="true" id="53" symbol="&lt;globals/WorkoutTemplatesViewDelegate/&lt;&gt;_currentIndex&gt;"/>
+<entry field="true" id="8389743" symbol="backgroundColor"/>
+<entry id="32" module="true" symbol="Progression"/>
+<entry field="true" id="100" symbol="&lt;globals/Progression/LinearProgression/&lt;&gt;_increment&gt;"/>
+<entry field="true" id="60" symbol="&lt;globals/Button/&lt;&gt;_width&gt;"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry field="true" id="135" symbol="exerciseDetails"/>
+<entry id="8389078" method="true" symbol="onNextPage"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="8390079" symbol="y"/>
+<entry field="true" id="8390078" symbol="x"/>
+<entry field="true" id="54" symbol="&lt;globals/WorkoutTemplatesViewDelegate/&lt;&gt;_templates&gt;"/>
+<entry id="80" object="true" symbol="ExerciseLog"/>
+<entry field="true" id="115" symbol="menu_label_2"/>
+<entry field="true" id="114" symbol="menu_label_1"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268435720" name="transition" stackId="1" startPc="268435703"/>
+<entry arg="true" endPc="268435742" name="view" stackId="1" startPc="268435721"/>
+<entry arg="true" endPc="268435742" name="delegate" stackId="2" startPc="268435721"/>
+<entry arg="true" endPc="268435742" name="transition" stackId="3" startPc="268435721"/>
+<entry arg="true" endPc="268435866" name="dc" stackId="1" startPc="268435831"/>
+<entry arg="true" endPc="268435970" name="template" stackId="1" startPc="268435911"/>
+<entry arg="true" endPc="268436313" name="dc" stackId="1" startPc="268435971"/>
+<entry endPc="268436312" name="exerciseName" stackId="2" startPc="268435974"/>
+<entry endPc="268436312" name="lastWorkout" stackId="3" startPc="268435974"/>
+<entry endPc="268436141" name="historyLabel" stackId="4" startPc="268436035"/>
+<entry endPc="268436141" name="lastSet" stackId="5" startPc="268436035"/>
+<entry arg="true" endPc="268436349" name="dc" stackId="1" startPc="268436314"/>
+<entry arg="true" endPc="268436373" name="delegate" stackId="1" startPc="268436350"/>
+<entry arg="true" endPc="268436438" name="dc" stackId="1" startPc="268436374"/>
+<entry endPc="268436437" name="title" stackId="2" startPc="268436377"/>
+<entry endPc="268436437" name="titleLabel" stackId="3" startPc="268436377"/>
+<entry endPc="268436628" name="template" stackId="1" startPc="268436555"/>
+<entry endPc="268436628" name="activeWorkoutView" stackId="2" startPc="268436555"/>
+<entry arg="true" endPc="268436706" name="dc" stackId="1" startPc="268436671"/>
+<entry arg="true" endPc="268436929" name="dc" stackId="1" startPc="268436722"/>
+<entry endPc="268436928" name="analytics" stackId="2" startPc="268436725"/>
+<entry endPc="268436928" name="weeklyVolumeLabel" stackId="3" startPc="268436725"/>
+<entry endPc="268436928" name="squatPrLabel" stackId="4" startPc="268436725"/>
+<entry endPc="268436928" name="benchPrLabel" stackId="5" startPc="268436725"/>
+<entry endPc="268436928" name="deadliftPrLabel" stackId="6" startPc="268436725"/>
+<entry arg="true" endPc="268437023" name="options" stackId="1" startPc="268436930"/>
+<entry arg="true" endPc="268437165" name="dc" stackId="1" startPc="268437024"/>
+<entry endPc="268437164" name="x" stackId="2" startPc="268437027"/>
+<entry endPc="268437164" name="y" stackId="3" startPc="268437027"/>
+<entry endPc="268437315" name="delegate" stackId="1" startPc="268437253"/>
+<entry endPc="268437315" name="view" stackId="2" startPc="268437253"/>
+<entry arg="true" endPc="268437342" name="keyEvent" stackId="1" startPc="268437316"/>
+<entry arg="true" endPc="268437556" name="template" stackId="1" startPc="268437529"/>
+<entry arg="true" endPc="268437615" name="view" stackId="1" startPc="268437592"/>
+<entry arg="true" endPc="268437683" name="dc" stackId="1" startPc="268437648"/>
+<entry arg="true" endPc="268437717" name="dc" stackId="1" startPc="268437699"/>
+<entry endPc="268437803" name="info" stackId="1" startPc="268437729"/>
+<entry endPc="268437803" name="bodyBattery" stackId="2" startPc="268437729"/>
+<entry arg="true" endPc="268437871" name="log" stackId="1" startPc="268437804"/>
+<entry endPc="268437870" name="workoutLogs" stackId="2" startPc="268437815"/>
+<entry endPc="268438383" name="workoutLogs" stackId="1" startPc="268437883"/>
+<entry endPc="268438383" name="weeklyVolume" stackId="2" startPc="268437883"/>
+<entry endPc="268438383" name="squatPr" stackId="3" startPc="268437883"/>
+<entry endPc="268438383" name="benchPr" stackId="4" startPc="268437883"/>
+<entry endPc="268438383" name="deadliftPr" stackId="5" startPc="268437883"/>
+<entry endPc="268438345" name="i" stackId="6" startPc="268437973"/>
+<entry endPc="268438335" name="log" stackId="7" startPc="268437973"/>
+<entry endPc="268438335" name="j" stackId="8" startPc="268438035"/>
+<entry endPc="268438325" name="exerciseLog" stackId="9" startPc="268438035"/>
+<entry endPc="268438325" name="exerciseName" stackId="10" startPc="268438035"/>
+<entry endPc="268438325" name="k" stackId="11" startPc="268438119"/>
+<entry endPc="268438315" name="set" stackId="12" startPc="268438119"/>
+<entry arg="true" endPc="268438411" name="key" stackId="1" startPc="268438384"/>
+<entry arg="true" endPc="268438411" name="data" stackId="2" startPc="268438384"/>
+<entry arg="true" endPc="268438436" name="key" stackId="1" startPc="268438412"/>
+<entry endPc="268438826" name="templates" stackId="1" startPc="268438448"/>
+<entry endPc="268438826" name="result" stackId="2" startPc="268438448"/>
+<entry endPc="268438823" name="i" stackId="3" startPc="268438501"/>
+<entry endPc="268438813" name="template" stackId="4" startPc="268438501"/>
+<entry endPc="268438813" name="exercisesData" stackId="5" startPc="268438501"/>
+<entry endPc="268438813" name="exercises" stackId="6" startPc="268438501"/>
+<entry endPc="268438755" name="j" stackId="7" startPc="268438538"/>
+<entry endPc="268438745" name="exerciseData" stackId="8" startPc="268438538"/>
+<entry endPc="268438745" name="setsData" stackId="9" startPc="268438538"/>
+<entry endPc="268438745" name="sets" stackId="10" startPc="268438538"/>
+<entry endPc="268438666" name="k" stackId="11" startPc="268438582"/>
+<entry endPc="268438656" name="setData" stackId="12" startPc="268438582"/>
+<entry endPc="268438656" name="reps" stackId="13" startPc="268438582"/>
+<entry endPc="268438656" name="weight" stackId="14" startPc="268438582"/>
+<entry endPc="268438656" name="rpe" stackId="15" startPc="268438582"/>
+<entry endPc="268438745" name="exerciseName" stackId="16" startPc="268438538"/>
+<entry endPc="268438745" name="exercise" stackId="17" startPc="268438538"/>
+<entry endPc="268438813" name="templateName" stackId="18" startPc="268438501"/>
+<entry endPc="268438813" name="programType" stackId="19" startPc="268438501"/>
+<entry arg="true" endPc="268439013" name="exerciseName" stackId="1" startPc="268438827"/>
+<entry endPc="268439013" name="workoutLogs" stackId="2" startPc="268438838"/>
+<entry endPc="268439011" name="i" stackId="3" startPc="268438883"/>
+<entry endPc="268439001" name="log" stackId="4" startPc="268438883"/>
+<entry endPc="268438998" name="j" stackId="5" startPc="268438929"/>
+<entry endPc="268438988" name="exerciseLog" stackId="6" startPc="268438929"/>
+<entry arg="true" endPc="268439080" name="item" stackId="1" startPc="268439014"/>
+<entry arg="true" endPc="268439431" name="log" stackId="1" startPc="268439096"/>
+<entry endPc="268439430" name="url" stackId="2" startPc="268439107"/>
+<entry endPc="268439430" name="params" stackId="3" startPc="268439107"/>
+<entry endPc="268439350" name="i" stackId="4" startPc="268439179"/>
+<entry endPc="268439340" name="exerciseLog" stackId="5" startPc="268439179"/>
+<entry endPc="268439340" name="exercise" stackId="6" startPc="268439179"/>
+<entry endPc="268439321" name="j" stackId="7" startPc="268439243"/>
+<entry endPc="268439311" name="setLog" stackId="8" startPc="268439243"/>
+<entry endPc="268439430" name="options" stackId="9" startPc="268439107"/>
+<entry arg="true" endPc="268439493" name="responseCode" stackId="1" startPc="268439432"/>
+<entry arg="true" endPc="268439493" name="data" stackId="2" startPc="268439432"/>
+<entry endPc="268439554" name="homeView" stackId="1" startPc="268439500"/>
+<entry endPc="268439554" name="homeViewDelegate" stackId="2" startPc="268439500"/>
+<entry arg="true" endPc="268439762" name="dc" stackId="1" startPc="268439727"/>
+<entry arg="true" endPc="268439796" name="dc" stackId="1" startPc="268439778"/>
+<entry arg="true" endPc="268439876" name="sensorType" stackId="1" startPc="268439851"/>
+<entry endPc="268439986" name="e" stackId="1" startPc="268439950"/>
+<entry endPc="268440279" name="info" stackId="1" startPc="268440013"/>
+<entry endPc="268440322" name="e" stackId="2" startPc="268440286"/>
+<entry endPc="268440408" name="e" stackId="1" startPc="268440372"/>
+<entry endPc="268440764" name="data" stackId="1" startPc="268440453"/>
+<entry endPc="268440713" name="sensorInfo" stackId="2" startPc="268440457"/>
+<entry endPc="268440756" name="e" stackId="3" startPc="268440720"/>
+<entry arg="true" endPc="268441229" name="sensorData" stackId="1" startPc="268440781"/>
+<entry endPc="268440909" name="accel" stackId="2" startPc="268440821"/>
+<entry endPc="268441030" name="gyro" stackId="3" startPc="268440942"/>
+<entry arg="true" endPc="268441343" name="delegate" stackId="1" startPc="268441257"/>
+<entry endPc="268441337" name="e" stackId="2" startPc="268441301"/>
+<entry arg="true" endPc="268441431" name="dc" stackId="1" startPc="268441396"/>
+<entry arg="true" endPc="268441465" name="dc" stackId="1" startPc="268441447"/>
+<entry arg="true" endPc="268441778" name="lastWorkout" stackId="1" startPc="268441466"/>
+<entry endPc="268441778" name="nextTemplate" stackId="2" startPc="268441469"/>
+<entry endPc="268441778" name="newExercises" stackId="3" startPc="268441469"/>
+<entry endPc="268441765" name="i" stackId="4" startPc="268441520"/>
+<entry endPc="268441755" name="exerciseLog" stackId="5" startPc="268441520"/>
+<entry endPc="268441755" name="lastSet" stackId="6" startPc="268441520"/>
+<entry endPc="268441755" name="newExercise" stackId="7" startPc="268441520"/>
+<entry endPc="268441755" name="newSets" stackId="8" startPc="268441520"/>
+<entry endPc="268441719" name="j" stackId="9" startPc="268441659"/>
+<entry arg="true" endPc="268441808" name="options" stackId="1" startPc="268441779"/>
+<entry arg="true" endPc="268441817" name="lastWorkout" stackId="1" startPc="268441809"/>
+<entry arg="true" endPc="268442174" name="lastWorkout" stackId="1" startPc="268441818"/>
+<entry endPc="268442174" name="nextTemplate" stackId="2" startPc="268441821"/>
+<entry endPc="268442174" name="newExercises" stackId="3" startPc="268441821"/>
+<entry endPc="268442161" name="i" stackId="4" startPc="268441872"/>
+<entry endPc="268442151" name="exerciseLog" stackId="5" startPc="268441872"/>
+<entry endPc="268442151" name="lastSet" stackId="6" startPc="268441872"/>
+<entry endPc="268442151" name="newExercise" stackId="7" startPc="268441872"/>
+<entry endPc="268442151" name="newWeight" stackId="8" startPc="268441872"/>
+<entry endPc="268442151" name="newReps" stackId="9" startPc="268441872"/>
+<entry endPc="268442151" name="newSets" stackId="10" startPc="268441872"/>
+<entry endPc="268442115" name="j" stackId="11" startPc="268442069"/>
+<entry arg="true" endPc="268442234" name="options" stackId="1" startPc="268442175"/>
+<entry arg="true" endPc="268442480" name="dc" stackId="1" startPc="268442235"/>
+<entry endPc="268442480" name="rez_cmp_local_text_title" stackId="2" startPc="268442246"/>
+<entry endPc="268442480" name="rez_cmp_local_custom_drawable_startWorkoutButton" stackId="3" startPc="268442246"/>
+<entry arg="true" endPc="268442598" name="dc" stackId="1" startPc="268442481"/>
+<entry endPc="268442598" name="rez_cmp_local_text_title" stackId="2" startPc="268442492"/>
+<entry arg="true" endPc="268442716" name="dc" stackId="1" startPc="268442599"/>
+<entry endPc="268442716" name="rez_cmp_local_text_title" stackId="2" startPc="268442610"/>
+<entry arg="true" endPc="268443243" name="dc" stackId="1" startPc="268442717"/>
+<entry endPc="268443243" name="rez_cmp_local_text_title" stackId="2" startPc="268442728"/>
+<entry endPc="268443243" name="rez_cmp_local_text_weeklyVolume" stackId="3" startPc="268442728"/>
+<entry endPc="268443243" name="rez_cmp_local_text_squatPr" stackId="4" startPc="268442728"/>
+<entry endPc="268443243" name="rez_cmp_local_text_benchPr" stackId="5" startPc="268442728"/>
+<entry endPc="268443243" name="rez_cmp_local_text_deadliftPr" stackId="6" startPc="268442728"/>
+<entry arg="true" endPc="268444146" name="dc" stackId="1" startPc="268443244"/>
+<entry endPc="268444146" name="rez_cmp_local_text_exerciseName" stackId="2" startPc="268443255"/>
+<entry endPc="268444146" name="rez_cmp_local_text_sets" stackId="3" startPc="268443255"/>
+<entry endPc="268444146" name="rez_cmp_local_text_reps" stackId="4" startPc="268443255"/>
+<entry endPc="268444146" name="rez_cmp_local_text_weight" stackId="5" startPc="268443255"/>
+<entry endPc="268444146" name="rez_cmp_local_text_timer" stackId="6" startPc="268443255"/>
+<entry endPc="268444146" name="rez_cmp_local_text_history" stackId="7" startPc="268443255"/>
+<entry endPc="268444146" name="rez_cmp_local_custom_drawable_skipButton" stackId="8" startPc="268443255"/>
+<entry endPc="268444146" name="rez_cmp_local_custom_drawable_substituteButton" stackId="9" startPc="268443255"/>
+<entry arg="true" endPc="268444281" name="dc" stackId="1" startPc="268444147"/>
+<entry endPc="268444281" name="rez_cmp_local_custom_drawable_button" stackId="2" startPc="268444158"/>
+<entry arg="true" endPc="268444380" name="currentRepDuration" stackId="1" startPc="268444294"/>
+<entry arg="true" endPc="268444398" name="options" stackId="1" startPc="268444381"/>
+<entry arg="true" endPc="268444463" name="accel" stackId="1" startPc="268444418"/>
+<entry arg="true" endPc="268444463" name="gyro" stackId="2" startPc="268444418"/>
+<entry arg="true" endPc="268444523" name="name" stackId="1" startPc="268444494"/>
+<entry arg="true" endPc="268444523" name="exercises" stackId="2" startPc="268444494"/>
+<entry arg="true" endPc="268444523" name="programType" stackId="3" startPc="268444494"/>
+<entry arg="true" endPc="268444587" name="name" stackId="1" startPc="268444524"/>
+<entry arg="true" endPc="268444587" name="muscleGroups" stackId="2" startPc="268444524"/>
+<entry arg="true" endPc="268444587" name="equipment" stackId="3" startPc="268444524"/>
+<entry arg="true" endPc="268444587" name="customTags" stackId="4" startPc="268444524"/>
+<entry arg="true" endPc="268444587" name="formCuesRef" stackId="5" startPc="268444524"/>
+<entry arg="true" endPc="268444626" name="timestamp" stackId="1" startPc="268444588"/>
+<entry arg="true" endPc="268444626" name="templateUsed" stackId="2" startPc="268444588"/>
+<entry arg="true" endPc="268444626" name="exerciseDetails" stackId="3" startPc="268444588"/>
+<entry arg="true" endPc="268444626" name="setsData" stackId="4" startPc="268444588"/>
+<entry arg="true" endPc="268444656" name="reps" stackId="1" startPc="268444627"/>
+<entry arg="true" endPc="268444656" name="weight" stackId="2" startPc="268444627"/>
+<entry arg="true" endPc="268444656" name="rpe" stackId="3" startPc="268444627"/>
+<entry arg="true" endPc="268444677" name="preferences" stackId="1" startPc="268444657"/>
+<entry arg="true" endPc="268444677" name="deviceConfig" stackId="2" startPc="268444657"/>
+<entry arg="true" endPc="268444698" name="hrv" stackId="1" startPc="268444678"/>
+<entry arg="true" endPc="268444698" name="bodyBattery" stackId="2" startPc="268444678"/>
+<entry arg="true" endPc="268444719" name="exercise" stackId="1" startPc="268444699"/>
+<entry arg="true" endPc="268444719" name="sets" stackId="2" startPc="268444699"/>
+</localVars>
+<deviceInfo deviceVersion="0ed082a335bbf00c12e5da810e92d4f89288090c" partNumber="006-B4258-00"/>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="skip"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="substitute"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
+<annotationEntry annotation="initialized" class="JsonData" module="globals/Rez" symbol="exercises"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
+<annotationEntry annotation="initialized" class="JsonData" module="globals/Rez" symbol="templates"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="start_workout"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="148" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/Progression" offset="431" parentId="globals" symbolId="Progression" type="module"/>
+<dataEntry label="globals/NavigationController" offset="484" parentId="globals" symbolId="NavigationController" type="class"/>
+<dataEntry label="globals/Rez" offset="546" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/UIManager" offset="617" parentId="globals" symbolId="UIManager" type="class"/>
+<dataEntry label="globals/ActiveWorkoutView" offset="661" parentId="globals" symbolId="ActiveWorkoutView" type="class"/>
+<dataEntry label="globals/WorkoutTemplatesView" offset="786" parentId="globals" symbolId="WorkoutTemplatesView" type="class"/>
+<dataEntry label="globals/FormFeedback" offset="875" parentId="globals" symbolId="FormFeedback" type="module"/>
+<dataEntry label="globals/WorkoutTemplatesViewDelegate" offset="910" parentId="globals" symbolId="WorkoutTemplatesViewDelegate" type="class"/>
+<dataEntry label="globals/AnalyticsView" offset="1008" parentId="globals" symbolId="AnalyticsView" type="class"/>
+<dataEntry label="globals/Button" offset="1088" parentId="globals" symbolId="Button" type="class"/>
+<dataEntry label="globals/HomeViewDelegate" offset="1186" parentId="globals" symbolId="HomeViewDelegate" type="class"/>
+<dataEntry label="globals/WorkoutEngine" offset="1257" parentId="globals" symbolId="WorkoutEngine" type="class"/>
+<dataEntry label="globals/ActiveWorkoutViewDelegate" offset="1382" parentId="globals" symbolId="ActiveWorkoutViewDelegate" type="class"/>
+<dataEntry label="globals/HomeView" offset="1462" parentId="globals" symbolId="HomeView" type="class"/>
+<dataEntry label="globals/SettingsManager" offset="1542" parentId="globals" symbolId="SettingsManager" type="class"/>
+<dataEntry label="globals/BiometricService" offset="1586" parentId="globals" symbolId="BiometricService" type="module"/>
+<dataEntry label="globals/RepCounter" offset="1621" parentId="globals" symbolId="RepCounter" type="module"/>
+<dataEntry label="globals/DataManager" offset="1656" parentId="globals" symbolId="DataManager" type="module"/>
+<dataEntry label="globals/GymTrackerMenuDelegate" offset="1736" parentId="globals" symbolId="GymTrackerMenuDelegate" type="class"/>
+<dataEntry label="globals/SyncService" offset="1789" parentId="globals" symbolId="SyncService" type="module"/>
+<dataEntry label="globals/DataModels" offset="1833" parentId="globals" symbolId="DataModels" type="module"/>
+<dataEntry label="globals/GymTrackerApp" offset="1922" parentId="globals" symbolId="GymTrackerApp" type="class"/>
+<dataEntry label="globals/GymTrackerDelegate" offset="1993" parentId="globals" symbolId="GymTrackerDelegate" type="class"/>
+<dataEntry label="globals/AppDelegate" offset="2046" parentId="globals" symbolId="AppDelegate" type="class"/>
+<dataEntry label="globals/ExerciseLibraryView" offset="2117" parentId="globals" symbolId="ExerciseLibraryView" type="class"/>
+<dataEntry label="globals/SensorService" offset="2197" parentId="globals" symbolId="SensorService" type="module"/>
+<dataEntry label="globals/GymTrackerView" offset="2367" parentId="globals" symbolId="GymTrackerView" type="class"/>
+<dataEntry label="globals/Progression/LinearProgression" offset="2447" parentId="Progression" symbolId="LinearProgression" type="class"/>
+<dataEntry label="globals/Progression/ProgressionScheme" offset="2509" parentId="Progression" symbolId="ProgressionScheme" type="class"/>
+<dataEntry label="globals/Progression/DoubleProgression" offset="2562" parentId="Progression" symbolId="DoubleProgression" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="2642" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="2677" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="2757" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="2792" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="2881" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals/FormFeedback/FormFeedbackManager" offset="2925" parentId="FormFeedback" symbolId="FormFeedbackManager" type="class"/>
+<dataEntry label="globals/RepCounter/RepCounterManager" offset="2987" parentId="RepCounter" symbolId="RepCounterManager" type="class"/>
+<dataEntry label="globals/DataModels/WorkoutTemplate" offset="3085" parentId="DataModels" symbolId="WorkoutTemplate" type="class"/>
+<dataEntry label="globals/DataModels/Exercise" offset="3156" parentId="DataModels" symbolId="Exercise" type="class"/>
+<dataEntry label="globals/DataModels/WorkoutLog" offset="3263" parentId="DataModels" symbolId="WorkoutLog" type="class"/>
+<dataEntry label="globals/DataModels/SetLog" offset="3343" parentId="DataModels" symbolId="SetLog" type="class"/>
+<dataEntry label="globals/DataModels/UserSettings" offset="3414" parentId="DataModels" symbolId="UserSettings" type="class"/>
+<dataEntry label="globals/DataModels/BiometricCache" offset="3476" parentId="DataModels" symbolId="BiometricCache" type="class"/>
+<dataEntry label="globals/DataModels/ExerciseLog" offset="3538" parentId="DataModels" symbolId="ExerciseLog" type="class"/>
+<dataEntry label="globals/Rez/Menus/MainMenu" offset="3600" parentId="Menus" symbolId="MainMenu" type="class"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Progression">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="NavigationController">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435479" name="&lt;init&gt;" parent="Rez" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="UIManager">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435491" name="&lt;init&gt;" parent="ActiveWorkoutView" startPc="268435480">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435503" name="&lt;init&gt;" parent="WorkoutTemplatesView" startPc="268435492">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="FormFeedback">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435515" name="&lt;init&gt;" parent="WorkoutTemplatesViewDelegate" startPc="268435504">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435527" name="&lt;init&gt;" parent="AnalyticsView" startPc="268435516">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435539" name="&lt;init&gt;" parent="Button" startPc="268435528">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435551" name="&lt;init&gt;" parent="HomeViewDelegate" startPc="268435540">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="WorkoutEngine">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435563" name="&lt;init&gt;" parent="ActiveWorkoutViewDelegate" startPc="268435552">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435584" name="getApp" startPc="268435564">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435596" name="&lt;init&gt;" parent="HomeView" startPc="268435585">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="SettingsManager">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="BiometricService">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="RepCounter">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="DataManager">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435608" name="&lt;init&gt;" parent="GymTrackerMenuDelegate" startPc="268435597">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="SyncService">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="DataModels">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435620" name="&lt;init&gt;" parent="GymTrackerApp" startPc="268435609">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435632" name="&lt;init&gt;" parent="GymTrackerDelegate" startPc="268435621">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435644" name="&lt;init&gt;" parent="AppDelegate" startPc="268435633">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435656" name="&lt;init&gt;" parent="ExerciseLibraryView" startPc="268435645">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435666" name="&lt;init&gt;" parent="SensorService" startPc="268435657">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435678" name="&lt;init&gt;" parent="GymTrackerView" startPc="268435667">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435690" name="&lt;init&gt;" parent="LinearProgression" startPc="268435679">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="ProgressionScheme">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435702" name="&lt;init&gt;" parent="DoubleProgression" startPc="268435691">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435720" name="popView" parent="NavigationController" startPc="268435703">
+<param id="transition"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435742" name="pushView" parent="NavigationController" startPc="268435721">
+<param id="view"/>
+<param id="delegate"/>
+<param id="transition"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="NavigationController">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="UIManager">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435786" name="previousSet" parent="ActiveWorkoutView" startPc="268435743">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435830" name="nextExercise" parent="ActiveWorkoutView" startPc="268435787">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="ActiveWorkoutView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435866" name="onLayout" parent="ActiveWorkoutView" startPc="268435831">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435910" name="nextSet" parent="ActiveWorkoutView" startPc="268435867">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435970" name="initialize" parent="ActiveWorkoutView" startPc="268435911">
+<param id="template"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="ActiveWorkoutView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436313" name="onUpdate" parent="ActiveWorkoutView" startPc="268435971">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="WorkoutTemplatesView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436349" name="onLayout" parent="WorkoutTemplatesView" startPc="268436314">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436373" name="initialize" parent="WorkoutTemplatesView" startPc="268436350">
+<param id="delegate"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="WorkoutTemplatesView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436438" name="onUpdate" parent="WorkoutTemplatesView" startPc="268436374">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="FormFeedbackManager">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436492" name="onPreviousPage" parent="WorkoutTemplatesViewDelegate" startPc="268436439">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436511" name="getTitle" parent="WorkoutTemplatesViewDelegate" startPc="268436493">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436551" name="initialize" parent="WorkoutTemplatesViewDelegate" startPc="268436512">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436628" name="onSelect" parent="WorkoutTemplatesViewDelegate" startPc="268436552">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436670" name="onNextPage" parent="WorkoutTemplatesViewDelegate" startPc="268436629">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="AnalyticsView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436706" name="onLayout" parent="AnalyticsView" startPc="268436671">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436721" name="initialize" parent="AnalyticsView" startPc="268436707">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="AnalyticsView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436929" name="onUpdate" parent="AnalyticsView" startPc="268436722">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437023" name="initialize" parent="Button" startPc="268436930">
+<param id="options"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437165" name="draw" parent="Button" startPc="268437024">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437234" name="onMenu" parent="HomeViewDelegate" startPc="268437166">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437249" name="initialize" parent="HomeViewDelegate" startPc="268437235">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437315" name="onSelect" parent="HomeViewDelegate" startPc="268437250">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437342" name="onKey" parent="HomeViewDelegate" startPc="268437316">
+<param id="keyEvent"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437373" name="previousSet" parent="WorkoutEngine" startPc="268437343">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437430" name="nextExercise" parent="WorkoutEngine" startPc="268437374">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437460" name="getCurrentSet" parent="WorkoutEngine" startPc="268437431">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437520" name="nextSet" parent="WorkoutEngine" startPc="268437461">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437528" name="getCurrentSetIndex" parent="WorkoutEngine" startPc="268437521">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437556" name="initialize" parent="WorkoutEngine" startPc="268437529">
+<param id="template"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437575" name="getCurrentExercise" parent="WorkoutEngine" startPc="268437557">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437591" name="onPreviousPage" parent="ActiveWorkoutViewDelegate" startPc="268437576">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437615" name="initialize" parent="ActiveWorkoutViewDelegate" startPc="268437592">
+<param id="view"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437631" name="onSelect" parent="ActiveWorkoutViewDelegate" startPc="268437616">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437647" name="onNextPage" parent="ActiveWorkoutViewDelegate" startPc="268437632">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="HomeView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437683" name="onLayout" parent="HomeView" startPc="268437648">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437698" name="initialize" parent="HomeView" startPc="268437684">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="HomeView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437717" name="onUpdate" parent="HomeView" startPc="268437699">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="SettingsManager">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437803" name="getBiometricData" parent="BiometricService" startPc="268437718">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="RepCounterManager">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437871" name="saveWorkoutLog" parent="DataManager" startPc="268437804">
+<param id="log"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438383" name="getAnalytics" parent="DataManager" startPc="268437872">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438411" name="saveData" parent="DataManager" startPc="268438384">
+<param id="key"/>
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438436" name="loadData" parent="DataManager" startPc="268438412">
+<param id="key"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438826" name="loadPrebuiltTemplates" parent="DataManager" startPc="268438437">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439013" name="getLastWorkoutForExercise" parent="DataManager" startPc="268438827">
+<param id="exerciseName"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439080" name="onMenuItem" parent="GymTrackerMenuDelegate" startPc="268439014">
+<param id="item"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439095" name="initialize" parent="GymTrackerMenuDelegate" startPc="268439081">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439431" name="syncWorkoutLog" parent="SyncService" startPc="268439096">
+<param id="log"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439493" name="onSyncComplete" parent="SyncService" startPc="268439432">
+<param id="responseCode"/>
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="WorkoutTemplate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Exercise">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="WorkoutLog">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="SetLog">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="UserSettings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="BiometricCache">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="ExerciseLog">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439496" name="onStart" parent="GymTrackerApp" startPc="268439494">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439554" name="getInitialView" parent="GymTrackerApp" startPc="268439497">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439569" name="initialize" parent="GymTrackerApp" startPc="268439555">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439572" name="onStop" parent="GymTrackerApp" startPc="268439570">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439641" name="onMenu" parent="GymTrackerDelegate" startPc="268439573">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439656" name="initialize" parent="GymTrackerDelegate" startPc="268439642">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439659" name="onStart" parent="AppDelegate" startPc="268439657">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439708" name="getInitialView" parent="AppDelegate" startPc="268439660">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439723" name="initialize" parent="AppDelegate" startPc="268439709">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439726" name="onStop" parent="AppDelegate" startPc="268439724">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="ExerciseLibraryView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439762" name="onLayout" parent="ExerciseLibraryView" startPc="268439727">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439777" name="initialize" parent="ExerciseLibraryView" startPc="268439763">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="ExerciseLibraryView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439796" name="onUpdate" parent="ExerciseLibraryView" startPc="268439778">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439823" name="hasPulseOx" parent="SensorService" startPc="268439797">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439850" name="hasGyroscope" parent="SensorService" startPc="268439824">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439876" name="findSensorIndex" parent="SensorService" startPc="268439851">
+<param id="sensorType"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439992" name="enableAvailableSensors" parent="SensorService" startPc="268439877">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440328" name="checkDeviceCapabilities" parent="SensorService" startPc="268439993">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440414" name="unregisterDataListener" parent="SensorService" startPc="268440329">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440441" name="hasAccelerometer" parent="SensorService" startPc="268440415">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440764" name="pollSensorData" parent="SensorService" startPc="268440442">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268440780" name="getAvailableSensors" parent="SensorService" startPc="268440765">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441229" name="handleSensorData" parent="SensorService" startPc="268440781">
+<param id="sensorData"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441256" name="hasHeartRate" parent="SensorService" startPc="268441230">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441343" name="registerDataListener" parent="SensorService" startPc="268441257">
+<param id="delegate"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441370" name="hasTemperature" parent="SensorService" startPc="268441344">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441395" name="initializeSensors" parent="SensorService" startPc="268441371">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="GymTrackerView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441431" name="onLayout" parent="GymTrackerView" startPc="268441396">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441446" name="initialize" parent="GymTrackerView" startPc="268441432">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="GymTrackerView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441465" name="onUpdate" parent="GymTrackerView" startPc="268441447">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441778" name="suggestNextWorkout" parent="LinearProgression" startPc="268441466">
+<param id="lastWorkout"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441808" name="initialize" parent="LinearProgression" startPc="268441779">
+<param id="options"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268441817" name="suggestNextWorkout" parent="ProgressionScheme" startPc="268441809">
+<param id="lastWorkout"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="ProgressionScheme">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442174" name="suggestNextWorkout" parent="DoubleProgression" startPc="268441818">
+<param id="lastWorkout"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442234" name="initialize" parent="DoubleProgression" startPc="268442175">
+<param id="options"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442480" name="HomeLayout" parent="Layouts" startPc="268442235">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442598" name="ExerciseLibraryLayout" parent="Layouts" startPc="268442481">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268442716" name="WorkoutTemplatesLayout" parent="Layouts" startPc="268442599">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268443243" name="AnalyticsLayout" parent="Layouts" startPc="268442717">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444146" name="ActiveWorkoutLayout" parent="Layouts" startPc="268443244">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444281" name="MainLayout" parent="Layouts" startPc="268444147">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444293" name="&lt;init&gt;" parent="MainMenu" startPc="268444282">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444380" name="checkForm" parent="FormFeedbackManager" startPc="268444294">
+<param id="currentRepDuration"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444398" name="initialize" parent="FormFeedbackManager" startPc="268444381">
+<param id="options"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444406" name="getRepCount" parent="RepCounterManager" startPc="268444399">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444417" name="stop" parent="RepCounterManager" startPc="268444407">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444463" name="processMotionData" parent="RepCounterManager" startPc="268444418">
+<param id="accel"/>
+<param id="gyro"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444474" name="start" parent="RepCounterManager" startPc="268444464">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444493" name="initialize" parent="RepCounterManager" startPc="268444475">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444523" name="initialize" parent="WorkoutTemplate" startPc="268444494">
+<param id="name"/>
+<param id="exercises"/>
+<param id="programType"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444587" name="initialize" parent="Exercise" startPc="268444524">
+<param id="name"/>
+<param id="muscleGroups"/>
+<param id="equipment"/>
+<param id="customTags"/>
+<param id="formCuesRef"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444626" name="initialize" parent="WorkoutLog" startPc="268444588">
+<param id="timestamp"/>
+<param id="templateUsed"/>
+<param id="exerciseDetails"/>
+<param id="setsData"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444656" name="initialize" parent="SetLog" startPc="268444627">
+<param id="reps"/>
+<param id="weight"/>
+<param id="rpe"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444677" name="initialize" parent="UserSettings" startPc="268444657">
+<param id="preferences"/>
+<param id="deviceConfig"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444698" name="initialize" parent="BiometricCache" startPc="268444678">
+<param id="hrv"/>
+<param id="bodyBattery"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444719" name="initialize" parent="ExerciseLog" startPc="268444699">
+<param id="exercise"/>
+<param id="sets"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268444824" name="initialize" parent="MainMenu" startPc="268444720">
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>

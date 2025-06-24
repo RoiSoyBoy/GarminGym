@@ -1,0 +1,640 @@
+[ @file = "C:\DEV\GymTracker\source\Progression.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\DEV\GymTracker\source\Progression.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [System,2,14,20]; ]
+import Toybox.System;
+[ @file = "C:\DEV\GymTracker\source\Progression.mc"; @line = 4; @symbol_moduledef = [Progression,4,7,18]; ]
+module Progression {
+    [ @file = "C:\DEV\GymTracker\source\Progression.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\DEV\GymTracker\source\Progression.mc"; @line = 6; @symbol_classdef = [ProgressionScheme,6,10,27]; ]
+    class ProgressionScheme {
+        [ @file = "C:\DEV\GymTracker\source\Progression.mc"; @line = 6; ]
+        <init> {
+        }
+        [ @file = "C:\DEV\GymTracker\source\Progression.mc"; @line = 6; ]
+        static
+        <init> {
+        }
+        [ @file = "C:\DEV\GymTracker\source\Progression.mc"; @line = 7; @symbol_functiondef = [suggestNextWorkout,7,17,35]; @symbol_param<0> = [lastWorkout,7,36,47]; @symbol_param<0>_type<0> = [DataModels,7,51,61]; @symbol_param<0>_type<1> = [WorkoutLog,7,62,72]; @symbol_return<0> = [DataModels,7,77,87]; @symbol_return<1> = [WorkoutTemplate,7,88,103]; ]
+        function suggestNextWorkout(lastWorkout as DataModels.WorkoutLog) as DataModels.WorkoutTemplate {
+C__DEV_GymTracker_source_Progression_mc_7_104_11_8_start:
+[ "C:\DEV\GymTracker\source\Progression.mc" 10 12 ]
+            %tmp.1 = lgetv %lastWorkout;
+            symbol [ lastWorkout %tmp.1 10 19 30 ];
+            symbol [ templateUsed %tmp.2 10 31 43 ];
+            %tmp.2 = getv %tmp.1 :templateUsed;
+            ret %tmp.2;
+C__DEV_GymTracker_source_Progression_mc_7_104_11_8_stop:
+        }
+    }
+    [ @file = "C:\DEV\GymTracker\source\Progression.mc"; @line = 14; @symbol_classdef = [LinearProgression,14,10,27]; @symbol_extends<0> = [ProgressionScheme,14,36,53]; ]
+    class LinearProgression extends ProgressionScheme {
+        [ @file = "C:\DEV\GymTracker\source\Progression.mc"; @line = 14; ]
+        <init> {
+        }
+        [ @file = "C:\DEV\GymTracker\source\Progression.mc"; @line = 14; ]
+        static
+        <init> {
+        }
+        [ @file = "C:\DEV\GymTracker\source\Progression.mc"; @line = 15; @position = 20; @symbol_vardef = [_increment,15,20,30]; @symbol_type<0> = [Lang,15,34,38]; @symbol_type<1> = [Number,15,39,45]; ]
+        private
+        var _increment as Lang.Number;
+        [ @file = "C:\DEV\GymTracker\source\Progression.mc"; @line = 17; @symbol_functiondef = [initialize,17,17,27]; @symbol_param<0> = [options,17,28,35]; @symbol_param<0>_type<0> = [Lang,18,26,30]; @symbol_param<0>_type<1> = [Number,18,31,37]; @symbol_param<0>_type_const<0> = [increment,18,13,22]; ]
+        function initialize(options as {:increment as Lang.Number}) as Void {
+C__DEV_GymTracker_source_Progression_mc_19_11_22_8_start:
+[ "C:\DEV\GymTracker\source\Progression.mc" 20 12 ]
+        symbol [ ProgressionScheme %tmp.2 20 12 29 ];
+        %tmp.2 = getv ? :ProgressionScheme;
+        symbol [ initialize %tmp.3 20 30 40 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\DEV\GymTracker\source\Progression.mc" 21 12 ]
+        %tmp.4 = lgetv %options;
+        symbol [ options %tmp.4 21 25 32 ];
+        %tmp.6 = const :increment;
+        symbol [ increment %tmp.6 21 34 43 const ];
+        %tmp.7 = agetv %tmp.4 %tmp.6;
+        symbol [ _increment ? 21 12 22 ];
+        putv self :_increment %tmp.7;
+C__DEV_GymTracker_source_Progression_mc_19_11_22_8_stop:
+    }
+    [ @file = "C:\DEV\GymTracker\source\Progression.mc"; @line = 24; @symbol_functiondef = [suggestNextWorkout,24,17,35]; @symbol_param<0> = [lastWorkout,24,36,47]; @symbol_param<0>_type<0> = [DataModels,24,51,61]; @symbol_param<0>_type<1> = [WorkoutLog,24,62,72]; @symbol_return<0> = [DataModels,24,77,87]; @symbol_return<1> = [WorkoutTemplate,24,88,103]; ]
+    function suggestNextWorkout(lastWorkout as DataModels.WorkoutLog) as DataModels.WorkoutTemplate {
+C__DEV_GymTracker_source_Progression_mc_24_104_48_8_start:
+[ "C:\DEV\GymTracker\source\Progression.mc" 25 12 ]
+        symbol [ System %tmp.1 25 12 18 ];
+        %tmp.1 = getm $.Toybox.System;
+        symbol [ println %tmp.2 25 19 26 ];
+        %tmp.2 = getv function %tmp.1 :println;
+        %tmp.3 = "Suggesting next workout with linear progression";
+        invoke %tmp.1 %tmp.2(%tmp.3);
+[ "C:\DEV\GymTracker\source\Progression.mc" 26 12 ]
+        [ "C__DEV_GymTracker_source_Progression_mc_24_104_48_8_start" "C__DEV_GymTracker_source_Progression_mc_24_104_48_8_stop" ]
+        %nextTemplate.1 = local;
+        symbol [ nextTemplate %nextTemplate.1 26 16 28 ];
+        %tmp.4 = lgetv %lastWorkout;
+        symbol [ lastWorkout %tmp.4 26 31 42 ];
+        symbol [ templateUsed %tmp.5 26 43 55 ];
+        %tmp.5 = getv %tmp.4 :templateUsed;
+        lputv %nextTemplate.1 %tmp.5;
+        symbol [ nextTemplate %nextTemplate.1 26 16 28 ];
+[ "C:\DEV\GymTracker\source\Progression.mc" 27 12 ]
+        [ "C__DEV_GymTracker_source_Progression_mc_24_104_48_8_start" "C__DEV_GymTracker_source_Progression_mc_24_104_48_8_stop" ]
+        %newExercises.2 = local;
+        symbol [ newExercises %newExercises.2 27 16 28 ];
+        %tmp.7 = 0;
+        %tmp.6 = newa Lang.Array<DataModels.ExerciseLog> %tmp.7;
+        symbol [ Lang %tmp.6 27 35 39 ];
+        symbol [ Array %tmp.6 27 40 45 ];
+        symbol [ DataModels %tmp.6 27 46 56 ];
+        symbol [ ExerciseLog %tmp.6 27 57 68 ];
+        lputv %newExercises.2 %tmp.6;
+        symbol [ newExercises %newExercises.2 27 16 28 ];
+[ "C:\DEV\GymTracker\source\Progression.mc" 28 12 ]
+        for @C__DEV_GymTracker_source_Progression_mc_28_12_45_12_for_test @C__DEV_GymTracker_source_Progression_mc_28_12_45_12_for_incr @C__DEV_GymTracker_source_Progression_mc_28_12_45_12_for_end;
+C__DEV_GymTracker_source_Progression_mc_28_12_45_12_for_init:
+        [ "C__DEV_GymTracker_source_Progression_mc_28_12_45_12_for_begin" "C__DEV_GymTracker_source_Progression_mc_28_12_45_12_for_end" ]
+        %i.3 = local;
+        symbol [ i %i.3 28 21 22 ];
+        %tmp.8 = 0;
+        lputv %i.3 %tmp.8;
+        symbol [ i %i.3 28 21 22 ];
+C__DEV_GymTracker_source_Progression_mc_28_12_45_12_for_test:
+        %tmp.9 = lgetv %i.3;
+        symbol [ i %tmp.9 28 28 29 ];
+        %tmp.10 = lgetv %nextTemplate.1;
+        symbol [ nextTemplate %tmp.10 28 32 44 ];
+        symbol [ exercises %tmp.11 28 45 54 ];
+        %tmp.11 = getv %tmp.10 :exercises;
+        symbol [ size %tmp.12 28 55 59 ];
+        %tmp.12 = getv function %tmp.11 :size;
+        %tmp.13 = invoke %tmp.11 %tmp.12();
+        %tmp.14 = lt %tmp.9 %tmp.13;
+        bf %tmp.14 @C__DEV_GymTracker_source_Progression_mc_28_12_45_12_for_end;
+C__DEV_GymTracker_source_Progression_mc_28_12_45_12_for_begin:
+C__DEV_GymTracker_source_Progression_mc_28_68_45_12_start:
+[ "C:\DEV\GymTracker\source\Progression.mc" 29 16 ]
+        [ "C__DEV_GymTracker_source_Progression_mc_28_68_45_12_start" "C__DEV_GymTracker_source_Progression_mc_28_68_45_12_stop" ]
+        %exerciseLog.4 = local;
+        symbol [ exerciseLog %exerciseLog.4 29 20 31 ];
+        %tmp.15 = lgetv %lastWorkout;
+        symbol [ lastWorkout %tmp.15 29 34 45 ];
+        symbol [ exerciseDetails %tmp.16 29 46 61 ];
+        %tmp.16 = getv %tmp.15 :exerciseDetails;
+        %tmp.17 = lgetv %i.3;
+        symbol [ i %tmp.17 29 62 63 ];
+        %tmp.18 = agetv %tmp.16 %tmp.17;
+        lputv %exerciseLog.4 %tmp.18;
+        symbol [ exerciseLog %exerciseLog.4 29 20 31 ];
+[ "C:\DEV\GymTracker\source\Progression.mc" 30 16 ]
+        [ "C__DEV_GymTracker_source_Progression_mc_28_68_45_12_start" "C__DEV_GymTracker_source_Progression_mc_28_68_45_12_stop" ]
+        %lastSet.5 = local;
+        symbol [ lastSet %lastSet.5 30 20 27 ];
+        %tmp.19 = lgetv %exerciseLog.4;
+        symbol [ exerciseLog %tmp.19 30 30 41 ];
+        symbol [ sets %tmp.20 30 42 46 ];
+        %tmp.20 = getv %tmp.19 :sets;
+        %tmp.21 = lgetv %exerciseLog.4;
+        symbol [ exerciseLog %tmp.21 30 47 58 ];
+        symbol [ sets %tmp.22 30 59 63 ];
+        %tmp.22 = getv %tmp.21 :sets;
+        symbol [ size %tmp.23 30 64 68 ];
+        %tmp.23 = getv function %tmp.22 :size;
+        %tmp.24 = invoke %tmp.22 %tmp.23();
+        %tmp.25 = 1;
+        %tmp.26 = sub %tmp.24 %tmp.25;
+        %tmp.27 = agetv %tmp.20 %tmp.26;
+        lputv %lastSet.5 %tmp.27;
+        symbol [ lastSet %lastSet.5 30 20 27 ];
+[ "C:\DEV\GymTracker\source\Progression.mc" 31 16 ]
+        [ "C__DEV_GymTracker_source_Progression_mc_28_68_45_12_start" "C__DEV_GymTracker_source_Progression_mc_28_68_45_12_stop" ]
+        %newExercise.6 = local;
+        symbol [ newExercise %newExercise.6 31 20 31 ];
+        symbol [ DataModels %tmp.31 31 38 48 ];
+        %tmp.31 = getv ? :DataModels;
+        symbol [ Exercise %tmp.32 31 49 57 ];
+        %tmp.32 = getv function ? %tmp.31 :Exercise;
+        %tmp.33 = lgetv %exerciseLog.4;
+        symbol [ exerciseLog %tmp.33 32 20 31 ];
+        symbol [ exercise %tmp.34 32 32 40 ];
+        %tmp.34 = getv %tmp.33 :exercise;
+        symbol [ name %tmp.35 32 41 45 ];
+        %tmp.35 = getv %tmp.34 :name;
+        %tmp.36 = lgetv %exerciseLog.4;
+        symbol [ exerciseLog %tmp.36 33 20 31 ];
+        symbol [ exercise %tmp.37 33 32 40 ];
+        %tmp.37 = getv %tmp.36 :exercise;
+        symbol [ muscleGroups %tmp.38 33 41 53 ];
+        %tmp.38 = getv %tmp.37 :muscleGroups;
+        %tmp.39 = lgetv %exerciseLog.4;
+        symbol [ exerciseLog %tmp.39 34 20 31 ];
+        symbol [ exercise %tmp.40 34 32 40 ];
+        %tmp.40 = getv %tmp.39 :exercise;
+        symbol [ equipment %tmp.41 34 41 50 ];
+        %tmp.41 = getv %tmp.40 :equipment;
+        %tmp.42 = lgetv %exerciseLog.4;
+        symbol [ exerciseLog %tmp.42 35 20 31 ];
+        symbol [ exercise %tmp.43 35 32 40 ];
+        %tmp.43 = getv %tmp.42 :exercise;
+        symbol [ customTags %tmp.44 35 41 51 ];
+        %tmp.44 = getv %tmp.43 :customTags;
+        %tmp.45 = lgetv %exerciseLog.4;
+        symbol [ exerciseLog %tmp.45 36 20 31 ];
+        symbol [ exercise %tmp.46 36 32 40 ];
+        %tmp.46 = getv %tmp.45 :exercise;
+        symbol [ formCuesRef %tmp.47 36 41 52 ];
+        %tmp.47 = getv %tmp.46 :formCuesRef;
+        %tmp.28 = newc %tmp.32 (%tmp.35, %tmp.38, %tmp.41, %tmp.44, %tmp.47);
+        lputv %newExercise.6 %tmp.28;
+        symbol [ newExercise %newExercise.6 31 20 31 ];
+[ "C:\DEV\GymTracker\source\Progression.mc" 39 16 ]
+        [ "C__DEV_GymTracker_source_Progression_mc_28_68_45_12_start" "C__DEV_GymTracker_source_Progression_mc_28_68_45_12_stop" ]
+        %newSets.7 = local;
+        symbol [ newSets %newSets.7 39 20 27 ];
+        %tmp.49 = 0;
+        %tmp.48 = newa Lang.Array<DataModels.SetLog> %tmp.49;
+        symbol [ Lang %tmp.48 39 34 38 ];
+        symbol [ Array %tmp.48 39 39 44 ];
+        symbol [ DataModels %tmp.48 39 45 55 ];
+        symbol [ SetLog %tmp.48 39 56 62 ];
+        lputv %newSets.7 %tmp.48;
+        symbol [ newSets %newSets.7 39 20 27 ];
+[ "C:\DEV\GymTracker\source\Progression.mc" 40 16 ]
+        for @C__DEV_GymTracker_source_Progression_mc_40_16_42_16_for_test @C__DEV_GymTracker_source_Progression_mc_40_16_42_16_for_incr @C__DEV_GymTracker_source_Progression_mc_40_16_42_16_for_end;
+C__DEV_GymTracker_source_Progression_mc_40_16_42_16_for_init:
+        [ "C__DEV_GymTracker_source_Progression_mc_40_16_42_16_for_begin" "C__DEV_GymTracker_source_Progression_mc_40_16_42_16_for_end" ]
+        %j.8 = local;
+        symbol [ j %j.8 40 25 26 ];
+        %tmp.50 = 0;
+        lputv %j.8 %tmp.50;
+        symbol [ j %j.8 40 25 26 ];
+C__DEV_GymTracker_source_Progression_mc_40_16_42_16_for_test:
+        %tmp.51 = lgetv %j.8;
+        symbol [ j %tmp.51 40 32 33 ];
+        %tmp.52 = lgetv %exerciseLog.4;
+        symbol [ exerciseLog %tmp.52 40 36 47 ];
+        symbol [ sets %tmp.53 40 48 52 ];
+        %tmp.53 = getv %tmp.52 :sets;
+        symbol [ size %tmp.54 40 53 57 ];
+        %tmp.54 = getv function %tmp.53 :size;
+        %tmp.55 = invoke %tmp.53 %tmp.54();
+        %tmp.56 = lt %tmp.51 %tmp.55;
+        bf %tmp.56 @C__DEV_GymTracker_source_Progression_mc_40_16_42_16_for_end;
+C__DEV_GymTracker_source_Progression_mc_40_16_42_16_for_begin:
+C__DEV_GymTracker_source_Progression_mc_40_66_42_16_start:
+[ "C:\DEV\GymTracker\source\Progression.mc" 41 20 ]
+        %tmp.57 = lgetv %newSets.7;
+        symbol [ newSets %tmp.57 41 20 27 ];
+        symbol [ add %tmp.58 41 28 31 ];
+        %tmp.58 = getv function %tmp.57 :add;
+        symbol [ DataModels %tmp.62 41 36 46 ];
+        %tmp.62 = getv ? :DataModels;
+        symbol [ SetLog %tmp.63 41 47 53 ];
+        %tmp.63 = getv function ? %tmp.62 :SetLog;
+        %tmp.64 = lgetv %lastSet.5;
+        symbol [ lastSet %tmp.64 41 54 61 ];
+        symbol [ reps %tmp.65 41 62 66 ];
+        %tmp.65 = getv %tmp.64 :reps;
+        %tmp.66 = lgetv %lastSet.5;
+        symbol [ lastSet %tmp.66 41 68 75 ];
+        symbol [ weight %tmp.67 41 76 82 ];
+        %tmp.67 = getv %tmp.66 :weight;
+        symbol [ _increment %tmp.69 41 85 95 ];
+        %tmp.69 = getv ? :_increment;
+        %tmp.70 = add %tmp.67 %tmp.69;
+        %tmp.71 = null;
+        %tmp.59 = newc %tmp.63 (%tmp.65, %tmp.70, %tmp.71);
+        invoke %tmp.57 %tmp.58(%tmp.59);
+C__DEV_GymTracker_source_Progression_mc_40_66_42_16_stop:
+C__DEV_GymTracker_source_Progression_mc_40_16_42_16_for_incr:
+[ "C:\DEV\GymTracker\source\Progression.mc" 40 ]
+        %tmp.74 = lgetv %j.8;
+        symbol [ j %tmp.74 40 61 62 ];
+        %tmp.75 = add %tmp.74 1;
+        lputv %j.8 %tmp.75;
+        symbol [ j %j.8 40 61 62 ];
+        goto @C__DEV_GymTracker_source_Progression_mc_40_16_42_16_for_test;
+C__DEV_GymTracker_source_Progression_mc_40_16_42_16_for_end:
+[ "C:\DEV\GymTracker\source\Progression.mc" 44 16 ]
+        %tmp.76 = lgetv %newExercises.2;
+        symbol [ newExercises %tmp.76 44 16 28 ];
+        symbol [ add %tmp.77 44 29 32 ];
+        %tmp.77 = getv function %tmp.76 :add;
+        symbol [ DataModels %tmp.81 44 37 47 ];
+        %tmp.81 = getv ? :DataModels;
+        symbol [ ExerciseLog %tmp.82 44 48 59 ];
+        %tmp.82 = getv function ? %tmp.81 :ExerciseLog;
+        %tmp.83 = lgetv %newExercise.6;
+        symbol [ newExercise %tmp.83 44 60 71 ];
+        %tmp.84 = lgetv %newSets.7;
+        symbol [ newSets %tmp.84 44 73 80 ];
+        %tmp.78 = newc %tmp.82 (%tmp.83, %tmp.84);
+        invoke %tmp.76 %tmp.77(%tmp.78);
+C__DEV_GymTracker_source_Progression_mc_28_68_45_12_stop:
+C__DEV_GymTracker_source_Progression_mc_28_12_45_12_for_incr:
+[ "C:\DEV\GymTracker\source\Progression.mc" 28 ]
+        %tmp.87 = lgetv %i.3;
+        symbol [ i %tmp.87 28 63 64 ];
+        %tmp.88 = add %tmp.87 1;
+        lputv %i.3 %tmp.88;
+        symbol [ i %i.3 28 63 64 ];
+        goto @C__DEV_GymTracker_source_Progression_mc_28_12_45_12_for_test;
+C__DEV_GymTracker_source_Progression_mc_28_12_45_12_for_end:
+[ "C:\DEV\GymTracker\source\Progression.mc" 46 12 ]
+        %tmp.89 = lgetv %nextTemplate.1;
+        symbol [ nextTemplate %tmp.89 46 12 24 ];
+        %tmp.90 = lgetv %newExercises.2;
+        symbol [ newExercises %tmp.90 46 37 49 ];
+        symbol [ exercises ? 46 25 34 ];
+        putv %tmp.89 :exercises %tmp.90;
+[ "C:\DEV\GymTracker\source\Progression.mc" 47 12 ]
+        %tmp.91 = lgetv %nextTemplate.1;
+        symbol [ nextTemplate %tmp.91 47 19 31 ];
+        ret %tmp.91;
+C__DEV_GymTracker_source_Progression_mc_24_104_48_8_stop:
+    }
+}
+[ @file = "C:\DEV\GymTracker\source\Progression.mc"; @line = 51; @symbol_classdef = [DoubleProgression,51,10,27]; @symbol_extends<0> = [ProgressionScheme,51,36,53]; ]
+class DoubleProgression extends ProgressionScheme {
+    [ @file = "C:\DEV\GymTracker\source\Progression.mc"; @line = 51; ]
+    <init> {
+    }
+    [ @file = "C:\DEV\GymTracker\source\Progression.mc"; @line = 51; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\DEV\GymTracker\source\Progression.mc"; @line = 52; @position = 20; @symbol_vardef = [_minReps,52,20,28]; @symbol_type<0> = [Lang,52,32,36]; @symbol_type<1> = [Number,52,37,43]; ]
+    private
+    var _minReps as Lang.Number;
+    [ @file = "C:\DEV\GymTracker\source\Progression.mc"; @line = 53; @position = 20; @symbol_vardef = [_maxReps,53,20,28]; @symbol_type<0> = [Lang,53,32,36]; @symbol_type<1> = [Number,53,37,43]; ]
+    private
+    var _maxReps as Lang.Number;
+    [ @file = "C:\DEV\GymTracker\source\Progression.mc"; @line = 54; @position = 20; @symbol_vardef = [_increment,54,20,30]; @symbol_type<0> = [Lang,54,34,38]; @symbol_type<1> = [Number,54,39,45]; ]
+    private
+    var _increment as Lang.Number;
+    [ @file = "C:\DEV\GymTracker\source\Progression.mc"; @line = 56; @symbol_functiondef = [initialize,56,17,27]; @symbol_param<0> = [options,56,28,35]; @symbol_param<0>_type<0> = [Lang,57,24,28]; @symbol_param<0>_type<1> = [Number,57,29,35]; @symbol_param<0>_type<2> = [Lang,58,24,28]; @symbol_param<0>_type<3> = [Number,58,29,35]; @symbol_param<0>_type<4> = [Lang,59,26,30]; @symbol_param<0>_type<5> = [Number,59,31,37]; @symbol_param<0>_type_const<0> = [minReps,57,13,20]; @symbol_param<0>_type_const<1> = [maxReps,58,13,20]; @symbol_param<0>_type_const<2> = [increment,59,13,22]; ]
+    function initialize(options as {:minReps as Lang.Number, :maxReps as Lang.Number, :increment as Lang.Number}) as Void {
+C__DEV_GymTracker_source_Progression_mc_60_11_65_8_start:
+[ "C:\DEV\GymTracker\source\Progression.mc" 61 12 ]
+    symbol [ ProgressionScheme %tmp.2 61 12 29 ];
+    %tmp.2 = getv ? :ProgressionScheme;
+    symbol [ initialize %tmp.3 61 30 40 ];
+    %tmp.3 = getv function %tmp.2 :initialize;
+    invoke %tmp.2 %tmp.3();
+[ "C:\DEV\GymTracker\source\Progression.mc" 62 12 ]
+    %tmp.4 = lgetv %options;
+    symbol [ options %tmp.4 62 23 30 ];
+    %tmp.6 = const :minReps;
+    symbol [ minReps %tmp.6 62 32 39 const ];
+    %tmp.7 = agetv %tmp.4 %tmp.6;
+    symbol [ _minReps ? 62 12 20 ];
+    putv self :_minReps %tmp.7;
+[ "C:\DEV\GymTracker\source\Progression.mc" 63 12 ]
+    %tmp.8 = lgetv %options;
+    symbol [ options %tmp.8 63 23 30 ];
+    %tmp.10 = const :maxReps;
+    symbol [ maxReps %tmp.10 63 32 39 const ];
+    %tmp.11 = agetv %tmp.8 %tmp.10;
+    symbol [ _maxReps ? 63 12 20 ];
+    putv self :_maxReps %tmp.11;
+[ "C:\DEV\GymTracker\source\Progression.mc" 64 12 ]
+    %tmp.12 = lgetv %options;
+    symbol [ options %tmp.12 64 25 32 ];
+    %tmp.14 = const :increment;
+    symbol [ increment %tmp.14 64 34 43 const ];
+    %tmp.15 = agetv %tmp.12 %tmp.14;
+    symbol [ _increment ? 64 12 22 ];
+    putv self :_increment %tmp.15;
+C__DEV_GymTracker_source_Progression_mc_60_11_65_8_stop:
+}
+[ @file = "C:\DEV\GymTracker\source\Progression.mc"; @line = 67; @symbol_functiondef = [suggestNextWorkout,67,17,35]; @symbol_param<0> = [lastWorkout,67,36,47]; @symbol_param<0>_type<0> = [DataModels,67,51,61]; @symbol_param<0>_type<1> = [WorkoutLog,67,62,72]; @symbol_return<0> = [DataModels,67,77,87]; @symbol_return<1> = [WorkoutTemplate,67,88,103]; ]
+function suggestNextWorkout(lastWorkout as DataModels.WorkoutLog) as DataModels.WorkoutTemplate {
+C__DEV_GymTracker_source_Progression_mc_67_104_104_8_start:
+[ "C:\DEV\GymTracker\source\Progression.mc" 68 12 ]
+    symbol [ System %tmp.1 68 12 18 ];
+    %tmp.1 = getm $.Toybox.System;
+    symbol [ println %tmp.2 68 19 26 ];
+    %tmp.2 = getv function %tmp.1 :println;
+    %tmp.3 = "Suggesting next workout with double progression";
+    invoke %tmp.1 %tmp.2(%tmp.3);
+[ "C:\DEV\GymTracker\source\Progression.mc" 69 12 ]
+    [ "C__DEV_GymTracker_source_Progression_mc_67_104_104_8_start" "C__DEV_GymTracker_source_Progression_mc_67_104_104_8_stop" ]
+    %nextTemplate.1 = local;
+    symbol [ nextTemplate %nextTemplate.1 69 16 28 ];
+    %tmp.4 = lgetv %lastWorkout;
+    symbol [ lastWorkout %tmp.4 69 31 42 ];
+    symbol [ templateUsed %tmp.5 69 43 55 ];
+    %tmp.5 = getv %tmp.4 :templateUsed;
+    lputv %nextTemplate.1 %tmp.5;
+    symbol [ nextTemplate %nextTemplate.1 69 16 28 ];
+[ "C:\DEV\GymTracker\source\Progression.mc" 70 12 ]
+    [ "C__DEV_GymTracker_source_Progression_mc_67_104_104_8_start" "C__DEV_GymTracker_source_Progression_mc_67_104_104_8_stop" ]
+    %newExercises.2 = local;
+    symbol [ newExercises %newExercises.2 70 16 28 ];
+    %tmp.7 = 0;
+    %tmp.6 = newa Lang.Array<DataModels.ExerciseLog> %tmp.7;
+    symbol [ Lang %tmp.6 70 35 39 ];
+    symbol [ Array %tmp.6 70 40 45 ];
+    symbol [ DataModels %tmp.6 70 46 56 ];
+    symbol [ ExerciseLog %tmp.6 70 57 68 ];
+    lputv %newExercises.2 %tmp.6;
+    symbol [ newExercises %newExercises.2 70 16 28 ];
+[ "C:\DEV\GymTracker\source\Progression.mc" 71 12 ]
+    for @C__DEV_GymTracker_source_Progression_mc_71_12_101_12_for_test @C__DEV_GymTracker_source_Progression_mc_71_12_101_12_for_incr @C__DEV_GymTracker_source_Progression_mc_71_12_101_12_for_end;
+C__DEV_GymTracker_source_Progression_mc_71_12_101_12_for_init:
+    [ "C__DEV_GymTracker_source_Progression_mc_71_12_101_12_for_begin" "C__DEV_GymTracker_source_Progression_mc_71_12_101_12_for_end" ]
+    %i.3 = local;
+    symbol [ i %i.3 71 21 22 ];
+    %tmp.8 = 0;
+    lputv %i.3 %tmp.8;
+    symbol [ i %i.3 71 21 22 ];
+C__DEV_GymTracker_source_Progression_mc_71_12_101_12_for_test:
+    %tmp.9 = lgetv %i.3;
+    symbol [ i %tmp.9 71 28 29 ];
+    %tmp.10 = lgetv %nextTemplate.1;
+    symbol [ nextTemplate %tmp.10 71 32 44 ];
+    symbol [ exercises %tmp.11 71 45 54 ];
+    %tmp.11 = getv %tmp.10 :exercises;
+    symbol [ size %tmp.12 71 55 59 ];
+    %tmp.12 = getv function %tmp.11 :size;
+    %tmp.13 = invoke %tmp.11 %tmp.12();
+    %tmp.14 = lt %tmp.9 %tmp.13;
+    bf %tmp.14 @C__DEV_GymTracker_source_Progression_mc_71_12_101_12_for_end;
+C__DEV_GymTracker_source_Progression_mc_71_12_101_12_for_begin:
+C__DEV_GymTracker_source_Progression_mc_71_68_101_12_start:
+[ "C:\DEV\GymTracker\source\Progression.mc" 72 16 ]
+    [ "C__DEV_GymTracker_source_Progression_mc_71_68_101_12_start" "C__DEV_GymTracker_source_Progression_mc_71_68_101_12_stop" ]
+    %exerciseLog.4 = local;
+    symbol [ exerciseLog %exerciseLog.4 72 20 31 ];
+    %tmp.15 = lgetv %lastWorkout;
+    symbol [ lastWorkout %tmp.15 72 34 45 ];
+    symbol [ exerciseDetails %tmp.16 72 46 61 ];
+    %tmp.16 = getv %tmp.15 :exerciseDetails;
+    %tmp.17 = lgetv %i.3;
+    symbol [ i %tmp.17 72 62 63 ];
+    %tmp.18 = agetv %tmp.16 %tmp.17;
+    lputv %exerciseLog.4 %tmp.18;
+    symbol [ exerciseLog %exerciseLog.4 72 20 31 ];
+[ "C:\DEV\GymTracker\source\Progression.mc" 73 16 ]
+    [ "C__DEV_GymTracker_source_Progression_mc_71_68_101_12_start" "C__DEV_GymTracker_source_Progression_mc_71_68_101_12_stop" ]
+    %lastSet.5 = local;
+    symbol [ lastSet %lastSet.5 73 20 27 ];
+    %tmp.19 = lgetv %exerciseLog.4;
+    symbol [ exerciseLog %tmp.19 73 30 41 ];
+    symbol [ sets %tmp.20 73 42 46 ];
+    %tmp.20 = getv %tmp.19 :sets;
+    %tmp.21 = lgetv %exerciseLog.4;
+    symbol [ exerciseLog %tmp.21 73 47 58 ];
+    symbol [ sets %tmp.22 73 59 63 ];
+    %tmp.22 = getv %tmp.21 :sets;
+    symbol [ size %tmp.23 73 64 68 ];
+    %tmp.23 = getv function %tmp.22 :size;
+    %tmp.24 = invoke %tmp.22 %tmp.23();
+    %tmp.25 = 1;
+    %tmp.26 = sub %tmp.24 %tmp.25;
+    %tmp.27 = agetv %tmp.20 %tmp.26;
+    lputv %lastSet.5 %tmp.27;
+    symbol [ lastSet %lastSet.5 73 20 27 ];
+[ "C:\DEV\GymTracker\source\Progression.mc" 74 16 ]
+    [ "C__DEV_GymTracker_source_Progression_mc_71_68_101_12_start" "C__DEV_GymTracker_source_Progression_mc_71_68_101_12_stop" ]
+    %newExercise.6 = local;
+    symbol [ newExercise %newExercise.6 74 20 31 ];
+    symbol [ DataModels %tmp.31 74 38 48 ];
+    %tmp.31 = getv ? :DataModels;
+    symbol [ Exercise %tmp.32 74 49 57 ];
+    %tmp.32 = getv function ? %tmp.31 :Exercise;
+    %tmp.33 = lgetv %exerciseLog.4;
+    symbol [ exerciseLog %tmp.33 75 20 31 ];
+    symbol [ exercise %tmp.34 75 32 40 ];
+    %tmp.34 = getv %tmp.33 :exercise;
+    symbol [ name %tmp.35 75 41 45 ];
+    %tmp.35 = getv %tmp.34 :name;
+    %tmp.36 = lgetv %exerciseLog.4;
+    symbol [ exerciseLog %tmp.36 76 20 31 ];
+    symbol [ exercise %tmp.37 76 32 40 ];
+    %tmp.37 = getv %tmp.36 :exercise;
+    symbol [ muscleGroups %tmp.38 76 41 53 ];
+    %tmp.38 = getv %tmp.37 :muscleGroups;
+    %tmp.39 = lgetv %exerciseLog.4;
+    symbol [ exerciseLog %tmp.39 77 20 31 ];
+    symbol [ exercise %tmp.40 77 32 40 ];
+    %tmp.40 = getv %tmp.39 :exercise;
+    symbol [ equipment %tmp.41 77 41 50 ];
+    %tmp.41 = getv %tmp.40 :equipment;
+    %tmp.42 = lgetv %exerciseLog.4;
+    symbol [ exerciseLog %tmp.42 78 20 31 ];
+    symbol [ exercise %tmp.43 78 32 40 ];
+    %tmp.43 = getv %tmp.42 :exercise;
+    symbol [ customTags %tmp.44 78 41 51 ];
+    %tmp.44 = getv %tmp.43 :customTags;
+    %tmp.45 = lgetv %exerciseLog.4;
+    symbol [ exerciseLog %tmp.45 79 20 31 ];
+    symbol [ exercise %tmp.46 79 32 40 ];
+    %tmp.46 = getv %tmp.45 :exercise;
+    symbol [ formCuesRef %tmp.47 79 41 52 ];
+    %tmp.47 = getv %tmp.46 :formCuesRef;
+    %tmp.28 = newc %tmp.32 (%tmp.35, %tmp.38, %tmp.41, %tmp.44, %tmp.47);
+    lputv %newExercise.6 %tmp.28;
+    symbol [ newExercise %newExercise.6 74 20 31 ];
+[ "C:\DEV\GymTracker\source\Progression.mc" 82 16 ]
+    [ "C__DEV_GymTracker_source_Progression_mc_71_68_101_12_start" "C__DEV_GymTracker_source_Progression_mc_71_68_101_12_stop" ]
+    %newWeight.7 = local;
+    symbol [ newWeight %newWeight.7 82 20 29 ];
+[ "C:\DEV\GymTracker\source\Progression.mc" 83 16 ]
+    [ "C__DEV_GymTracker_source_Progression_mc_71_68_101_12_start" "C__DEV_GymTracker_source_Progression_mc_71_68_101_12_stop" ]
+    %newReps.8 = local;
+    symbol [ newReps %newReps.8 83 20 27 ];
+[ "C:\DEV\GymTracker\source\Progression.mc" 85 16 ]
+C__DEV_GymTracker_source_Progression_mc_85_16_93_16_if_stmt:
+    %tmp.48 = lgetv %lastSet.5;
+    symbol [ lastSet %tmp.48 85 20 27 ];
+    symbol [ reps %tmp.49 85 28 32 ];
+    %tmp.49 = getv %tmp.48 :reps;
+    symbol [ _maxReps %tmp.51 85 36 44 ];
+    %tmp.51 = getv ? :_maxReps;
+    %tmp.52 = gte %tmp.49 %tmp.51;
+    bf %tmp.52 @C__DEV_GymTracker_source_Progression_mc_85_16_93_16_if_else_false;
+C__DEV_GymTracker_source_Progression_mc_85_16_93_16_if_true:
+C__DEV_GymTracker_source_Progression_mc_85_46_89_16_start:
+[ "C:\DEV\GymTracker\source\Progression.mc" 87 20 ]
+    %tmp.53 = lgetv %lastSet.5;
+    symbol [ lastSet %tmp.53 87 32 39 ];
+    symbol [ weight %tmp.54 87 40 46 ];
+    %tmp.54 = getv %tmp.53 :weight;
+    symbol [ _increment %tmp.56 87 49 59 ];
+    %tmp.56 = getv ? :_increment;
+    %tmp.57 = add %tmp.54 %tmp.56;
+    lputv %newWeight.7 %tmp.57;
+    symbol [ newWeight %newWeight.7 87 20 29 ];
+[ "C:\DEV\GymTracker\source\Progression.mc" 88 20 ]
+    symbol [ _minReps %tmp.59 88 30 38 ];
+    %tmp.59 = getv ? :_minReps;
+    lputv %newReps.8 %tmp.59;
+    symbol [ newReps %newReps.8 88 20 27 ];
+C__DEV_GymTracker_source_Progression_mc_85_46_89_16_stop:
+    goto @C__DEV_GymTracker_source_Progression_mc_85_16_93_16_if_end;
+C__DEV_GymTracker_source_Progression_mc_85_16_93_16_if_else_false:
+C__DEV_GymTracker_source_Progression_mc_89_23_93_16_start:
+[ "C:\DEV\GymTracker\source\Progression.mc" 91 20 ]
+    %tmp.60 = lgetv %lastSet.5;
+    symbol [ lastSet %tmp.60 91 32 39 ];
+    symbol [ weight %tmp.61 91 40 46 ];
+    %tmp.61 = getv %tmp.60 :weight;
+    lputv %newWeight.7 %tmp.61;
+    symbol [ newWeight %newWeight.7 91 20 29 ];
+[ "C:\DEV\GymTracker\source\Progression.mc" 92 20 ]
+    %tmp.62 = lgetv %lastSet.5;
+    symbol [ lastSet %tmp.62 92 30 37 ];
+    symbol [ reps %tmp.63 92 38 42 ];
+    %tmp.63 = getv %tmp.62 :reps;
+    %tmp.64 = 1;
+    %tmp.65 = add %tmp.63 %tmp.64;
+    lputv %newReps.8 %tmp.65;
+    symbol [ newReps %newReps.8 92 20 27 ];
+C__DEV_GymTracker_source_Progression_mc_89_23_93_16_stop:
+C__DEV_GymTracker_source_Progression_mc_85_16_93_16_if_end:
+[ "C:\DEV\GymTracker\source\Progression.mc" 95 16 ]
+    [ "C__DEV_GymTracker_source_Progression_mc_71_68_101_12_start" "C__DEV_GymTracker_source_Progression_mc_71_68_101_12_stop" ]
+    %newSets.9 = local;
+    symbol [ newSets %newSets.9 95 20 27 ];
+    %tmp.67 = 0;
+    %tmp.66 = newa Lang.Array<DataModels.SetLog> %tmp.67;
+    symbol [ Lang %tmp.66 95 34 38 ];
+    symbol [ Array %tmp.66 95 39 44 ];
+    symbol [ DataModels %tmp.66 95 45 55 ];
+    symbol [ SetLog %tmp.66 95 56 62 ];
+    lputv %newSets.9 %tmp.66;
+    symbol [ newSets %newSets.9 95 20 27 ];
+[ "C:\DEV\GymTracker\source\Progression.mc" 96 16 ]
+    for @C__DEV_GymTracker_source_Progression_mc_96_16_98_16_for_test @C__DEV_GymTracker_source_Progression_mc_96_16_98_16_for_incr @C__DEV_GymTracker_source_Progression_mc_96_16_98_16_for_end;
+C__DEV_GymTracker_source_Progression_mc_96_16_98_16_for_init:
+    [ "C__DEV_GymTracker_source_Progression_mc_96_16_98_16_for_begin" "C__DEV_GymTracker_source_Progression_mc_96_16_98_16_for_end" ]
+    %j.10 = local;
+    symbol [ j %j.10 96 25 26 ];
+    %tmp.68 = 0;
+    lputv %j.10 %tmp.68;
+    symbol [ j %j.10 96 25 26 ];
+C__DEV_GymTracker_source_Progression_mc_96_16_98_16_for_test:
+    %tmp.69 = lgetv %j.10;
+    symbol [ j %tmp.69 96 32 33 ];
+    %tmp.70 = lgetv %exerciseLog.4;
+    symbol [ exerciseLog %tmp.70 96 36 47 ];
+    symbol [ sets %tmp.71 96 48 52 ];
+    %tmp.71 = getv %tmp.70 :sets;
+    symbol [ size %tmp.72 96 53 57 ];
+    %tmp.72 = getv function %tmp.71 :size;
+    %tmp.73 = invoke %tmp.71 %tmp.72();
+    %tmp.74 = lt %tmp.69 %tmp.73;
+    bf %tmp.74 @C__DEV_GymTracker_source_Progression_mc_96_16_98_16_for_end;
+C__DEV_GymTracker_source_Progression_mc_96_16_98_16_for_begin:
+C__DEV_GymTracker_source_Progression_mc_96_66_98_16_start:
+[ "C:\DEV\GymTracker\source\Progression.mc" 97 20 ]
+    %tmp.75 = lgetv %newSets.9;
+    symbol [ newSets %tmp.75 97 20 27 ];
+    symbol [ add %tmp.76 97 28 31 ];
+    %tmp.76 = getv function %tmp.75 :add;
+    symbol [ DataModels %tmp.80 97 36 46 ];
+    %tmp.80 = getv ? :DataModels;
+    symbol [ SetLog %tmp.81 97 47 53 ];
+    %tmp.81 = getv function ? %tmp.80 :SetLog;
+    %tmp.82 = lgetv %newReps.8;
+    symbol [ newReps %tmp.82 97 54 61 ];
+    %tmp.83 = lgetv %newWeight.7;
+    symbol [ newWeight %tmp.83 97 63 72 ];
+    %tmp.84 = null;
+    %tmp.77 = newc %tmp.81 (%tmp.82, %tmp.83, %tmp.84);
+    invoke %tmp.75 %tmp.76(%tmp.77);
+C__DEV_GymTracker_source_Progression_mc_96_66_98_16_stop:
+C__DEV_GymTracker_source_Progression_mc_96_16_98_16_for_incr:
+[ "C:\DEV\GymTracker\source\Progression.mc" 96 ]
+    %tmp.87 = lgetv %j.10;
+    symbol [ j %tmp.87 96 61 62 ];
+    %tmp.88 = add %tmp.87 1;
+    lputv %j.10 %tmp.88;
+    symbol [ j %j.10 96 61 62 ];
+    goto @C__DEV_GymTracker_source_Progression_mc_96_16_98_16_for_test;
+C__DEV_GymTracker_source_Progression_mc_96_16_98_16_for_end:
+[ "C:\DEV\GymTracker\source\Progression.mc" 100 16 ]
+    %tmp.89 = lgetv %newExercises.2;
+    symbol [ newExercises %tmp.89 100 16 28 ];
+    symbol [ add %tmp.90 100 29 32 ];
+    %tmp.90 = getv function %tmp.89 :add;
+    symbol [ DataModels %tmp.94 100 37 47 ];
+    %tmp.94 = getv ? :DataModels;
+    symbol [ ExerciseLog %tmp.95 100 48 59 ];
+    %tmp.95 = getv function ? %tmp.94 :ExerciseLog;
+    %tmp.96 = lgetv %newExercise.6;
+    symbol [ newExercise %tmp.96 100 60 71 ];
+    %tmp.97 = lgetv %newSets.9;
+    symbol [ newSets %tmp.97 100 73 80 ];
+    %tmp.91 = newc %tmp.95 (%tmp.96, %tmp.97);
+    invoke %tmp.89 %tmp.90(%tmp.91);
+C__DEV_GymTracker_source_Progression_mc_71_68_101_12_stop:
+C__DEV_GymTracker_source_Progression_mc_71_12_101_12_for_incr:
+[ "C:\DEV\GymTracker\source\Progression.mc" 71 ]
+    %tmp.100 = lgetv %i.3;
+    symbol [ i %tmp.100 71 63 64 ];
+    %tmp.101 = add %tmp.100 1;
+    lputv %i.3 %tmp.101;
+    symbol [ i %i.3 71 63 64 ];
+    goto @C__DEV_GymTracker_source_Progression_mc_71_12_101_12_for_test;
+C__DEV_GymTracker_source_Progression_mc_71_12_101_12_for_end:
+[ "C:\DEV\GymTracker\source\Progression.mc" 102 12 ]
+    %tmp.102 = lgetv %nextTemplate.1;
+    symbol [ nextTemplate %tmp.102 102 12 24 ];
+    %tmp.103 = lgetv %newExercises.2;
+    symbol [ newExercises %tmp.103 102 37 49 ];
+    symbol [ exercises ? 102 25 34 ];
+    putv %tmp.102 :exercises %tmp.103;
+[ "C:\DEV\GymTracker\source\Progression.mc" 103 12 ]
+    %tmp.104 = lgetv %nextTemplate.1;
+    symbol [ nextTemplate %tmp.104 103 19 31 ];
+    ret %tmp.104;
+C__DEV_GymTracker_source_Progression_mc_67_104_104_8_stop:
+}
+}
+}
+[ @file = "C:\DEV\GymTracker\source\Progression.mc"; @line = 1; ]
+<init> {
+}

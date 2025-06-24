@@ -1,0 +1,299 @@
+[ @file = "C:\DEV\GymTracker\source\SyncService.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\DEV\GymTracker\source\SyncService.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Communications,2,14,28]; ]
+import Toybox.Communications;
+[ @file = "C:\DEV\GymTracker\source\SyncService.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [System,3,14,20]; ]
+import Toybox.System;
+[ @file = "C:\DEV\GymTracker\source\SyncService.mc"; @line = 5; @symbol_moduledef = [SyncService,5,7,18]; ]
+module SyncService {
+    [ @file = "C:\DEV\GymTracker\source\SyncService.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\DEV\GymTracker\source\SyncService.mc"; @line = 7; @symbol_functiondef = [syncWorkoutLog,7,13,27]; @symbol_param<0> = [log,7,28,31]; @symbol_param<0>_type<0> = [DataModels,7,35,45]; @symbol_param<0>_type<1> = [WorkoutLog,7,46,56]; ]
+    function syncWorkoutLog(log as DataModels.WorkoutLog) as Void {
+C__DEV_GymTracker_source_SyncService_mc_7_66_41_4_start:
+[ "C:\DEV\GymTracker\source\SyncService.mc" 8 8 ]
+        [ "C__DEV_GymTracker_source_SyncService_mc_7_66_41_4_start" "C__DEV_GymTracker_source_SyncService_mc_7_66_41_4_stop" ]
+        %url.1 = local;
+        symbol [ url %url.1 8 12 15 ];
+        %tmp.1 = "https://your-backend-url.com/api/workout";
+        lputv %url.1 %tmp.1;
+        symbol [ url %url.1 8 12 15 ];
+[ "C:\DEV\GymTracker\source\SyncService.mc" 9 8 ]
+        [ "C__DEV_GymTracker_source_SyncService_mc_7_66_41_4_start" "C__DEV_GymTracker_source_SyncService_mc_7_66_41_4_stop" ]
+        %params.2 = local;
+        symbol [ params %params.2 9 12 18 ];
+        %tmp.2 = newd 3;
+        %tmp.3 = "timestamp";
+        %tmp.4 = lgetv %log;
+        symbol [ log %tmp.4 10 27 30 ];
+        symbol [ timestamp %tmp.5 10 31 40 ];
+        %tmp.5 = getv %tmp.4 :timestamp;
+        %tmp.6 = dup %tmp.2;
+        %tmp.7 = aputv %tmp.6 %tmp.3 %tmp.5;
+        %tmp.8 = "templateUsed";
+        %tmp.9 = lgetv %log;
+        symbol [ log %tmp.9 11 30 33 ];
+        symbol [ templateUsed %tmp.10 11 34 46 ];
+        %tmp.10 = getv %tmp.9 :templateUsed;
+        symbol [ name %tmp.11 11 47 51 ];
+        %tmp.11 = getv %tmp.10 :name;
+        %tmp.12 = dup %tmp.7;
+        %tmp.13 = aputv %tmp.12 %tmp.8 %tmp.11;
+        %tmp.14 = "exercises";
+        %tmp.15 = newa 0;
+        %tmp.16 = dup %tmp.13;
+        %tmp.17 = aputv %tmp.16 %tmp.14 %tmp.15;
+        lputv %params.2 %tmp.17;
+        symbol [ params %params.2 9 12 18 ];
+[ "C:\DEV\GymTracker\source\SyncService.mc" 15 8 ]
+        for @C__DEV_GymTracker_source_SyncService_mc_15_8_30_8_for_test @C__DEV_GymTracker_source_SyncService_mc_15_8_30_8_for_incr @C__DEV_GymTracker_source_SyncService_mc_15_8_30_8_for_end;
+C__DEV_GymTracker_source_SyncService_mc_15_8_30_8_for_init:
+        [ "C__DEV_GymTracker_source_SyncService_mc_15_8_30_8_for_begin" "C__DEV_GymTracker_source_SyncService_mc_15_8_30_8_for_end" ]
+        %i.3 = local;
+        symbol [ i %i.3 15 17 18 ];
+        %tmp.18 = 0;
+        lputv %i.3 %tmp.18;
+        symbol [ i %i.3 15 17 18 ];
+C__DEV_GymTracker_source_SyncService_mc_15_8_30_8_for_test:
+        %tmp.19 = lgetv %i.3;
+        symbol [ i %tmp.19 15 24 25 ];
+        %tmp.20 = lgetv %log;
+        symbol [ log %tmp.20 15 28 31 ];
+        symbol [ exerciseDetails %tmp.21 15 32 47 ];
+        %tmp.21 = getv %tmp.20 :exerciseDetails;
+        symbol [ size %tmp.22 15 48 52 ];
+        %tmp.22 = getv function %tmp.21 :size;
+        %tmp.23 = invoke %tmp.21 %tmp.22();
+        %tmp.24 = lt %tmp.19 %tmp.23;
+        bf %tmp.24 @C__DEV_GymTracker_source_SyncService_mc_15_8_30_8_for_end;
+C__DEV_GymTracker_source_SyncService_mc_15_8_30_8_for_begin:
+C__DEV_GymTracker_source_SyncService_mc_15_61_30_8_start:
+[ "C:\DEV\GymTracker\source\SyncService.mc" 16 12 ]
+        [ "C__DEV_GymTracker_source_SyncService_mc_15_61_30_8_start" "C__DEV_GymTracker_source_SyncService_mc_15_61_30_8_stop" ]
+        %exerciseLog.4 = local;
+        symbol [ exerciseLog %exerciseLog.4 16 16 27 ];
+        %tmp.25 = lgetv %log;
+        symbol [ log %tmp.25 16 30 33 ];
+        symbol [ exerciseDetails %tmp.26 16 34 49 ];
+        %tmp.26 = getv %tmp.25 :exerciseDetails;
+        %tmp.27 = lgetv %i.3;
+        symbol [ i %tmp.27 16 50 51 ];
+        %tmp.28 = agetv %tmp.26 %tmp.27;
+        lputv %exerciseLog.4 %tmp.28;
+        symbol [ exerciseLog %exerciseLog.4 16 16 27 ];
+[ "C:\DEV\GymTracker\source\SyncService.mc" 17 12 ]
+        [ "C__DEV_GymTracker_source_SyncService_mc_15_61_30_8_start" "C__DEV_GymTracker_source_SyncService_mc_15_61_30_8_stop" ]
+        %exercise.5 = local;
+        symbol [ exercise %exercise.5 17 16 24 ];
+        %tmp.29 = newd 2;
+        %tmp.30 = "name";
+        %tmp.31 = lgetv %exerciseLog.4;
+        symbol [ exerciseLog %tmp.31 18 26 37 ];
+        symbol [ exercise %tmp.32 18 38 46 ];
+        %tmp.32 = getv %tmp.31 :exercise;
+        symbol [ name %tmp.33 18 47 51 ];
+        %tmp.33 = getv %tmp.32 :name;
+        %tmp.34 = dup %tmp.29;
+        %tmp.35 = aputv %tmp.34 %tmp.30 %tmp.33;
+        %tmp.36 = "sets";
+        %tmp.37 = newa 0;
+        %tmp.38 = dup %tmp.35;
+        %tmp.39 = aputv %tmp.38 %tmp.36 %tmp.37;
+        lputv %exercise.5 %tmp.39;
+        symbol [ exercise %exercise.5 17 16 24 ];
+[ "C:\DEV\GymTracker\source\SyncService.mc" 21 12 ]
+        for @C__DEV_GymTracker_source_SyncService_mc_21_12_28_12_for_test @C__DEV_GymTracker_source_SyncService_mc_21_12_28_12_for_incr @C__DEV_GymTracker_source_SyncService_mc_21_12_28_12_for_end;
+C__DEV_GymTracker_source_SyncService_mc_21_12_28_12_for_init:
+        [ "C__DEV_GymTracker_source_SyncService_mc_21_12_28_12_for_begin" "C__DEV_GymTracker_source_SyncService_mc_21_12_28_12_for_end" ]
+        %j.6 = local;
+        symbol [ j %j.6 21 21 22 ];
+        %tmp.40 = 0;
+        lputv %j.6 %tmp.40;
+        symbol [ j %j.6 21 21 22 ];
+C__DEV_GymTracker_source_SyncService_mc_21_12_28_12_for_test:
+        %tmp.41 = lgetv %j.6;
+        symbol [ j %tmp.41 21 28 29 ];
+        %tmp.42 = lgetv %log;
+        symbol [ log %tmp.42 21 32 35 ];
+        symbol [ setsData %tmp.43 21 36 44 ];
+        %tmp.43 = getv %tmp.42 :setsData;
+        symbol [ size %tmp.44 21 45 49 ];
+        %tmp.44 = getv function %tmp.43 :size;
+        %tmp.45 = invoke %tmp.43 %tmp.44();
+        %tmp.46 = lt %tmp.41 %tmp.45;
+        bf %tmp.46 @C__DEV_GymTracker_source_SyncService_mc_21_12_28_12_for_end;
+C__DEV_GymTracker_source_SyncService_mc_21_12_28_12_for_begin:
+C__DEV_GymTracker_source_SyncService_mc_21_58_28_12_start:
+[ "C:\DEV\GymTracker\source\SyncService.mc" 22 16 ]
+        [ "C__DEV_GymTracker_source_SyncService_mc_21_58_28_12_start" "C__DEV_GymTracker_source_SyncService_mc_21_58_28_12_stop" ]
+        %setLog.7 = local;
+        symbol [ setLog %setLog.7 22 20 26 ];
+        %tmp.47 = lgetv %log;
+        symbol [ log %tmp.47 22 29 32 ];
+        symbol [ setsData %tmp.48 22 33 41 ];
+        %tmp.48 = getv %tmp.47 :setsData;
+        %tmp.49 = lgetv %j.6;
+        symbol [ j %tmp.49 22 42 43 ];
+        %tmp.50 = agetv %tmp.48 %tmp.49;
+        lputv %setLog.7 %tmp.50;
+        symbol [ setLog %setLog.7 22 20 26 ];
+[ "C:\DEV\GymTracker\source\SyncService.mc" 23 16 ]
+        %tmp.51 = lgetv %exercise.5;
+        symbol [ exercise %tmp.51 23 16 24 ];
+        %tmp.52 = "sets";
+        %tmp.53 = agetv %tmp.51 %tmp.52;
+        symbol [ add %tmp.54 23 33 36 ];
+        %tmp.54 = getv function %tmp.53 :add;
+        %tmp.55 = newd 3;
+        %tmp.56 = "reps";
+        %tmp.57 = lgetv %setLog.7;
+        symbol [ setLog %tmp.57 24 30 36 ];
+        symbol [ reps %tmp.58 24 37 41 ];
+        %tmp.58 = getv %tmp.57 :reps;
+        %tmp.59 = dup %tmp.55;
+        %tmp.60 = aputv %tmp.59 %tmp.56 %tmp.58;
+        %tmp.61 = "weight";
+        %tmp.62 = lgetv %setLog.7;
+        symbol [ setLog %tmp.62 25 32 38 ];
+        symbol [ weight %tmp.63 25 39 45 ];
+        %tmp.63 = getv %tmp.62 :weight;
+        %tmp.64 = dup %tmp.60;
+        %tmp.65 = aputv %tmp.64 %tmp.61 %tmp.63;
+        %tmp.66 = "rpe";
+        %tmp.67 = lgetv %setLog.7;
+        symbol [ setLog %tmp.67 26 29 35 ];
+        symbol [ rpe %tmp.68 26 36 39 ];
+        %tmp.68 = getv %tmp.67 :rpe;
+        %tmp.69 = dup %tmp.65;
+        %tmp.70 = aputv %tmp.69 %tmp.66 %tmp.68;
+        invoke %tmp.53 %tmp.54(%tmp.70);
+C__DEV_GymTracker_source_SyncService_mc_21_58_28_12_stop:
+C__DEV_GymTracker_source_SyncService_mc_21_12_28_12_for_incr:
+[ "C:\DEV\GymTracker\source\SyncService.mc" 21 ]
+        %tmp.73 = lgetv %j.6;
+        symbol [ j %tmp.73 21 53 54 ];
+        %tmp.74 = add %tmp.73 1;
+        lputv %j.6 %tmp.74;
+        symbol [ j %j.6 21 53 54 ];
+        goto @C__DEV_GymTracker_source_SyncService_mc_21_12_28_12_for_test;
+C__DEV_GymTracker_source_SyncService_mc_21_12_28_12_for_end:
+[ "C:\DEV\GymTracker\source\SyncService.mc" 29 12 ]
+        %tmp.75 = lgetv %params.2;
+        symbol [ params %tmp.75 29 12 18 ];
+        %tmp.76 = "exercises";
+        %tmp.77 = agetv %tmp.75 %tmp.76;
+        symbol [ add %tmp.78 29 32 35 ];
+        %tmp.78 = getv function %tmp.77 :add;
+        %tmp.79 = lgetv %exercise.5;
+        symbol [ exercise %tmp.79 29 36 44 ];
+        invoke %tmp.77 %tmp.78(%tmp.79);
+C__DEV_GymTracker_source_SyncService_mc_15_61_30_8_stop:
+C__DEV_GymTracker_source_SyncService_mc_15_8_30_8_for_incr:
+[ "C:\DEV\GymTracker\source\SyncService.mc" 15 ]
+        %tmp.82 = lgetv %i.3;
+        symbol [ i %tmp.82 15 56 57 ];
+        %tmp.83 = add %tmp.82 1;
+        lputv %i.3 %tmp.83;
+        symbol [ i %i.3 15 56 57 ];
+        goto @C__DEV_GymTracker_source_SyncService_mc_15_8_30_8_for_test;
+C__DEV_GymTracker_source_SyncService_mc_15_8_30_8_for_end:
+[ "C:\DEV\GymTracker\source\SyncService.mc" 32 8 ]
+        [ "C__DEV_GymTracker_source_SyncService_mc_7_66_41_4_start" "C__DEV_GymTracker_source_SyncService_mc_7_66_41_4_stop" ]
+        %options.8 = local;
+        symbol [ options %options.8 32 12 19 ];
+        %tmp.84 = newd 3;
+        %tmp.86 = const :method;
+        symbol [ method %tmp.86 33 13 19 const ];
+        symbol [ Communications %tmp.87 33 23 37 ];
+        %tmp.87 = getm $.Toybox.Communications;
+        symbol [ HTTP_REQUEST_METHOD_POST %tmp.88 33 38 62 ];
+        %tmp.88 = getv %tmp.87 :HTTP_REQUEST_METHOD_POST;
+        %tmp.89 = dup %tmp.84;
+        %tmp.90 = aputv %tmp.89 %tmp.86 %tmp.88;
+        %tmp.92 = const :headers;
+        symbol [ headers %tmp.92 34 13 20 const ];
+        %tmp.93 = newd 1;
+        %tmp.94 = "Content-Type";
+        symbol [ Communications %tmp.95 35 34 48 ];
+        %tmp.95 = getm $.Toybox.Communications;
+        symbol [ REQUEST_CONTENT_TYPE_JSON %tmp.96 35 49 74 ];
+        %tmp.96 = getv %tmp.95 :REQUEST_CONTENT_TYPE_JSON;
+        %tmp.97 = dup %tmp.93;
+        %tmp.98 = aputv %tmp.97 %tmp.94 %tmp.96;
+        %tmp.99 = dup %tmp.90;
+        %tmp.100 = aputv %tmp.99 %tmp.92 %tmp.98;
+        %tmp.102 = const :responseType;
+        symbol [ responseType %tmp.102 37 13 25 const ];
+        symbol [ Communications %tmp.103 37 29 43 ];
+        %tmp.103 = getm $.Toybox.Communications;
+        symbol [ HTTP_RESPONSE_CONTENT_TYPE_JSON %tmp.104 37 44 75 ];
+        %tmp.104 = getv %tmp.103 :HTTP_RESPONSE_CONTENT_TYPE_JSON;
+        %tmp.105 = dup %tmp.100;
+        %tmp.106 = aputv %tmp.105 %tmp.102 %tmp.104;
+        lputv %options.8 %tmp.106;
+        symbol [ options %options.8 32 12 19 ];
+[ "C:\DEV\GymTracker\source\SyncService.mc" 40 8 ]
+        symbol [ Communications %tmp.107 40 8 22 ];
+        %tmp.107 = getm $.Toybox.Communications;
+        symbol [ makeWebRequest %tmp.108 40 23 37 ];
+        %tmp.108 = getv function %tmp.107 :makeWebRequest;
+        %tmp.109 = lgetv %url.1;
+        symbol [ url %tmp.109 40 38 41 ];
+        %tmp.110 = lgetv %params.2;
+        symbol [ params %tmp.110 40 43 49 ];
+        %tmp.111 = lgetv %options.8;
+        symbol [ options %tmp.111 40 51 58 ];
+        symbol [ Lang %tmp.114 40 64 68 ];
+        %tmp.114 = getm $.Toybox.Lang;
+        symbol [ Method %tmp.115 40 69 75 ];
+        %tmp.115 = getv function ? %tmp.114 :Method;
+        symbol [ SyncService %tmp.117 40 76 87 ];
+        %tmp.117 = getv ? :SyncService;
+        %tmp.119 = const :onSyncComplete;
+        symbol [ onSyncComplete %tmp.119 40 90 104 const ];
+        %tmp.112 = newc %tmp.115 (%tmp.117, %tmp.119);
+        invoke %tmp.107 %tmp.108(%tmp.109, %tmp.110, %tmp.111, %tmp.112);
+C__DEV_GymTracker_source_SyncService_mc_7_66_41_4_stop:
+    }
+    [ @file = "C:\DEV\GymTracker\source\SyncService.mc"; @line = 43; @symbol_functiondef = [onSyncComplete,43,13,27]; @symbol_param<0> = [responseCode,43,28,40]; @symbol_param<0>_type<0> = [Lang,43,44,48]; @symbol_param<0>_type<1> = [Number,43,49,55]; @symbol_param<1> = [data,43,57,61]; @symbol_param<1>_type<0> = [Lang,43,65,69]; @symbol_param<1>_type<1> = [Dictionary,43,70,80]; ]
+    function onSyncComplete(responseCode as Lang.Number, data as Lang.Dictionary or Null) as Void {
+C__DEV_GymTracker_source_SyncService_mc_43_98_49_4_start:
+[ "C:\DEV\GymTracker\source\SyncService.mc" 44 8 ]
+C__DEV_GymTracker_source_SyncService_mc_44_8_48_8_if_stmt:
+        %tmp.1 = lgetv %responseCode;
+        symbol [ responseCode %tmp.1 44 12 24 ];
+        %tmp.2 = 200;
+        %tmp.3 = eq %tmp.1 %tmp.2;
+        bf %tmp.3 @C__DEV_GymTracker_source_SyncService_mc_44_8_48_8_if_else_false;
+C__DEV_GymTracker_source_SyncService_mc_44_8_48_8_if_true:
+C__DEV_GymTracker_source_SyncService_mc_44_33_46_8_start:
+[ "C:\DEV\GymTracker\source\SyncService.mc" 45 12 ]
+        symbol [ System %tmp.4 45 12 18 ];
+        %tmp.4 = getm $.Toybox.System;
+        symbol [ println %tmp.5 45 19 26 ];
+        %tmp.5 = getv function %tmp.4 :println;
+        %tmp.6 = "Sync complete";
+        invoke %tmp.4 %tmp.5(%tmp.6);
+C__DEV_GymTracker_source_SyncService_mc_44_33_46_8_stop:
+        goto @C__DEV_GymTracker_source_SyncService_mc_44_8_48_8_if_end;
+C__DEV_GymTracker_source_SyncService_mc_44_8_48_8_if_else_false:
+C__DEV_GymTracker_source_SyncService_mc_46_15_48_8_start:
+[ "C:\DEV\GymTracker\source\SyncService.mc" 47 12 ]
+        symbol [ System %tmp.7 47 12 18 ];
+        %tmp.7 = getm $.Toybox.System;
+        symbol [ println %tmp.8 47 19 26 ];
+        %tmp.8 = getv function %tmp.7 :println;
+        %tmp.9 = "Sync failed with code: ";
+        %tmp.10 = lgetv %responseCode;
+        symbol [ responseCode %tmp.10 47 55 67 ];
+        %tmp.11 = add %tmp.9 %tmp.10;
+        invoke %tmp.7 %tmp.8(%tmp.11);
+C__DEV_GymTracker_source_SyncService_mc_46_15_48_8_stop:
+C__DEV_GymTracker_source_SyncService_mc_44_8_48_8_if_end:
+C__DEV_GymTracker_source_SyncService_mc_43_98_49_4_stop:
+    }
+}
+[ @file = "C:\DEV\GymTracker\source\SyncService.mc"; @line = 1; ]
+<init> {
+}

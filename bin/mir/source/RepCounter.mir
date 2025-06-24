@@ -1,0 +1,107 @@
+[ @file = "C:\DEV\GymTracker\source\RepCounter.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\DEV\GymTracker\source\RepCounter.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Sensor,2,14,20]; ]
+import Toybox.Sensor;
+[ @file = "C:\DEV\GymTracker\source\RepCounter.mc"; @line = 4; @symbol_moduledef = [RepCounter,4,7,17]; ]
+module RepCounter {
+    [ @file = "C:\DEV\GymTracker\source\RepCounter.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\DEV\GymTracker\source\RepCounter.mc"; @line = 6; @symbol_classdef = [RepCounterManager,6,10,27]; ]
+    class RepCounterManager {
+        [ @file = "C:\DEV\GymTracker\source\RepCounter.mc"; @line = 6; ]
+        <init> {
+        }
+        [ @file = "C:\DEV\GymTracker\source\RepCounter.mc"; @line = 6; ]
+        static
+        <init> {
+        }
+        [ @file = "C:\DEV\GymTracker\source\RepCounter.mc"; @line = 7; @position = 20; @symbol_vardef = [_repCount,7,20,29]; @symbol_type<0> = [Lang,7,33,37]; @symbol_type<1> = [Number,7,38,44]; ]
+        private
+        var _repCount as Lang.Number;
+        [ @file = "C:\DEV\GymTracker\source\RepCounter.mc"; @line = 8; @position = 20; @symbol_vardef = [_isCounting,8,20,31]; @symbol_type<0> = [Lang,8,35,39]; @symbol_type<1> = [Boolean,8,40,47]; ]
+        private
+        var _isCounting as Lang.Boolean;
+        [ @file = "C:\DEV\GymTracker\source\RepCounter.mc"; @line = 10; @symbol_functiondef = [initialize,10,17,27]; ]
+        function initialize() as Void {
+C__DEV_GymTracker_source_RepCounter_mc_10_30_13_8_start:
+[ "C:\DEV\GymTracker\source\RepCounter.mc" 11 12 ]
+            %tmp.1 = 0;
+            symbol [ _repCount ? 11 12 21 ];
+            putv self :_repCount %tmp.1;
+[ "C:\DEV\GymTracker\source\RepCounter.mc" 12 12 ]
+            %tmp.2 = false;
+            symbol [ _isCounting ? 12 12 23 ];
+            putv self :_isCounting %tmp.2;
+C__DEV_GymTracker_source_RepCounter_mc_10_30_13_8_stop:
+        }
+        [ @file = "C:\DEV\GymTracker\source\RepCounter.mc"; @line = 15; @symbol_functiondef = [start,15,17,22]; ]
+        function start() as Void {
+C__DEV_GymTracker_source_RepCounter_mc_15_33_17_8_start:
+[ "C:\DEV\GymTracker\source\RepCounter.mc" 16 12 ]
+            %tmp.1 = true;
+            symbol [ _isCounting ? 16 12 23 ];
+            putv self :_isCounting %tmp.1;
+C__DEV_GymTracker_source_RepCounter_mc_15_33_17_8_stop:
+        }
+        [ @file = "C:\DEV\GymTracker\source\RepCounter.mc"; @line = 19; @symbol_functiondef = [stop,19,17,21]; ]
+        function stop() as Void {
+C__DEV_GymTracker_source_RepCounter_mc_19_32_21_8_start:
+[ "C:\DEV\GymTracker\source\RepCounter.mc" 20 12 ]
+            %tmp.1 = false;
+            symbol [ _isCounting ? 20 12 23 ];
+            putv self :_isCounting %tmp.1;
+C__DEV_GymTracker_source_RepCounter_mc_19_32_21_8_stop:
+        }
+        [ @file = "C:\DEV\GymTracker\source\RepCounter.mc"; @line = 23; @symbol_functiondef = [getRepCount,23,17,28]; @symbol_return<0> = [Lang,23,34,38]; @symbol_return<1> = [Number,23,39,45]; ]
+        function getRepCount() as Lang.Number {
+C__DEV_GymTracker_source_RepCounter_mc_23_46_25_8_start:
+[ "C:\DEV\GymTracker\source\RepCounter.mc" 24 12 ]
+            symbol [ _repCount %tmp.2 24 19 28 ];
+            %tmp.2 = getv ? :_repCount;
+            ret %tmp.2;
+C__DEV_GymTracker_source_RepCounter_mc_23_46_25_8_stop:
+        }
+        [ @file = "C:\DEV\GymTracker\source\RepCounter.mc"; @line = 27; @symbol_functiondef = [processMotionData,27,17,34]; @symbol_param<0> = [accel,27,35,40]; @symbol_param<0>_type<0> = [Lang,27,44,48]; @symbol_param<0>_type<1> = [Array,27,49,54]; @symbol_param<0>_type<2> = [Lang,27,55,59]; @symbol_param<0>_type<3> = [Number,27,60,66]; @symbol_param<1> = [gyro,27,69,73]; @symbol_param<1>_type<0> = [Lang,27,77,81]; @symbol_param<1>_type<1> = [Array,27,82,87]; @symbol_param<1>_type<2> = [Lang,27,88,92]; @symbol_param<1>_type<3> = [Number,27,93,99]; ]
+        function processMotionData(accel as Lang.Array<Lang.Number>, gyro as Lang.Array<Lang.Number>) as Void {
+C__DEV_GymTracker_source_RepCounter_mc_27_110_38_8_start:
+[ "C:\DEV\GymTracker\source\RepCounter.mc" 28 12 ]
+C__DEV_GymTracker_source_RepCounter_mc_28_12_30_12_if_stmt:
+            symbol [ _isCounting %tmp.2 28 17 28 ];
+            %tmp.2 = getv ? :_isCounting;
+            %tmp.3 = not %tmp.2;
+            bf %tmp.3 @C__DEV_GymTracker_source_RepCounter_mc_28_12_30_12_if_end;
+C__DEV_GymTracker_source_RepCounter_mc_28_12_30_12_if_true:
+C__DEV_GymTracker_source_RepCounter_mc_28_30_30_12_start:
+[ "C:\DEV\GymTracker\source\RepCounter.mc" 29 16 ]
+            ret ?;
+C__DEV_GymTracker_source_RepCounter_mc_28_30_30_12_stop:
+            goto @C__DEV_GymTracker_source_RepCounter_mc_28_12_30_12_if_end;
+C__DEV_GymTracker_source_RepCounter_mc_28_12_30_12_if_end:
+[ "C:\DEV\GymTracker\source\RepCounter.mc" 35 12 ]
+C__DEV_GymTracker_source_RepCounter_mc_35_12_37_12_if_stmt:
+            %tmp.4 = lgetv %accel;
+            symbol [ accel %tmp.4 35 16 21 ];
+            %tmp.5 = 1;
+            %tmp.6 = agetv %tmp.4 %tmp.5;
+            %tmp.7 = 1000;
+            %tmp.8 = gt %tmp.6 %tmp.7;
+            bf %tmp.8 @C__DEV_GymTracker_source_RepCounter_mc_35_12_37_12_if_end;
+C__DEV_GymTracker_source_RepCounter_mc_35_12_37_12_if_true:
+C__DEV_GymTracker_source_RepCounter_mc_35_33_37_12_start:
+[ "C:\DEV\GymTracker\source\RepCounter.mc" 36 16 ]
+            symbol [ _repCount %tmp.11 36 16 25 ];
+            %tmp.11 = getv ? :_repCount;
+            %tmp.12 = add %tmp.11 1;
+            symbol [ _repCount ? 36 16 25 ];
+            putv self :_repCount dup %tmp.12;
+C__DEV_GymTracker_source_RepCounter_mc_35_33_37_12_stop:
+            goto @C__DEV_GymTracker_source_RepCounter_mc_35_12_37_12_if_end;
+C__DEV_GymTracker_source_RepCounter_mc_35_12_37_12_if_end:
+C__DEV_GymTracker_source_RepCounter_mc_27_110_38_8_stop:
+        }
+    }
+}
+[ @file = "C:\DEV\GymTracker\source\RepCounter.mc"; @line = 1; ]
+<init> {
+}

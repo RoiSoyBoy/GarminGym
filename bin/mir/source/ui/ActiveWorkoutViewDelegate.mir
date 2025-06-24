@@ -1,0 +1,82 @@
+[ @file = "C:\DEV\GymTracker\source\ui\ActiveWorkoutViewDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [WatchUi,1,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\DEV\GymTracker\source\ui\ActiveWorkoutViewDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\DEV\GymTracker\source\ui\ActiveWorkoutViewDelegate.mc"; @line = 4; @symbol_classdef = [ActiveWorkoutViewDelegate,4,6,31]; @symbol_extends<0> = [WatchUi,4,40,47]; @symbol_extends<1> = [BehaviorDelegate,4,48,64]; ]
+class ActiveWorkoutViewDelegate extends WatchUi.BehaviorDelegate {
+    [ @file = "C:\DEV\GymTracker\source\ui\ActiveWorkoutViewDelegate.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\DEV\GymTracker\source\ui\ActiveWorkoutViewDelegate.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\DEV\GymTracker\source\ui\ActiveWorkoutViewDelegate.mc"; @line = 6; @position = 16; @symbol_vardef = [_view,6,16,21]; @symbol_type<0> = [ActiveWorkoutView,6,25,42]; ]
+    private
+    var _view as ActiveWorkoutView;
+    [ @file = "C:\DEV\GymTracker\source\ui\ActiveWorkoutViewDelegate.mc"; @line = 8; @symbol_functiondef = [initialize,8,20,30]; @symbol_param<0> = [view,8,31,35]; @symbol_param<0>_type<0> = [ActiveWorkoutView,8,39,56]; ]
+    public
+    function initialize(view as ActiveWorkoutView) as Void {
+C__DEV_GymTracker_source_ui_ActiveWorkoutViewDelegate_mc_8_58_11_4_start:
+[ "C:\DEV\GymTracker\source\ui\ActiveWorkoutViewDelegate.mc" 9 8 ]
+        symbol [ BehaviorDelegate %tmp.2 9 8 24 ];
+        %tmp.2 = getv ? :BehaviorDelegate;
+        symbol [ initialize %tmp.3 9 25 35 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\DEV\GymTracker\source\ui\ActiveWorkoutViewDelegate.mc" 10 8 ]
+        %tmp.4 = lgetv %view;
+        symbol [ view %tmp.4 10 16 20 ];
+        symbol [ _view ? 10 8 13 ];
+        putv self :_view %tmp.4;
+C__DEV_GymTracker_source_ui_ActiveWorkoutViewDelegate_mc_8_58_11_4_stop:
+    }
+    [ @file = "C:\DEV\GymTracker\source\ui\ActiveWorkoutViewDelegate.mc"; @line = 13; @symbol_functiondef = [onSelect,13,20,28]; @symbol_return<0> = [Lang,13,34,38]; @symbol_return<1> = [Boolean,13,39,46]; ]
+    public
+    function onSelect() as Lang.Boolean {
+C__DEV_GymTracker_source_ui_ActiveWorkoutViewDelegate_mc_13_47_16_4_start:
+[ "C:\DEV\GymTracker\source\ui\ActiveWorkoutViewDelegate.mc" 14 8 ]
+        symbol [ _view %tmp.2 14 8 13 ];
+        %tmp.2 = getv ? :_view;
+        symbol [ nextExercise %tmp.3 14 14 26 ];
+        %tmp.3 = getv function %tmp.2 :nextExercise;
+        invoke %tmp.2 %tmp.3();
+[ "C:\DEV\GymTracker\source\ui\ActiveWorkoutViewDelegate.mc" 15 8 ]
+        %tmp.4 = true;
+        ret %tmp.4;
+C__DEV_GymTracker_source_ui_ActiveWorkoutViewDelegate_mc_13_47_16_4_stop:
+    }
+    [ @file = "C:\DEV\GymTracker\source\ui\ActiveWorkoutViewDelegate.mc"; @line = 18; @symbol_functiondef = [onNextPage,18,20,30]; @symbol_return<0> = [Lang,18,36,40]; @symbol_return<1> = [Boolean,18,41,48]; ]
+    public
+    function onNextPage() as Lang.Boolean {
+C__DEV_GymTracker_source_ui_ActiveWorkoutViewDelegate_mc_18_49_21_4_start:
+[ "C:\DEV\GymTracker\source\ui\ActiveWorkoutViewDelegate.mc" 19 8 ]
+        symbol [ _view %tmp.2 19 8 13 ];
+        %tmp.2 = getv ? :_view;
+        symbol [ nextSet %tmp.3 19 14 21 ];
+        %tmp.3 = getv function %tmp.2 :nextSet;
+        invoke %tmp.2 %tmp.3();
+[ "C:\DEV\GymTracker\source\ui\ActiveWorkoutViewDelegate.mc" 20 8 ]
+        %tmp.4 = true;
+        ret %tmp.4;
+C__DEV_GymTracker_source_ui_ActiveWorkoutViewDelegate_mc_18_49_21_4_stop:
+    }
+    [ @file = "C:\DEV\GymTracker\source\ui\ActiveWorkoutViewDelegate.mc"; @line = 23; @symbol_functiondef = [onPreviousPage,23,20,34]; @symbol_return<0> = [Lang,23,40,44]; @symbol_return<1> = [Boolean,23,45,52]; ]
+    public
+    function onPreviousPage() as Lang.Boolean {
+C__DEV_GymTracker_source_ui_ActiveWorkoutViewDelegate_mc_23_53_26_4_start:
+[ "C:\DEV\GymTracker\source\ui\ActiveWorkoutViewDelegate.mc" 24 8 ]
+        symbol [ _view %tmp.2 24 8 13 ];
+        %tmp.2 = getv ? :_view;
+        symbol [ previousSet %tmp.3 24 14 25 ];
+        %tmp.3 = getv function %tmp.2 :previousSet;
+        invoke %tmp.2 %tmp.3();
+[ "C:\DEV\GymTracker\source\ui\ActiveWorkoutViewDelegate.mc" 25 8 ]
+        %tmp.4 = true;
+        ret %tmp.4;
+C__DEV_GymTracker_source_ui_ActiveWorkoutViewDelegate_mc_23_53_26_4_stop:
+    }
+}
+[ @file = "C:\DEV\GymTracker\source\ui\ActiveWorkoutViewDelegate.mc"; @line = 1; ]
+<init> {
+}
